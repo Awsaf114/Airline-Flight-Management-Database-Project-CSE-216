@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script id="backends" type="text/javascript">
+
+   var qimageArray= new Array();
+   var qimagelinkArray= new Array();
+   
+
+
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="backend.js"></script>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/font_awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!--   navigation bar      -->
+    <div id="navigation">
+
+        <nav class="navbar top-nav navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="nav-wrapper">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                                <span class="sr-only">Toggole navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                       
+
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="menu">
+
+                        <ul class="nav navbar-nav">
+
+
+                            <li class="active"><a title="HOME" id= "soon" href="#home">Home</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="#contacts">CONTACT US</a></li>
+                            <li><a href="#login">LOG IN</a></li>
+                            <li><a href="myquestion.html"><i class="fa fa-user-circle-o fa-2x"></i><i class="fa fa-question fa-2x" ></i></a></li>
+                            <li><a href="#myquestions"><i class="fa fa-bell-o fa-2x"></i></a></li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+
+        <div class="inner">
+            <section id="search">
+                  <div class="search-content">
+                    <div class="input-group">
+                    <input type="text" name="search" placeholder="Search.....">
+                    <div class="input-group-btn">
+                        <a class="btn btn-lg btn-general-black btn-black " style="display: inline;" href="https://www.google.com/" role="button"><i class="fa fa-search fa-1x" aria-hidden="true"></i></a>
+                </div>
+                    </div>
+                </div>
+            </section>
+
+            <textarea placeholder="Ask a question" cols="30" rows="5" class="Ask" data-toggle="modal" data-target="#myModal"></textarea>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="filter-tag">
+        <h1 id="go">News Feed</h1>
+        <div id="tag-btn">
+            <button type="button" class="btn-lg btn-general btn-white" id="button_physics">Physics</button>
+            <button type="button" class="btn-lg btn-general btn-white" id="button_chemistry">Chemistry</button>
+            <button type="button" class="btn-lg btn-general btn-white" id="button_math">Math</button>
+            <button type="button" class="btn-lg btn-general btn-white" id="button_biology">Biology</button>
+            <button type="button" class="btn-lg btn-general btn-white" id="button_ict">ICT</button>
+            <button type="button" class="btn-lg btn-general btn-white" onclick="parsingAllQuestions()" id="button_others">Others</button>
+        </div>
+
+
+    </section>
+
+
+    <section class="feed" id="newsfeed">
+        <div class="newsfeed-container">
+            <div class="row question-div" id="questiontest">
+                <div class="col-md-12 question-item"  >
+
+                    <img src="img/profile-pic.png" class="img-circle profile-img" width="70px" height="70px">
+
+                    <div class="name">
+                        <h4>Awsaf Alam</h4>
+                    </div>
+                    <div class="question">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h2>
+                    </div>
+
+                    <input type="checkbox" id="expend" />
+                    <div class="content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+                    </div>
+                    <img src="img/a.jpg" height="300" width="450">
+                    <div class="likedislike">
+                        <a href="#like"><i class="fa fa-thumbs-o-up fa-2x"></i> 123 </a>
+                        <a href="#like"><i class="fa fa-thumbs-o-down fa-2x"></i> 231 </a>
+                        <textarea id="leave-your-comment" class="leave-your-comment-css" placeholder="Comment...."></textarea>
+                        
+                        
+                        <i  onclick="document.getElementById('image-picker').click();"  class="fa fa-camera fa-2x user-comment-image" aria-hidden="true"><input type="file" id="image-picker" accept="image/*" style="visibility: hidden; display: none;" name="" multiple>
+                           
+                           </i>
+                        
+                        
+                        <button type="button" class="btn user-comment-send" id="button_image">Send</button>
+
+                    </div>
+                    					
+                    <span id="expand" class="read-more" style="cursor: pointer; color: blue; ">Read More</span>
+
+                    
+
+                    
+                    <div id="Answer" class="hidden awswers-wrapper">
+                        <div class="answer-item">
+                            <div class="Profile-info">
+                                <img src="img/profile-pic.png" style="width: 40px; height: 40px; border-radius: 50%;">
+                                <h5>Awsaf Alam</h5>
+                            </div>
+                            <div class="answer-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="answer-item">
+                            <div class="Profile-info">
+                                <img src="img/profile-pic.png" style="width: 40px; height: 40px; border-radius: 50%;">
+                                <h5>Awsaf Alam</h5>
+                            </div>
+                            <div class="answer-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Second News Feed item -->
+                    <div class="col-md-12 question-item">
+
+                        <img src="img/profile-pic.png" class="img-circle profile-img" width="70px" height="70px">
+
+                        <div class="name">
+                            <h4>Awsaf Alam</h4>
+                        </div>
+                        <div class="question">
+                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</h2>
+                        </div>
+
+                        <img src="img/a.jpg">
+
+                        <input type="checkbox" id="expend" />
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+                        </div>
+
+                        <span id="expand" class="read-more" style="cursor: pointer; color: blue; ">Read More</span>
+
+                        <div class="likedislike">
+                            <a href="#like"><i class="fa fa-thumbs-o-up fa-2x"></i> 123 </a>
+                            <a href="#like"><i class="fa fa-thumbs-o-down fa-2x"></i> 231 </a>
+
+                        </div>
+                        <div id="Answer" class="hidden awswers-wrapper">
+                            <div class="answer-item">
+                                <div class="Profile-info">
+                                    <img src="img/profile-pic.png" style="width: 40px; height: 40px; border-radius: 50%;">
+                                    <h5>Awsaf Alam</h5>
+                                </div>
+                                <div class="answer-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="likedislike">
+                                    <a id="like-question" href="#like"><i class="fa fa-thumbs-o-up fa-2x"></i> 123 </a>
+                                    <a id="dislike-question" href="#like"><i class="fa fa-thumbs-o-down fa-2x"></i> 231 </a>
+
+                                </div>
+                            </div>
+                            <div class="answer-item">
+                                <div class="Profile-info">
+                                    <img src="img/profile-pic.png" style="width: 40px; height: 40px; border-radius: 50%;">
+                                    <h5>Awsaf Alam</h5>
+                                </div>
+                                <div class="answer-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Question Modal  -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <section>
+                        <h2 class="text-center" id="gouf" >Ask a Question</h2>
+                        <form method="post" action="#">
+                            <!-- <div class="row uniform"> -->
+                            <div class="12u$">
+                                <div class="expandingArea">
+                                    <pre><span></span><br></pre>
+                                    <textarea name="demo-message" id="demo-message" placeholder="Ask a Question" rows="15"></textarea>
+                                </div>
+                            </div>
+                            <div class="preview" id="img-grid"  style="display: inline-block;">
+                                <!-- <img src="" id="image-preview" > -->
+                            </div>
+
+                            <div class="12u$">
+                                <div class="select-wrapper">
+                                    <select name="demo-category" id="demo-category">
+                            <option value="None">- Category -</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Math">Math</option>
+                            <option value="Biology">Biology</option>
+                            <option value="ICT">ICT</option>
+                            <option value="Others">Others</option>
+                        </select>
+                                </div>
+                            </div>
+                            <div class="Send-Notifications">
+                                <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                <label for="demo-human" id="gou">Send Notifications</label>
+                            </div>
+                            <div class="submit-box">
+                                <ul class="actions">
+                                    <li><a href="#" onclick="document.getElementById('image-picker').click();"   class="button icon fa-upload">Image<input type="file"  id="image-picker" name="question"   accept="image/*" style="visibility: hidden; display: none;" name="" multiple>
+									 
+									</a></li>
+                                    <li><a href="#" type="reset" value="Reset" data-dismiss="modal" class="button">Cancel</a></li>
+                                    <li><button id="git"  onclick="uploadQuestion()"   type="button" >Submit</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- </div> -->
+                        </form>
+                    </section>
+
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/globals.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+
+
+</html>

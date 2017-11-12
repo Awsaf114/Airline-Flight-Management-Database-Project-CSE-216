@@ -1,0 +1,2 @@
+var qimageArray=new Array();
+var qlinkArray= new Array();

@@ -17,11 +17,75 @@ body {
           align-items: center;
 }
 
+.Search{
+  position: absolute;
+  top: 10vh;
+}
+
+.container{
+  background: black;
+  width: 768px;
+  height: 60px;
+
+}
+
+.options{
+  position: absolute;
+}
+
+.search-box {
+  height: 84px;
+  /*background: url(images/bar-bg.jpg) repeat-x;*/
+  background: pink;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+  width: 90%;
+}
+
+ul.list {
+  /*min-width: 696px;*/
+  list-style: none;
+  display: flex;
+  padding: 0;
+  padding-top: 20px;
+  
+  }
+  ul.list li {
+    display: inline-block;
+    margin:0;
+  }
+
+  .submit{
+      width: auto;
+      height: 100%;
+      background: red;
+      border: none;
+  }
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../search-icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 10px 5px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
 .snap {
-  width: 350px;
+  width: 768px;
   height: 350px;
   background: #E85D5E;
-  border-radius: 0 0 30px 30px;
+  /*border-radius: 0 0 30px 30px;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,6 +116,7 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   height: 60px;
+  font-size: 24px;
   cursor: pointer;
 }
 .snap .tab-panel .tab:nth-child(2) {
@@ -62,12 +127,13 @@ body {
   width: 60px;
   height: 60px;
   position: absolute;
+  margin-left: 40px;
   top: -60px;
   left: 25%;
   -webkit-transform: translate(, );
           transform: translate(, );
   z-index: 10;
-  border: 7px solid #fff;
+  border: 5px solid #fff;
   border-radius: 50%;
 }
 .snap .active {
@@ -103,7 +169,7 @@ body {
           transform: translate(, );
 }
 
-a {
+/*a {
   text-decoration: none;
   color: #24CEC2;
   position: absolute;
@@ -123,4 +189,4 @@ a {
   50% {
     letter-spacing: 0.5px;
   }
-}
+}*/

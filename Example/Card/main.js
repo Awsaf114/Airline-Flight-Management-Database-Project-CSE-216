@@ -9,9 +9,9 @@ var active = $('.active'),
 
 
 firstTab.on('click',function(){
-	Console.log("Clicked");
+	console.log("Clicked");
 	active.animate({
-		left:'24%'
+		left:'20%'
 	});
 	secondTab.animate({
 		marginTop:'50px'
@@ -58,7 +58,7 @@ secondTab.on('click',function(){
 });
 thirdTab.on('click',function(){
 	active.animate({
-		left:'75%'
+		left:'80%'
 	});
 	secondTab.animate({
 		marginTop:'50px'
