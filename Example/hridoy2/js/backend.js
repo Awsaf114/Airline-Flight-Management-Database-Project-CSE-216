@@ -1,7 +1,3 @@
-
-
-
-
 function uploadQuestion() {
     var question= document.getElementById("demo-message").value;
 	var category= document.getElementById("demo-category").value;
@@ -85,7 +81,7 @@ $("#questiontest").ready(function (event) {
 
 
 function parsingAllQuestions(filter){
-    alert("Hello bro...")    ; 
+    // alert("Hello bro...")    ; 
     var getFromDb="v1/index.php/viewallquestions";
 
     var PageToSendTo = "v1/index.php/viewallquestions?";

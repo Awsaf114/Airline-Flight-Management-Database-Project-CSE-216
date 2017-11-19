@@ -1,0 +1,887 @@
+AIRCRAFT_ID,PRICE,START_OF_SERVICE,END_OF_SERVICE,TOTAL_FLIGHTS,Date Completed,Manufacturer,Model,Physical Class (Engine Type),# Engines,"Approach Speed
+(Vref)","Wingspan, ft",Wingtip Configuration,"Length, ft","Tail Height, ft
+(@ OEW)","Wheelbase, ft",Cockpit to Main Gear (CMG),"MGW
+(Outer to Outer)",MTOW,"Max Ramp
+Max Taxi",Main Gear Configuration,ICAO/FAA Code,ATCT Weight Class
+1,496,5/22/1963,31/12/2011,598,8-Sep,Cessna,310 (Model T310R),Piston,2,82,36.92,tip tanks,32,10.58,tbd,tbd,tbd,"5,500","5,500",S,C310,Small Eqpt
+2,880,5/2/1990,11/8/2014,946,7-Sep,Cessna,150,Piston,1,55,33.17,no winglets,23.92,8.5,tbd,tbd,tbd,"1,600","1,600",S,C150,Small Eqpt
+3,343,2/20/1979,6/8/2016,751,2-Nov,Piper,PA-28-180 Cherokee,Piston,1,65,30,no winglets,23.5,7.29,6.21,6.21,10.53,"2,400","assume 2,407",S,PA28,Small Eqpt
+4,448,11/14/1982,3/4/2010,911,2-Nov,Piper,PA-28-235 Cherokee Pathfinder/Charger,Piston,1,65,32,no winglets,23.79,7.29,6.21,6.21,10.53,"3,000","assume 3,011",S,PA28,Small Eqpt
+5,795,1/10/1980,17/11/2012,967,8-Sep,Cessna,"337 Skymaster, Turbo, Super Skymaster",Piston,2,70,38,none,29.75,9.33,tbd,tbd,tbd,4400,"4,400",S,C337,Small Eqpt
+6,1100,9/16/1967,21/12/2010,531,2-Nov,Piper,"PA-28-140/150/160 Cherokee Cruiser/Flight Liner, 150, 160",Piston,1,60,30,no winglets,23.5,7.29,6.21,6.21,10.53,"2,150","assume 2,157",S,PA28,Small Eqpt
+7,962,4/12/1988,24/1/2013,786,8-Sep,Cessna,"411A (landing gear based on 310, wings from 414)",Piston,2,94,39.85,tip tanks,33.5,11.58,tbd,tbd,tbd,"6,500","6,500",S,C411,Small Eqpt
+8,188,12/5/1968,23/3/2012,991,8-Sep,Cessna,"401 (initial model, lighter, less powerful than the 402)",Piston,2,90,44.17,tip tanks,36.42,11.42,tbd,tbd,tbd,"6,300","6,300",S,C401,Small Eqpt
+9,175,7/31/1978,5/10/2010,949,8-Sep,Cessna,421C Golden Eagle,Piston,2,96,44.17,none,36.42,11.5,tbd,tbd,tbd,"7,450","7,500",S,C421,Small Eqpt
+10,650,12/6/1972,28/6/2013,686,8-Sep,Cessna,414A Chancellor (a less powerfull but lighter 421),Piston,2,95,44.17,none,36.42,11.5,tbd,tbd,tbd,"6,750","6,785",S,C414,Small Eqpt
+11,628,9/17/1984,8/3/2016,949,8-Sep,Cessna,340 (developed from Cessna 310).  335 is unpressurized 340.,Piston,2,94,38.11,tip tanks,43.33,12.58,tbd,tbd,tbd,"6,025","6,025",S,C340,Small Eqpt
+12,243,8/25/1970,28/6/2012,684,15-Sep,Cessna,Citation CJ1                      (Model C525),Jet,2,108,46.92,no winglets,42.58,13.77,15.33,15.33,13,"10,600","10,700",S,C525,Medium Commuter Eqpt
+13,566,9/24/1980,22/9/2012,683,15-Sep,Cessna,Citation CJ1+                    (Model C525),Jet,2,108,46.92,no winglets,42.58,13.77,15.33,15.33,13,"10,700","10,800",S,C525,Medium Commuter Eqpt
+14,723,7/11/1970,24/2/2010,615,15-Sep,Cessna,Citation M2                        (Model C525),Jet,2,100,47.25,winglets,42.58,13.92,15.33,15.33,13,"10,700","10,800",S,C25M,Small Eqpt
+15,406,7/4/1981,25/12/2015,674,15-Sep,Cessna,"Citation I, I/SP                  (Model C500/501)",Jet,2,107,47.08,no winglets,43.6,14.4,17.83,17.83,15.92,"11,850","12,000",S,"C500, C501",Medium Commuter Eqpt
+16,912,11/16/1964,5/1/2015,873,2-Nov,Piper,PA-28-151 and -161 Cherokee Warrior/Cadet,Piston,1,65,35,no winglets,23.79,7.29,6.67,6.67,10.53,"2,325","2,325",S,PA28,Small Eqpt
+17,743,10/7/1967,20/8/2011,865,2-Nov,Piper,"PA-28-161 Cherokee Warrior II, III",Piston,1,73,35,no winglets,23.79,7.29,6.67,6.67,10.53,"2,440","assume 2,407",S,PA28,Small Eqpt
+18,464,12/24/1968,25/3/2015,514,8-Sep,Cessna,404 Titan,Piston,2,96,46.33,none,39.52,13.25,tbd,tbd,tbd,"8,400","8,400",S,C404,Small Eqpt
+19,574,9/6/1981,29/3/2014,731,7-Sep,Cessna,152,Piston,1,56,33.17,no winglets,24.08,8.5,tbd,tbd,tbd,"1,675","1,675",S,C150,Small Eqpt
+20,582,8/19/1966,3/1/2017,609,15-Sep,Cessna,"Citation II/Bravo, II/SP      (Model C550/551)",Jet,2,112,52.17,no winglets,47.21,15,18.5,18.5,13.33,"14,800","15,000",S,C550,Medium Commuter Eqpt
+21,460,7/17/1989,25/7/2014,708,8-Sep,Cessna,402C Utililiner/Businessliner (no tip tanks),Piston,2,88,44.17,none,36.42,11.42,tbd,tbd,tbd,"6,850","6,885",S,C402,Small Eqpt
+22,184,2/18/1967,1/6/2016,911,8-Sep,Cessna,441 Conquest II,Turboprop,2,98,49.33,none,39,13.17,tbd,tbd,tbd,"9,850","9,925",S,C441,Small Eqpt
+23,681,7/9/1961,4/3/2010,988,2-Nov,Piper,PA-28-236 Cherokee Dakota,Piston,1,62,35,no winglets,24.73,7.17,6.5,6.5,10.53,"3,000","3,011",S,PA28,Small Eqpt
+24,906,9/25/1970,4/12/2016,747,15-Sep,Cessna,"Citation III, VI",Jet,2,126,53.5,no winglets,55.5,17.25,21.33,21.33,9.33,"22,000","22,200",D,C650,Medium Commuter Eqpt
+25,498,1/3/1983,14/1/2013,571,15-Sep,Cessna,Citation S/II,Jet,2,107,51.58,no winglets,47.71,15,18.5,18.5,13.33,"15,100","15,300",S,S550,tbd
+26,388,9/13/1988,30/6/2014,945,15-Sep,Cessna,Citation VII (an upgrade of the III),Jet,2,126,53.5,no winglets,55.46,16.79,21.33,21.33,9.42,"23,000","23,200",D,C650,Medium Commuter Eqpt
+27,1033,5/5/1970,28/10/2015,577,15-Sep,Cessna,"Citation XLS, XLS+",Jet,2,117,56.33,no winglets,52.5,17.17,21.92,21.92,14.92,"20,200","20,400",S,C56X,Medium Commuter Eqpt
+28,910,9/15/1977,17/7/2011,759,8-Sep,Lancair,LC-40 Columbia 300/350/400,Piston,1,78,36.08,no winglets,25.17,9,tbd,tbd,tbd,"3,400","3,400",S,tbd,Small Eqpt
+29,879,1/23/1990,27/11/2016,888,15-Sep,Cessna,Citation CJ2                      (Model C525A),Jet,2,114,49.83,no winglets,47.67,14,17.83,17.83,15.92,"12,300","12,425",S,C25A,Small Eqpt
+30,222,6/7/1980,14/8/2012,822,8-Sep,Cessna,350 Corvalis (formerly the Lancair LC-40 Columbia 350),Piston,1,78,36.08,none,25.17,9,tbd,tbd,tbd,"3,400","3,400",S,COL3,Small Eqpt
+31,673,4/17/1973,20/12/2015,510,8-Sep,Cessna,400 Corvalis TT (formerly the Lancair LC-40 Columbia 400),Piston,1,78,36.08,none,25.17,9,tbd,tbd,tbd,"3,400","3,400",S,COL4,Small Eqpt
+32,578,7/19/1977,18/1/2014,719,15-Sep,Cessna,"Citation CJ3, CJ3+           (Model C525B)",Jet,2,108,53.33,no winglets,51.17,15.17,20,20,16,"13,870","14,070",S,C25B,Small Eqpt
+33,888,3/2/1963,1/6/2017,790,15-Sep,Cessna,Citation CJ4                      (Model C525C),Jet,2,111,50.83,no winglets,53.33,15.42,21.17,21.17,12.33,"17,110","17,230",S,C25C,Small Eqpt
+34,368,12/24/1976,12/10/2014,742,7-Sep,Cessna,172 Skyhawk Turbo JT-A (aka a Turbo Skyhawk),Piston,1,62,36.08,no winglets,27.17,8.92,5.42,5.42,tbd,"2,550","2,552",S,C172,Small Eqpt
+35,102,2/29/1976,30/12/2012,600,7-Sep,Cessna,"172 Skyhawk, 172S Skyhawk SP, 172 Hawk XP-R172",Piston,1,62,36.08,no winglets,27.17,8.92,5.42,5.42,tbd,"2,550","2,558",S,C172,Small Eqpt
+36,800,10/28/1971,8/7/2015,557,7-Sep,Cessna,182 Skylane RG,Piston,1,64,36,none,29,9.33,5.58,5.58,9,"3,100","3,110",S,"C182, C82R",Small Eqpt
+37,636,5/22/1972,16/5/2016,533,7-Sep,Cessna,206 Stationair Turbo HD,Piston,1,74,36,none,28.25,9.29,5.77,5.77,8.09,"3,789","3,806",S,"C206, T206",Small Eqpt
+38,127,5/20/1983,22/8/2012,911,8-Sep,Cessna,208 Caravan,Turboprop,1,79,52.08,none,37.58,14.92,11.67,11.67,11.67,"8,000","8,035",S,C208,Small Eqpt
+39,902,11/11/1964,28/11/2011,991,8-Sep,Cessna,208B Grand Caravan EX Amphibian,Turboprop,1,77,52.08,none,41.58,17.42,n/a,n/a,7.17,"9,062","9,097",S,C208,Small Eqpt
+40,887,11/2/1963,10/9/2015,726,8-Sep,Cessna,208B Grand Caravan EX/Super Cargomaster EX,Turboprop,1,79,52.08,none,41.58,15.08,13.33,13.33,11.67,"8,807","8,842",S,C208,Small Eqpt
+41,265,6/27/1977,2/2/2013,509,8-Sep,Cessna,TTx Model T240 (formerly the Lancair LC-40 Columbia 400),Piston,1,78,36,no winglets,25.17,9,tbd,tbd,tbd,"3,600","3,600",S,tbd,Small Eqpt
+42,95,12/4/1960,24/2/2011,952,30-Oct,Mahindra Aerospace,Airvan 10,Jet,1,83,40.58,no winglets,33.5,12.75,tbd,tbd,tbd,"4,750","4,750",S,tbd,tbd
+43,384,2/24/1976,12/4/2017,797,30-Oct,Mahindra Aerospace,Airvan 8 Turbo,Piston,1,83,40.72,no winglets,29.36,12.75,tbd,tbd,tbd,"4,200","4,200",S,tbd,tbd
+44,850,4/15/1988,18/10/2012,775,24-Aug,Pilatus,PC-12 NG,Turboprop,1,87,53.33,tips swept up,47.25,14,11.42,11.42,14.83,"10,450","10,495",S,PC12,Small Eqpt
+45,1016,5/16/1980,25/6/2014,625,7-Sep,Quest,Kodiak 100,Turboprop,1,78,45,no winglets,34.17,15.25,tbd,tbd,12.25,"7,255","7,305",S,tbd,Small Eqpt
+46,314,12/30/1989,8/4/2014,535,8-Sep,Cessna,Denali,Turboprop,1,tbd,54.25,winglets,48.75,15.17,15.08,15.08,16.5,tbd,tbd,S,tbd,Small Eqpt
+47,1035,12/28/1988,9/3/2016,679,,Piper,PA-24-180 Comanche,Piston,,,,,,,,,,,,S,PA24,Small Eqpt
+48,612,6/14/1976,11/2/2014,877,,Piper,PA-24-250 Comanche,Piston,,,,,,,,,,,,S,PA24,Small Eqpt
+49,937,10/22/1966,27/9/2011,670,,Piper,PA-24-260 Comanche,Piston,,,,,,,,,,,,S,PA24,Small Eqpt
+50,545,10/11/1966,25/5/2011,889,,Piper,PA-24-400 Comanche,Piston,,,,,,,,,,,,S,PA24,Small Eqpt
+51,760,5/4/1974,20/12/2015,893,2-Nov,Piper,PA-28R-200 Cherokee Arrow,Piston,1,73,30,no winglets,23.5,7.29,7.85,7.85,10.98,"2,600","2,600",S,P28R,Small Eqpt
+52,769,3/18/1970,10/6/2013,863,2-Nov,Piper,PA-28R-200 Cherokee Arrow II,Piston,1,73,30,no winglets,23.92,7.29,6.58,6.58,10.98,"2,600","2,600",S,P28R,Small Eqpt
+53,425,10/15/1984,21/4/2011,650,29-Aug,Adam Aircraft Industries,A500,Piston,2,98,44,small winglets,37.5,9.58,13,13,16,"7,000","7,050",S,A500,tbd
+54,126,2/8/1963,4/2/2014,696,17-Oct,Aero Boero,AB-115 BS,Piston,1,47,35.17,no winglets,23.85,6.88,tbd,tbd,tbd,"1,697","1,697",S,tbd,tbd
+55,371,3/16/1977,7/7/2010,879,17-Oct,Aero Boero,AB-150 Ag,Piston,1,52,35.17,no winglets,23.83,6.92,tbd,tbd,tbd,"2,207","2,207",S,tbd,tbd
+56,860,12/8/1977,2/6/2012,560,17-Oct,Aero Boero,AB-180 RVR,Piston,1,52,35.38,no winglets,23.23,6.73,tbd,tbd,tbd,"1,962","1,962",S,tbd,tbd
+57,938,6/24/1963,28/4/2013,971,17-Oct,Aero Boero,AB-95,Piston,1,34,34.19,no winglets,22.63,7.21,tbd,tbd,tbd,"1,543","1,543",S,tbd,tbd
+58,415,8/21/1961,9/4/2011,877,18-Sep,Aero Spacelines,B-377-SG/SGT Super Guppy,Jet,4,tbd,156.25,no winglets,143.67,48.5,tbd,tbd,tbd,"170,000",tbd,D,SGUP,tbd
+59,1042,4/30/1989,19/11/2015,650,,Aero Vodochody,Aero L-139 Albatross,Jet,1,,,,,,,,,,,,L39,Medium Commuter Eqpt
+60,424,7/21/1967,28/12/2011,851,,Aeronca,7AC Champion,Piston,1,,,,,,,,,,,,CH7A,Small Eqpt
+61,1088,9/22/1971,22/5/2016,643,18-Sep,Aerospatiale,Nord 262A,Jet,2,90,71.83,no winglets,63.25,20.33,tbd,tbd,tbd,"22,710",tbd,S,N262,tbd
+62,764,7/18/1984,7/7/2016,883,18-Sep,Aerospatiale,SN 601 Corvette,Jet,2,118,42.21,tip tanks,45.38,13.88,tbd,tbd,tbd,"14,550",tbd,S,S601,tbd
+63,631,5/7/1988,8/9/2013,622,18-Sep,Aerospatiale (Sud Aviation),SE 210 Caravelle III,Jet,2,127,112.5,no winglets,101.7,28.61,tbd,tbd,tbd,"123,460",tbd,2D,S210,tbd
+64,659,9/1/1962,4/3/2011,757,3-Nov,Aerostar Aircraft Corp,600/600A/600E Aerostar (see Piper PA-60/61),Piston,2,96,34.17,no winglets,34.81,12.13,11.67,11.67,10.21,"5,500","5,525",S,tbd,tbd
+65,697,6/2/1986,13/2/2012,756,15-Aug,Air Tractor,502XP,Jet,1,77,52,no winglets,33.67,10.5,30.97,30.97,11,"10,480","10,480",S,AT5T,Small Eqpt
+66,225,3/13/1973,24/8/2014,819,15-Aug,Air Tractor,AT-300/301,Piston,1,74,45,no winglets,27,8.5,24.84,24.84,9.5,"5,000","5,000",S,AT3P,Small Eqpt
+67,106,11/26/1988,3/5/2015,957,15-Aug,Air Tractor,AT-302,Jet,1,74,45.1,no winglets,27,8.5,24.84,24.84,9.5,"7,700","7,700",S,AT3P,Small Eqpt
+68,234,4/24/1972,18/12/2012,711,15-Aug,Air Tractor,AT-402B,Jet,1,74,51.08,no winglets,30.58,9.5,28.14,28.14,9.5,"9,170","9,170",S,AT3T,Small Eqpt
+69,454,1/23/1977,19/1/2016,984,15-Aug,Air Tractor,AT-502B,Jet,1,77,52,no winglets,33.17,10.25,30.51,30.51,11,"9,400","9,400",S,AT5T,Small Eqpt
+70,272,7/6/1981,2/11/2015,880,15-Aug,Air Tractor,AT-504,Jet,1,73,52,no winglets,33.17,10.25,30.51,30.51,11,"9,600","9,600",S,AT5T,Small Eqpt
+71,435,10/22/1988,24/1/2013,717,15-Aug,Air Tractor,AT-602,Jet,1,92,56,no winglets,33.5,11,30.82,30.82,11,"12,500","12,500",S,AT6T,Small Eqpt
+72,409,9/28/1984,29/9/2014,970,15-Aug,Air Tractor,AT-802A,Jet,1,103,59.25,no winglets,36,11.13,23.83,23.83,11,"16,000","16,000",S,AT8T,Small Eqpt
+73,429,4/12/1972,29/6/2010,750,15-Aug,Air Tractor,AT-802F,Jet,1,103,59.25,no winglets,37.5,11.2,23.83,23.83,11,"16,000","16,000",S,AT8T,Small Eqpt
+74,961,2/14/1961,9/1/2012,921,29-Feb,Airbus,A300-100 (A300-B4-100),Jet,2,137,147.08,no winglets,175.5,54.86,60.8,75,36.1,"347,227","349,211",2D,A30B,Heavy Eqpt
+75,1049,3/7/1971,11/5/2010,741,29-Feb,Airbus,A300-100/200 (A300-B2-100/200),Jet,2,137,147.08,no winglets,175.5,54.86,60.8,75,36.1,"313,056","315,040",2D,A30B,Heavy Eqpt
+76,666,9/1/1965,12/2/2014,691,29-Feb,Airbus,A300-200 (A300-B4-200),Jet,2,137,147.08,no winglets,175.5,54.86,60.8,75,36.1,"363,760","365,740",2D,A30B,Heavy Eqpt
+77,928,3/14/1968,21/4/2014,511,29-Feb,Airbus,"A300-200 (A300-C4-200, F4-200)",Jet,2,137,147.08,no winglets,175.5,54.86,60.8,75,36.1,"363,760","365,740",2D,A30B,Heavy Eqpt
+78,1008,5/30/1973,3/8/2011,565,29-Feb,Airbus,A300-600 (B4/C4-600),Jet,2,137,147.14,wingtip fences,177.43,54.67,61.03,75,36,"363,760","365,740",2D,A306,Heavy Eqpt
+79,262,1/11/1968,26/7/2017,765,29-Feb,Airbus,A300-600R (B4-600R),Jet,2,137,147.14,wingtip fences,177.43,54.67,61.03,75,36,"378,530","380,518",2D,A30B,Heavy Eqpt
+80,114,11/22/1976,5/4/2016,968,,Airbus,A300-600ST BelugaST,Jet,2,137,147.14,wingtip fences,184.25,56.58,tbd,tbd,tbd,"341,713","341,713",2D,,Heavy Eqpt
+81,330,6/24/1976,31/12/2011,975,,Airbus,A300-600XL BelugaXL,Jet,2,137,197.83,winglets,207,62.08,tbd,tbd,tbd,"500,444","500,444",2D,,Heavy Eqpt
+82,1080,10/1/1966,6/9/2014,969,29-Feb,Airbus,A300F4-600,Jet,2,137,147.14,wingtip fences,177.42,54.67,61.03,75,36,"375,887","377,871",2D,A306,Heavy Eqpt
+83,849,9/15/1986,25/2/2017,656,29-Feb,Airbus,A310-200,Jet,2,139,144.03,no winglets,153.16,52.32,49.93,63.9,36,"317,465","319,449",2D,A310,Heavy Eqpt
+84,1046,1/17/1972,25/9/2017,616,29-Feb,Airbus,A310-300,Jet,2,139,144.03,no winglets,153.16,52.06,49.93,63.9,36,"361,557","363,541",2D,A310,Heavy Eqpt
+85,1050,5/30/1989,27/2/2015,814,15-Mar,Airbus,A318-100,Jet,2,121,111.88,wingtip fences,103.18,42.29,33.63,42.35,29.36,"149,914","150,796",D,A318,Large Jet Eqpt
+86,749,11/25/1982,22/3/2015,641,29-Feb,Airbus,A319-100,Jet,2,126,111.88,wingtip fences,111.02,39.73,36.23,44.9,29.36,"168,653","169,535",D,A319,Large Jet Eqpt
+87,595,5/23/1965,17/3/2015,591,29-Feb,Airbus,A319-100 Sharklet,Jet,2,126,117.45,winglets,111.02,39.73,36.23,44.9,29.36,"168,653","169,535",D,A319,Large Jet Eqpt
+88,341,8/12/1980,9/6/2013,754,29-Feb,Airbus,A319neo Sharklet,Jet,2,126,117.45,winglets,111.02,39.73,36.23,44.9,29.36,"166,449","167,331",D,A319,Large Jet Eqpt
+89,700,3/1/1989,9/2/2014,999,29-Feb,Airbus,A320-200,Jet,2,136,111.88,wingtip fences,123.27,39.63,41.47,50.2,29.36,"171,961","172,842",D,A320,Large Jet Eqpt
+90,326,11/9/1974,28/4/2011,955,29-Feb,Airbus,A320-200 Sharklet,Jet,2,136,117.45,winglets,123.27,39.63,41.47,50.2,29.36,"171,961","172,842",D,A320,Large Jet Eqpt
+91,361,7/10/1989,13/5/2015,620,29-Feb,Airbus,A320neo Sharklet,Jet,2,136,117.45,winglets,123.27,39.63,41.47,50.2,29.36,"174,165","175,047",D,A320,Large Jet Eqpt
+92,1096,2/3/1961,2/12/2015,978,16-Mar,Airbus,A321-100,Jet,2,140,111.88,wingtip fences,146.03,39.7,55.45,44.95,29.43,"196,211","197,093",D,A321,Large Jet Eqpt
+93,1069,4/13/1967,22/7/2010,698,16-Mar,Airbus,A321-100 Sharklet,Jet,2,140,117.45,winglets,146.03,39.7,55.45,44.95,29.43,"196,211","197,093",D,A321,Large Jet Eqpt
+94,231,1/6/1984,8/7/2016,555,16-Mar,Airbus,A321-200,Jet,2,140,111.88,wingtip fences,146.03,39.7,55.45,44.95,29.43,"206,132","207,014",D,A321,Large Jet Eqpt
+95,983,2/4/1978,22/4/2013,950,16-Mar,Airbus,A321-200 Sharklet,Jet,2,140,117.45,winglets,146.03,39.7,55.45,44.95,29.43,"206,132","207,014",D,A321,Large Jet Eqpt
+96,620,1/13/1972,31/5/2010,986,16-Mar,Airbus,A321neo Sharklet,Jet,2,140,117.45,winglets,146.03,39.7,55.45,44.95,29.43,"206,132","207,014",D,A321,Large Jet Eqpt
+97,265,8/30/1977,4/1/2013,581,16-Mar,Airbus,A330-200,Jet,2,136,197.83,winglets,193.57,59.81,72.77,86.78,41.37,"533,519","535,503",2D,A332,Heavy Eqpt
+98,219,7/11/1974,3/9/2010,739,16-Mar,Airbus,A330-200F,Jet,2,139,197.83,winglets,192.98,57.12,72.77,86.78,41.37,"533,519","535,503",2D,A332,Heavy Eqpt
+99,1058,3/2/1969,14/6/2012,853,16-Mar,Airbus,A330-300,Jet,2,137,197.83,winglets,208.99,56.36,83.27,97.28,41.37,"533,519","535,503",2D,A333,Heavy Eqpt
+100,1065,8/20/1979,1/2/2014,791,9-Jun,Airbus,A340-200,Jet,4,136,197.83,winglets,194.95,55.86,76.25,90.26,41.37,"606,271","608,255",2D/D1,A342,Heavy Eqpt
+101,1026,2/22/1977,1/12/2010,565,9-Jun,Airbus,A340-300,Jet,4,138,197.83,winglets,208.96,55.72,83.27,97.28,41.37,"609,578","611,562",2D/D1,A343,Heavy Eqpt
+102,922,2/1/1979,12/3/2014,737,9-Jun,Airbus,A340-500,Jet,4,146,208.17,winglets,222.87,57.51,90.48,104.2,41.37,"837,756","840,402",2D/2D1,A345,Heavy Eqpt
+103,351,3/20/1984,11/11/2015,647,9-Jun,Airbus,A340-600,Jet,4,153,208.17,winglets,247.24,58.84,107.87,121.59,41.37,"837,756","840,402",2D/2D1,A346,Heavy Eqpt
+104,254,6/10/1984,17/5/2015,694,18-Sep,Airbus,A350-1000,Jet,2,140,212.42,winglets,242.09,57.14,106.56,111.78,42.13,"685,638","687,622",3D,,Heavy Eqpt
+105,840,9/12/1964,1/7/2013,767,,Airbus,A350-1000 XWB,Jet,2,140,212.42,winglets,242.42,56,106.56,111.78,42.69,"681,000","681,000",3D,,
+106,777,3/14/1969,11/1/2011,654,,Airbus,A350-800 XWB,Jet,2,140,212.42,winglets,198.58,55.92,81.58,86.8,42.22,"546,700","548,700",2D,,
+107,309,1/28/1979,18/5/2012,684,18-Sep,Airbus,A350-900,Jet,2,140,212.42,winglets,219.16,57.31,94.05,99.27,42.22,"617,295","619,279",2D,A359,Heavy Eqpt
+108,712,7/4/1980,3/3/2010,663,,Airbus,A350-900 XWB,Jet,2,140,212.42,winglets,219.42,55.92,94.05,99.27,42.22,"617,300","619,300",2D,,
+109,468,3/12/1973,23/4/2013,931,9-Jun,Airbus,A380-800,Jet,4,145,261.65,wingtip fences,238.62,78.96,93.86,100.59,47.05,"1,267,658","1,272,067",2D/3D2,A388,Heavy Eqpt
+110,792,7/18/1975,3/11/2010,872,9-Jun,Airbus,A380-843F,Jet,4,145,261.65,wingtip fences,238.62,79.3,93.86,100.59,47.05,"1,300,000","1,305,000",2D/3D2,A38F,Heavy Eqpt
+111,147,1/14/1978,2/8/2012,858,,AMD,Zenith,Piston,1,,,,,,,,,,,,CH2T,Small Eqpt
+112,928,8/20/1975,17/10/2013,641,,American Aviation,AA-1 Trainer,Piston,1,70,24.5,,,7.58,,,,"1,500",,,AA1,Small Eqpt
+113,1090,6/3/1990,24/5/2010,757,,American Aviation,AA-5 Traveler,Piston,1,80,31.5,,,8,,,,"2,200",,,AA5,Small Eqpt
+114,912,5/15/1987,31/3/2012,736,,American Aviation,AA-5A Cheetah,Piston,1,,,,,,,,,,,,AA5A,Small Eqpt
+115,601,10/30/1974,26/12/2016,867,,American Champion Aircraft,7EC,,,78,33.5,,,7.7,,,,"1,320",,,CH7A,tbd
+116,165,4/19/1961,20/6/2016,946,,American Champion Aircraft,7ECA,,,88,33.5,,,7.7,,,,"1,750",,,CH7A,tbd
+117,586,1/14/1989,21/5/2012,585,,American Champion Aircraft,7GCBC,,,87,34.5,,,7.7,,,,"1,800",,,CH7B,tbd
+118,492,5/23/1963,18/10/2014,606,,American Champion Aircraft,8GCBC,,,92,36.2,,,9.7,,,,"2,150",,,BL8,tbd
+119,1038,1/16/1979,12/12/2015,617,,American Champion Aircraft,8KCAB,,,90,32,,,7.7,,,,"1,950",,,BL8,tbd
+120,676,5/9/1969,26/2/2015,968,,Anequim,CEA-311,,,91,19.67,,17.33,3.67,,,,"1,102","1,102",,tbd,tbd
+121,613,1/8/1967,9/12/2011,975,,Antonov,AN-12,,,127,124.8,,,34.6,,,,"121,500",,,AN12,tbd
+122,788,5/1/1979,5/2/2016,733,,Antonov,AN-124,,,124,240.5,,,69.17,,,,"892,871",,,A124,tbd
+123,388,7/10/1986,15/6/2013,756,,Antonov,AN-140,,,230,83.67,,,27,,,,"47,400",,,A140,tbd
+124,288,11/19/1969,2/3/2010,869,,Antonov,AN-26,,,121,95.8,,,28.1,,,,"52,920",,,tbd,tbd
+125,806,7/9/1978,17/7/2010,605,,Antonov,AN-72,,,89,84.7,,,27,,,,"66,000",,,AN72,tbd
+126,382,8/27/1974,11/1/2010,695,9-Jun,ATR,ATR-42-300/320,Jet,,104,80.58,no winglets,74.42,24.92,28.83,28.83,"> 13' 5"" (16' per Appx 1)","36,825","36,870",D,AT43,tbd
+127,669,5/3/1969,5/6/2011,778,9-Jun,ATR,"ATR-42-500/""600""",Jet,,104,80.58,no winglets,74.42,24.92,28.83,28.83,"> 13' 5"" (16' per Appx 1)","41,005","41,380",D,AT45,tbd
+128,1006,11/23/1985,26/7/2014,557,9-Jun,ATR,ATR-72-101/102,Jet,,114,88.75,no winglets,89.13,25.08,35.33,35.33,"> 13' 5"" (16' per Appx 1)","44,070","44,136",D,AT72 (assumed),tbd
+129,744,6/24/1981,25/6/2015,780,9-Jun,ATR,ATR-72-201/202 and -211/212,Jet,,114,88.75,no winglets,89.13,25.08,35.33,35.33,"> 13' 5"" (16' per Appx 1)","47,400","47,465",D,AT72 (assumed),tbd
+130,920,11/19/1973,22/10/2015,986,9-Jun,ATR,ATR-72-201/202 with Mod 3651,Jet,,114,88.75,no winglets,89.13,25.08,35.33,35.33,"> 13' 5"" (16' per Appx 1)","48,501","48,667",D,AT72 (assumed),tbd
+131,720,12/28/1982,1/10/2016,832,9-Jun,ATR,"ATR-72-212A/""600"" Basic",Jet,,114,88.75,no winglets,89.13,25.08,35.33,35.33,"> 13' 5"" (16' per Appx 1)","48,501","48,898",D,AT72 (assumed),tbd
+132,540,5/26/1987,29/4/2015,579,9-Jun,ATR,ATR-72-212A/600 with Mod 4671,Jet,,114,88.75,no winglets,89.13,25.08,35.33,35.33,"> 13' 5"" (16' per Appx 1)","49,603","49,978",D,AT72 (assumed),tbd
+133,783,5/14/1970,22/10/2014,959,16-Mar,Australian Government Aircraft Facilities (GAF),Nomad N22B*,,,69,54.17,,41.17,18.1,,,,"8,500",,D,NOMA,tbd
+134,538,1/21/1981,14/5/2015,966,16-Mar,Australian Government Aircraft Facilities (GAF),Nomad N24A,,,73,54.17,,47.08,18.2,,,,"9,400",,D,NOMA,tbd
+135,980,3/4/1978,7/8/2017,658,,AviaBellanca Aircraft,"Bellanca 15, Bellanca 260B",Piston,1,,,,,,,,,,,,B14C,Small Eqpt
+136,774,7/15/1982,5/2/2011,834,,AviaBellanca Aircraft,Bellanca 8 Scout,Piston,1,,,,,,,,,,,,BL8,Small Eqpt
+137,141,4/7/1962,26/10/2011,653,,AviaBellanca Aircraft,Bellanca Viking,Piston,1,,,,,,,,,,,,BL17,Small Eqpt
+138,260,2/1/1979,31/7/2013,523,,"Aviat Aircraft, Inc.",Eagle,,,,,,,,,,,,,,tbd,tbd
+139,835,7/13/1976,23/5/2016,546,,"Aviat Aircraft, Inc.",Husky,Piston,1,,,,,,,,,,,,HUSK,Small Eqpt
+140,242,3/25/1990,26/9/2012,764,,"Aviat Aircraft, Inc.",Pitts,,,,,,,,,,,,,,tbd,tbd
+141,1032,10/20/1972,5/6/2012,739,,BAC,1-11 200,,,129,88.5,,,24.5,,,,"79,000",,,BA11,tbd
+142,436,7/20/1967,20/5/2017,916,,BAC,1-11 400,,,137,88.5,,,24.5,,,,"88,500",,,BA11,tbd
+143,844,6/13/1976,8/5/2014,659,,BAC,1-11 475,,,135,93.5,,,24.5,,,,"98,500",,,tbd,tbd
+144,530,1/27/1968,18/6/2015,951,,Beech,T-34B Mentor,Piston,1,,,,,,,,,,,,T34P,Small Eqpt
+145,746,4/10/1987,13/7/2014,611,,Beech,T-34C Mentor,Turboprop,1,,,,,,,,,,,,,
+146,488,8/1/1983,5/9/2014,554,,Beechcraft,24,,,70,38.67,,,8.2,,,,"2,750",,,BE24,tbd
+147,895,2/23/1971,12/10/2017,947,,Beechcraft,1900,,,113,58,,,15.5,23.79,23.79,17.17,"17,120",,,B190,tbd
+148,734,6/13/1965,19/3/2014,894,,Beechcraft,1900 Airliner C-12J,Turboprop,2,113,54.5,,,14.9,,,,"16,600",,,B190,Medium Commuter Eqpt
+149,309,9/4/1963,15/5/2012,522,28-Jul,Beechcraft,60 Duke (B60),Piston,2,98,39.25,no winglets,33.83,12.33,tbd,tbd,tbd,"6,775","6,775",S,BE60,Small Eqpt
+150,294,2/15/1990,22/1/2011,608,28-Jul,Beechcraft,60 Duke (Original 60 and the A60),Piston,2,98,39.25,no winglets,33.83,12.33,tbd,tbd,tbd,"6,725","6,725",S,BE60,Small Eqpt
+151,448,10/11/1974,21/2/2012,874,,Beechcraft,76 Duchess,,,76,38,,,9.5,,,,"3,900",,,BE76,tbd
+152,603,12/24/1969,11/7/2010,504,,Beechcraft,95 Travel Air D95A,Piston,2,79,37.83,no winglets,25.92,9.5,tbd,tbd,tbd,"4,200",,S,BE95,Small Eqpt
+153,384,3/18/1974,5/2/2011,615,,Beechcraft,99 Airliner,Turboprop,2,107,45.92,,,14.33,,,,"11,300",,,BE99,Medium Commuter Eqpt
+154,895,3/18/1979,6/9/2015,759,7-Jul,Beechcraft,Baron 55,Piston,2,88,37.83,no winglets,28,9.58,7,7,9.58,"5,300","5,300",S,BE55,Small Eqpt
+155,522,11/25/1972,21/4/2014,662,7-Jul,Beechcraft,Baron 56 TC Turbo Baron,Piston,2,91,37.83,no winglets,28,9.58,7,7,9.58,"5,990","5,990",S,BE56,Small Eqpt
+156,505,6/28/1984,23/4/2015,932,28-Jul,Beechcraft,Baron 58 (and current G58),Piston,2,96,37.83,no winglets,29.83,9.75,8,8,9.58,"5,500","5,524",S,BE58,Small Eqpt
+157,668,6/16/1987,31/12/2010,892,,Beechcraft,Beechjet 400/T-1 (formerly Mitsubishi MU-300 Diamond),Jet,2,121,43.5,no winglets,48.42,13.92,tbd,tbd,tbd,"15,780","15,850",S,BE40,Medium Commuter Eqpt
+158,205,3/1/1964,24/6/2011,520,1-Jul,Beechcraft,Bonanza 33 (F33A),Piston,1,69,33.5,no winglets,26.67,8.25,< 10,< 10,9.58,"3,500","3,500",S,BE33,Small Eqpt
+159,429,9/24/1988,7/11/2012,649,28-Jul,Beechcraft,Bonanza 35 (G35),Piston,1,72,32.83,no winglets,25.17,7.58,< 10,< 10,9.63,"3,125","3,125",S,BE35,Small Eqpt
+160,951,7/21/1985,24/5/2017,833,28-Jul,Beechcraft,Bonanza 35 (P35),Piston,1,72,33.5,no winglets,25.08,7.58,< 10,< 10,9.63,"3,125","3,125",S,BE35,Small Eqpt
+161,864,2/9/1962,6/7/2015,560,28-Jul,Beechcraft,Bonanza 35 (V35TC) rare as only 7 built,Piston,1,72,33.5,no winglets,26.42,7.58,< 10,< 10,9.63,"3,400","3,400",S,BE35,Small Eqpt
+162,1081,2/23/1990,26/1/2017,874,1-Jul,Beechcraft,Bonanza 36 (G36),Piston,1,77,33.5,no winglets,27.5,8.58,< 10,< 10,9.63,"3,650","3,663",S,BE36,Small Eqpt
+163,199,5/27/1966,30/5/2012,686,,Beechcraft,"Bonanza A36TC ""Turbo Bonanza""",Piston,1,,,,,,,,,,,,B36T,Small Eqpt
+164,297,9/27/1976,1/2/2011,628,28-Jul,Beechcraft,King Air 100 (B100),Turboprop,2,111,45.92,no winglets,39.92,15.42,13.9,13.9,13.7,"11,800","11,800",D,BE10,Small Eqpt
+165,348,3/24/1974,15/4/2011,907,7-Feb,Beechcraft,"King Air 200 (200, 200C, A200C, B200, B200C)",Turboprop,2,98,54.5,,43.75,15,15,15,17.17,"12,500","12,590",D,BE20,Small Eqpt
+166,246,1/14/1988,24/11/2013,714,19-Sep,Beechcraft,King Air 250,Turboprop,2,104,57.92,winglets,43.83,14.83,14.92,14.92,17.17,"12,500","12,590",D,tbd,tbd
+167,299,12/23/1962,27/3/2013,869,19-Sep,Beechcraft,King Air 300 (A200CT RC-12G),Turboprop,2,107,57.92,no winglets,46.67,14.33,16.25,16.25,17.17,"14,000","12,600",D,BE30,Small Eqpt
+168,323,9/26/1974,24/1/2012,525,19-Sep,Beechcraft,King Air 300LW (A200CT RC-12H),Turboprop,2,107,57.92,no winglets,46.67,14.33,16.25,16.25,17.17,"12,500","14,100",D,BE30,Small Eqpt
+169,377,9/19/1986,22/10/2017,903,19-Sep,Beechcraft,King Air 350ER,Turboprop,2,107,57.92,winglets,46.67,14.33,16.25,16.25,17.17,"16,500","16,600",D,B350,Small Eqpt
+170,547,7/16/1976,22/11/2014,902,19-Sep,Beechcraft,King Air 350i,Turboprop,2,107,57.92,winglets,46.67,14.33,16.25,16.25,17.17,"15,000","15,100",D,B350,Small Eqpt
+171,320,5/29/1967,9/6/2010,915,28-Jul,Beechcraft,King Air 90 (A90),Turboprop,2,100,45.92,no winglets,35.5,14.67,12.3,12.3,13.7,"9,300","9,300",S,"BE90, BE9L",Small Eqpt
+172,645,11/12/1967,3/8/2017,591,28-Jul,Beechcraft,King Air 90 (C90B),Turboprop,2,100,50.25,no winglets,35.5,14.25,12.3,12.3,15,"10,100","10,100",S,"BE90, BE9L",Small Eqpt
+173,514,1/27/1974,27/11/2013,596,28-Jul,Beechcraft,King Air 90 (F90),Turboprop,2,108,54.5,no winglets,35.5,14.83,12.3,12.3,16.3,"10,950","10,950",S,BE9T,Small Eqpt
+174,175,3/16/1974,22/5/2010,806,19-Sep,Beechcraft,"King Air B200 (A200CT C-12D/F, FWC-12D, and RC-12D/G/H)",Turboprop,2,107,57.92,no winglets,46.67,14.33,16.25,16.25,17.17,"12,500","12,590",D,BE20,Small Eqpt
+175,638,8/21/1976,23/2/2013,906,,Beechcraft,King Air B300 (A200CT RC-12K),Turboprop,2,,,,,,,,,"16,500","16,620",D,tbd,
+176,908,10/12/1962,4/6/2016,577,,Beechcraft,King Air B300 (A200CT RC-12P),Turboprop,2,,,,,,,,,,,D,tbd,
+177,315,9/16/1975,24/5/2011,624,19-Sep,Beechcraft,King Air C90GTi,Turboprop,2,98,53.67,winglets,35.5,14.25,12.25,12.25,12.75,"10,485","10,545",S,tbd,tbd
+178,268,1/7/1974,29/10/2017,804,21-Nov,Beechcraft,King Air C90GTx,Turboprop,2,98,50.25,no winglets,35.5,14.25,12.25,12.25,12.75,"10,100","10,160",S,tbd,tbd
+179,1009,1/23/1990,15/12/2011,642,24-Aug,Beechcraft,King Air C90GTx,Turboprop,2,98,53.67,winglets,35.5,14.25,12.25,12.25,12.75,"10,485","10,545",S,BE9L,
+180,843,5/14/1973,27/1/2012,962,28-Jul,Beechcraft,Model 18 (H18 Super Twin Beech),Piston,2,87,49.67,no winglets,35.25,9.33,tbd,tbd,tbd,"9,900","11,500",S,BE18,Small Eqpt
+181,438,4/11/1983,20/2/2014,504,28-Jul,Beechcraft,Model 18 Turboliner (aka Turbo 18),Turboprop,2,87,46,no winglets,44.25,9.58,tbd,tbd,tbd,"11,500","11,500",S,BE18,Small Eqpt
+182,107,10/26/1981,30/3/2013,794,,Beechcraft,Model 19 Musketeer Sport (or B19 Sport),,,,,,,,tbd,tbd,tbd,,,,tbd,Small Eqpt
+183,273,9/29/1978,9/6/2017,766,,Beechcraft,"Model 23 Musketeer, Custom and Sundowner",Piston,1,,,,,,tbd,tbd,tbd,,,,BE23,Small Eqpt
+184,424,10/15/1987,18/12/2015,634,,Beechcraft,Model 23-24 Mukseteer Super III,Piston,1,,,,,,tbd,tbd,tbd,,,,tbd,Small Eqpt
+185,815,8/29/1985,27/5/2015,519,,Beechcraft,Model 24R Sierra (retractable gear),Piston,1,,,,,,tbd,tbd,tbd,,,,BE24,Small Eqpt
+186,155,3/7/1965,16/12/2011,616,28-Jul,Beechcraft,Queen Air 65,Piston,,87,45.88,no winglets,35.5,14.25,tbd,tbd,tbd,"7,700","7,700",S,tbd,tbd
+187,342,4/16/1964,6/6/2016,628,28-Jul,Beechcraft,Queen Air 70,Piston,,87,50.25,no winglets,35.5,14.25,tbd,tbd,tbd,"8,200","8,200",S,tbd,tbd
+188,235,3/29/1972,23/6/2011,753,28-Jul,Beechcraft,Queen Air 80,Piston,,87,45.88,no winglets,35.5,14.25,tbd,tbd,tbd,"8,000","8,000",S,tbd,tbd
+189,799,8/5/1977,9/11/2011,679,28-Jul,Beechcraft,Queen Air 88,Piston,,87,50.25,no winglets,35.5,14.25,tbd,tbd,tbd,"8,800","8,800",S,tbd,tbd
+190,282,12/14/1975,2/6/2014,885,28-Jul,Beechcraft,Queen Air A65,Piston,,87,45.88,no winglets,35.5,14.25,tbd,tbd,tbd,"8,200","8,200",S,tbd,tbd
+191,926,1/14/1986,24/9/2016,807,28-Jul,Beechcraft,Queen Air A80,Piston,,87,50.25,no winglets,35.5,14.25,tbd,tbd,tbd,"8,500","8,500",S,tbd,tbd
+192,1083,10/24/1990,22/10/2014,652,28-Jul,Beechcraft,Queen Air B80,Piston,,87,50.25,no winglets,35.5,14.25,tbd,tbd,tbd,"8,800","8,800",S,tbd,tbd
+193,392,2/24/1988,20/10/2017,736,,Beechcraft,"Raytheon Premier 1A, 390 Premier 1",Jet,2,108,44.5,,,15.33,tbd,tbd,tbd,"12,500",,,PRM1,Medium Commuter Eqpt
+194,419,4/1/1970,25/2/2012,617,,Beechcraft,Skipper 77,Piston,1,63,30,,,7.92,tbd,tbd,tbd,"1,675",,,BE77,Small Eqpt
+195,307,11/9/1980,5/1/2016,681,17-Jun,Boeing,707-320B/C,Jet,4,128,145.75,no winglets,152.92,42.08,59,68.42,24.98,"333,600","336,000",2D,B703,tbd
+196,852,6/6/1969,15/6/2012,774,16-Jun,Boeing,717-200,Jet,2,139,93.33,no winglets,124,29.67,57.75,57.75,19.43,"118,000","119,000",D,B712,tbd
+197,632,5/14/1973,21/8/2010,777,16-Jun,Boeing,717-200 HGW Option,Jet,2,139,93.33,no winglets,124,29.67,57.75,57.75,19.43,"121,000","122,000",D,B712,tbd
+198,126,8/13/1983,11/7/2012,921,17-Jun,Boeing,720B,Jet,4,137,130.83,no winglets,136.75,41.42,50.67,60.08,24.58,"234,300","235,000",2D,B720,tbd
+199,593,11/23/1983,21/1/2013,614,17-Jun,Boeing,727-100 and -100C Basic,Jet,2,124,108,no winglets,133.17,34.25,53.25,60.17,21.58,"160,000","161,000",D,B721,tbd
+200,667,4/11/1986,11/3/2015,761,17-Jun,Boeing,727-100 and -100C Option,Jet,2,124,108,no winglets,133.17,34.25,53.25,60.17,21.58,"169,000","170,000",D,B721,tbd
+201,573,3/22/1973,20/7/2016,985,17-Jun,Boeing,727-200 Basic,Jet,2,133,108,no winglets,153.17,34.92,63.25,70.17,21.58,"184,800","185,800",D,B722,Large Jet Eqpt
+202,845,1/17/1977,5/1/2013,518,1-Jul,Boeing,727-200 Basic with winglets,Jet,2,133,109.25,winglets,153.17,34.92,63.25,70.17,21.58,"184,800","185,800",D,B722,Large Jet Eqpt
+203,513,11/29/1978,22/3/2015,510,17-Jun,Boeing,727-200 Option,Jet,2,133,108,no winglets,153.17,34.92,63.25,70.17,21.58,"209,500","210,000",D,B722,Large Jet Eqpt
+204,921,5/21/1979,2/1/2016,929,1-Jul,Boeing,727-200 Option with winglets,Jet,2,133,109.25,winglets,153.17,34.92,63.25,70.17,21.58,"209,500","210,000",D,B722,Large Jet Eqpt
+205,943,5/3/1961,27/8/2010,695,17-Jun,Boeing,737-100,Jet,2,136,93,no winglets,94,36.83,34.33,39.58,20.88,"110,000","111,000",D,B731,Large Jet Eqpt
+206,717,3/12/1990,17/2/2013,650,17-Jun,Boeing,737-200,Jet,2,129,93,no winglets,100.17,36.83,37.33,42.58,20.88,"115,500","116,000",D,B732,Large Jet Eqpt
+207,772,6/30/1988,11/5/2014,642,17-Jun,Boeing,"737-200, -200C, -200QC, and Advanced 737-200",Jet,2,129,93,no winglets,100.17,36.83,37.33,42.58,20.88,"128,100","128,600",D,B732,Large Jet Eqpt
+208,900,1/26/1972,24/11/2012,627,17-Jun,Boeing,737-300,Jet,2,135,94.75,no winglets,109.58,36.33,40.83,46.08,20.92,"139,500","140,000",D,B733,Large Jet Eqpt
+209,785,1/10/1984,24/7/2013,900,17-Jun,Boeing,737-300 with winglets,Jet,2,135,102.08,winglets,109.58,36.5,40.83,46.08,20.92,"139,500","140,000",D,B733,Large Jet Eqpt
+210,666,9/23/1979,2/4/2010,825,17-Jun,Boeing,737-400,Jet,2,139,94.75,no winglets,119.58,36.33,46.83,52.08,20.92,"150,000","150,500",D,B734,Large Jet Eqpt
+211,963,10/19/1986,24/10/2016,692,17-Jun,Boeing,737-500,Jet,2,128,94.75,no winglets,101.75,36.33,36.33,41.58,20.92,"136,000","136,500",D,B735,Large Jet Eqpt
+212,172,12/22/1969,29/1/2012,909,17-Jun,Boeing,737-600,Jet,2,125,112.58,no winglets,102.5,41.67,36.83,42.08,22.92,"144,500","145,000",D,B736,Large Jet Eqpt
+213,270,7/15/1967,27/11/2015,603,17-Jun,Boeing,737-600 with winglets,Jet,2,125,117.42,winglets,102.5,41.25,36.83,42.08,22.92,"144,500","145,000",D,B736,Large Jet Eqpt
+214,867,6/29/1976,25/7/2016,609,17-Jun,Boeing,737-700 with winglets,Jet,2,130,117.42,winglets,110.33,41.58,41.33,46.58,22.92,"154,500","155,000",D,B737,Large Jet Eqpt
+215,938,1/16/1976,26/8/2017,601,17-Jun,Boeing,"737-700, -700C",Jet,2,130,112.58,no winglets,110.33,41.58,41.33,46.58,22.92,"154,500","155,000",D,B737,Large Jet Eqpt
+216,299,10/17/1988,11/2/2012,968,17-Jun,Boeing,737-800,Jet,2,142,112.58,no winglets,129.5,41.42,51.17,56.42,22.96,"174,200","174,900",D,B738,Large Jet Eqpt
+217,99,11/9/1965,19/4/2010,766,1-Jul,Boeing,737-800 with upper and lower winglets,Jet,2,142,117.83,winglets (up+low),129.5,41.42,51.17,56.42,22.96,"174,200","174,900",D,B738,Large Jet Eqpt
+218,1015,11/23/1964,10/7/2013,974,17-Jun,Boeing,737-800 with winglets,Jet,2,142,117.42,winglets,129.5,41.42,51.17,56.42,22.96,"174,200","174,900",D,B738,Large Jet Eqpt
+219,445,11/8/1964,18/6/2012,987,17-Jun,Boeing,737-900,Jet,2,141,112.58,no winglets,138.17,41.42,56.33,61.58,22.96,"174,200","174,700",D,B739,Large Jet Eqpt
+220,591,12/25/1988,20/7/2017,539,1-Jul,Boeing,737-900 with upper and lower winglets,Jet,2,141,117.83,winglets (up+low),138.17,41.42,56.33,61.58,22.96,"174,200","174,700",D,B739,Large Jet Eqpt
+221,1094,12/11/1986,11/10/2010,850,17-Jun,Boeing,737-900 with winglets,Jet,2,141,117.42,winglets,138.17,41.42,56.33,61.58,22.96,"174,200","174,700",D,B739,Large Jet Eqpt
+222,123,6/20/1968,17/4/2011,556,17-Jun,Boeing,737-900ER,Jet,2,141,112.58,no winglets,138.17,41.42,56.33,61.58,22.96,"187,700","188,200",D,B739,Large Jet Eqpt
+223,692,2/24/1985,23/1/2012,874,17-Jun,Boeing,737-900ER with winglets,Jet,2,140,117.42,winglets,138.17,41.42,56.33,61.58,22.96,"187,700","188,200",D,B739,Large Jet Eqpt
+224,347,2/5/1964,22/6/2014,991,17-Jun,Boeing,737-BB2,Jet,2,142,117.42,winglets,129.5,41.42,51.17,56.42,22.96,"174,200","174,700",D,maybe B738,Large Jet Eqpt
+225,974,4/12/1965,3/4/2012,576,17-Jun,Boeing,737-BBJ,Jet,2,132,117.42,winglets,110.33,41.58,41.33,46.58,22.96,"171,000","171,500",D,maybe B737,Large Jet Eqpt
+226,979,7/1/1971,13/9/2012,577,24-Jun,Boeing,"747-100, -100B",Jet,4,144,195.67,no winglets,231.83,64.25,84,91.67,40.7,"750,000","753,000",2D/2D2,B741,tbd
+227,111,12/24/1978,17/5/2014,791,24-Jun,Boeing,747-100B SR,Jet,4,144,195.67,no winglets,231.83,64.25,84,91.67,40.7,"600,000","603,000",2D/2D2,B741,tbd
+228,752,11/21/1983,7/5/2017,799,24-Jun,Boeing,747-100SF (Swingtail Freighter),Jet,4,144,195.67,no winglets,231.83,64.25,84,91.67,40.7,"735,000","738,000",2D/2D2,B741,tbd
+229,949,7/11/1976,2/10/2013,889,24-Jun,Boeing,"747-200B, -200B COMBI",Jet,4,150,195.67,no winglets,231.83,64.25,84,91.67,40.7,"833,000","836,000",2D/2D2,B742,tbd
+230,962,5/7/1973,3/6/2015,762,24-Jun,Boeing,"747-200C, 200F",Jet,4,150,195.67,no winglets,231.83,64.67,84,91.67,41.2,"833,000","836,000",2D/2D2,B742,tbd
+231,1028,3/28/1973,28/11/2010,550,24-Jun,Boeing,"747-300, -300 COMBI",Jet,4,142,195.67,no winglets,231.83,64.25,84,91.67,40.7,"833,000","836,000",2D/2D2,B743,tbd
+232,333,10/21/1976,4/11/2010,885,24-Jun,Boeing,747-300SR,Jet,4,142,195.67,no winglets,231.83,64.25,84,91.67,40.7,"600,000","603,000",2D/2D2,B743,tbd
+233,758,11/7/1974,22/7/2017,839,24-Jun,Boeing,747-400 DOMESTIC,Jet,4,157,195.67,winglets,231.85,64.25,84,91.67,41.33,"610,000","613,500",2D/2D2,B744,tbd
+234,662,2/11/1979,20/10/2010,909,24-Jun,Boeing,"747-400, 400 COMBI",Jet,4,157,213,winglets,231.85,64,84,91.67,41.33,"875,000","877,000",2D/2D2,B744,tbd
+235,824,5/2/1975,3/3/2010,806,24-Jun,Boeing,747-400ER,Jet,4,157,213,winglets,231.85,64.25,84,91.67,41.42,"910,000","913,000",2D/2D2,B744,tbd
+236,133,8/26/1967,14/6/2011,812,24-Jun,Boeing,747-400ER F,Jet,4,157,213,winglets,231.85,64.08,84,91.67,41.42,"910,000","913,000",2D/2D2,B744,tbd
+237,298,9/18/1970,28/2/2016,681,24-Jun,Boeing,747-400F,Jet,4,158,213,winglets,231.85,64.08,84,91.67,41.33,"875,000","877,000",2D/2D2,B744,tbd
+238,468,2/15/1986,8/6/2012,571,24-Jun,Boeing,747-8,Jet,4,150,224.42,no winglets,250.17,64,97.33,89.67,41.75,"987,000","990,000",2D/2D2,tbd,tbd
+239,563,7/7/1984,26/6/2013,902,24-Jun,Boeing,747-8F,Jet,4,159,224.42,no winglets,250.17,64.17,97.33,89.67,41.75,"987,000","990,000",2D/2D2,tbd,tbd
+240,1001,10/3/1978,10/6/2017,756,24-Jun,Boeing,747-SP,Jet,4,140,195.67,no winglets,184.75,65.83,67.33,75,41.1,"696,000","703,000",2D/2D2,B744,tbd
+241,969,5/6/1980,3/8/2016,586,18-Mar,Boeing,"757-200, -200PF",Jet,2,137,124.83,no winglets,155.25,45.08,60,72,28,"255,500","256,000",2D,B752,B757 Eqpt
+242,927,6/14/1986,9/7/2011,557,18-Mar,Boeing,"757-200, -200PF with winglets",Jet,2,137,134.75,winglets,155.25,45.08,60,72,28,"255,500","256,000",2D,B752,B757 Eqpt
+243,275,4/14/1985,17/9/2010,921,18-Mar,Boeing,757-300,Jet,2,143,124.83,no winglets,178.58,44.75,73.33,85.33,28,"270,000","271,000",2D,B753,B757 Eqpt
+244,918,5/15/1987,4/9/2011,754,18-Mar,Boeing,757-300 with winglets,Jet,2,143,134.75,winglets,178.58,44.75,73.33,85.33,28,"270,000","271,000",2D,B753,B757 Eqpt
+245,522,5/8/1963,23/4/2016,901,22-Mar,Boeing,767-200,Jet,2,135,156.08,no winglets,159.17,52.92,64.58,72.08,35.75,"315,000","317,000",2D,B762,tbd
+246,650,8/1/1961,26/4/2017,617,22-Mar,Boeing,767-200ER,Jet,2,142,156.08,no winglets,159.17,52.92,64.58,72.08,35.75,"395,000","396,000",2D,B762,tbd
+247,181,5/4/1990,28/6/2017,603,22-Mar,Boeing,767-300,Jet,2,140,156.08,no winglets,180.25,52.58,74.67,82.17,35.75,"350,000","352,000",2D,B763,Heavy Eqpt
+248,1085,10/4/1975,18/1/2014,616,22-Mar,Boeing,767-300 Freighter,Jet,2,140,156.08,no winglets,180.25,52.92,74.67,82.17,35.75,"412,000","413,000",2D,B763,tbd
+249,650,5/1/1968,24/2/2017,717,22-Mar,Boeing,767-300ER,Jet,2,145,156.08,no winglets,180.25,52.58,74.67,82.17,35.75,"412,000","413,000",2D,B763,tbd
+250,482,9/2/1988,15/6/2012,528,22-Mar,Boeing,767-300ER with winglets,Jet,2,145,167,winglets,180.25,52.58,74.67,82.17,35.75,"412,000","413,000",2D,B763,tbd
+251,870,4/19/1989,26/4/2012,725,22-Mar,Boeing,767-400ER,Jet,2,150,170.33,no winglets,201.33,55.83,85.83,93.33,36,"450,000","451,000",2D,B764,tbd
+252,724,3/6/1965,31/8/2010,929,24-Jun,Boeing,777-200,Jet,2,136,199.92,no winglets,209.08,61.5,84.92,96.83,42.3,"535,000","537,000",3D,B772,tbd
+253,273,10/25/1988,7/6/2011,771,24-Jun,Boeing,777-200 (HGW Option),Jet,2,136,199.92,no winglets,209.08,61.5,84.92,96.83,42.3,"632,500","634,500",3D,B772,tbd
+254,866,6/5/1976,28/10/2010,956,30-Jun,Boeing,777-200ER,Jet,2,139,199.92,no winglets,209.08,61.5,84.92,96.83,42.3,tbd,"656,000",3D,B772,tbd
+255,687,4/1/1971,15/2/2017,601,30-Jun,Boeing,777-200LR,Jet,2,140,212.58,no winglets,209.08,61.5,84.93,96.84,42.33,"766,000","768,000",3D,B772,tbd
+256,409,11/24/1977,2/3/2014,675,24-Jun,Boeing,777-300,Jet,2,149,199.92,no winglets,242.33,61.5,102.42,114.33,42.3,"660,000","662,000",3D,B773,tbd
+257,941,10/19/1969,24/5/2017,692,30-Jun,Boeing,777-300ER,Jet,2,149,212.58,no winglets,242.33,61.83,102.44,114.36,42.33,"775,000","777,000",3D,B773,tbd
+258,890,12/19/1971,14/7/2013,665,30-Jun,Boeing,777-300F,Jet,2,140,212.58,no winglets,209.08,62.33,84.93,96.84,42.33,"766,800","768,800",3D,B773,tbd
+259,559,2/11/1982,1/12/2010,892,1-Jul,Boeing,787-10 (Preliminary Data),Jet,2,140,197.25,no winglets,224.08,tbd,94.75,103.42,38.92,"560,000","561,500",2D,tbd,tbd
+260,742,1/20/1972,21/7/2013,689,1-Jul,Boeing,787-8,Jet,2,140,197.25,no winglets,186.08,56.08,74.75,83.42,38.08,"502,500","503,500",2D,B788,tbd
+261,227,10/19/1962,14/5/2010,987,1-Jul,Boeing,787-9,Jet,2,140,197.25,no winglets,206.08,56.08,84.75,93.42,38.92,"560,000","561,500",2D,B789,tbd
+262,374,2/19/1972,27/4/2015,850,,Boeing,B-52,,,141,185,,,40.8,,,,"488,000",,,B52,tbd
+263,958,10/29/1976,28/7/2014,917,,Boeing,C97 STRATOCRUISER,,,105,141.3,,,38.3,,,,"145,800",,,C97,tbd
+264,1021,12/19/1979,8/8/2015,924,,Boeing,E-3,,,137,145.9,,,42,,,,"325,000",,,tbd,tbd
+265,785,12/24/1970,24/8/2015,686,,Boeing,E-4,,,152,195.7,,,64.7,,,,"833,000",,,tbd,tbd
+266,795,5/13/1971,6/10/2011,830,,Boeing (McDonnell Douglas),DC-10-10,,,138,155.3,,182.3,58.4,,,,"455,000",,,tbd,tbd
+267,635,11/1/1968,13/4/2010,970,,Boeing (McDonnell Douglas),DC-10-10CF,,,,,,,,,,,,,,tbd,tbd
+268,95,1/22/1964,3/6/2016,642,,Boeing (McDonnell Douglas),DC-10-30,,,149,165.3,,181.6,58.6,,,,"580,000",,,tbd,tbd
+269,1030,12/31/1963,5/3/2015,918,,Boeing (McDonnell Douglas),DC-10-30CF,,,,,,,,,,,,,,tbd,tbd
+270,208,7/15/1973,9/8/2010,600,,Boeing (McDonnell Douglas),DC-10-40,,,149,165.3,,182.2,58.6,,,,"572,000",,,tbd,tbd
+271,756,7/4/1986,8/11/2016,571,,Boeing (McDonnell Douglas),DC-10-40CF,,,,,,,,,,,,,,tbd,tbd
+272,861,4/21/1974,2/10/2015,752,,Boeing (McDonnell Douglas),DC-3,Piston,2,74,95,,64.3,23.5,,,,"25,200",,,DC3,Large Commuter Eqpt
+273,956,11/9/1972,20/8/2011,634,,Boeing (McDonnell Douglas),DC-4,,,94,117.5,,93.9,27.9,,,,"73,000",,,tbd,tbd
+274,1037,4/29/1967,25/5/2016,577,,Boeing (McDonnell Douglas),DC-6 Domestic,,,,,,,,,,,,,,tbd,tbd
+275,496,1/17/1971,7/8/2012,859,,Boeing (McDonnell Douglas),DC-6A/B,,,108,117.5,,105.6,29.3,,,,"107,000",,,tbd,tbd
+276,881,12/27/1978,1/2/2013,874,,Boeing (McDonnell Douglas),DC-7,,,,,,,,,,,,,,tbd,tbd
+277,240,9/9/1973,18/3/2010,702,,Boeing (McDonnell Douglas),DC-7B,,,,,,,,,,,,,,tbd,tbd
+278,373,4/13/1977,2/10/2013,508,,Boeing (McDonnell Douglas),DC-7C,,,110,127.5,,112.3,31.7,,,,"143,000",,,tbd,tbd
+279,256,1/31/1970,17/10/2017,692,,Boeing (McDonnell Douglas),DC-8-10,,,131,142.4,,,43.3,,,,"276,000",,,tbd,tbd
+280,799,4/11/1980,24/10/2014,839,,Boeing (McDonnell Douglas),DC-8-20/30/40,,,133,142.4,,,43.3,,,,"315,000",,,tbd,tbd
+281,990,1/9/1963,4/12/2012,750,,Boeing (McDonnell Douglas),DC-8-40,,,133,142.4,,150.7,43.4,,,,"315,000",,,tbd,tbd
+282,232,11/27/1970,6/7/2016,546,1-Jul,Boeing (McDonnell Douglas),DC-8-43,Jet,,133,142.4,no winglets,150.7,43.43,57.5,65.5,24.67,"315,000","318,000",2D,tbd,tbd
+283,315,2/1/1984,17/3/2014,817,1-Jul,Boeing (McDonnell Douglas),DC-8-50,Jet,,137,142.4,no winglets,tbd,tbd,tbd,tbd,tbd,tbd,tbd,2D,tbd,tbd
+284,773,12/29/1961,1/4/2015,555,1-Jul,Boeing (McDonnell Douglas),DC-8-50F,Jet,,144,142.4,no winglets,tbd,tbd,tbd,tbd,tbd,tbd,tbd,2D,tbd,tbd
+285,843,8/7/1975,27/4/2014,863,,Boeing (McDonnell Douglas),DC-8-51,,,,,,,,,,,,,,tbd,tbd
+286,594,5/12/1963,1/3/2010,530,,Boeing (McDonnell Douglas),DC-8-52,,,,,,,,,,,,,,tbd,tbd
+287,1032,11/1/1972,3/12/2013,850,,Boeing (McDonnell Douglas),DC-8-53,,,,,,,,,,,,,,tbd,tbd
+288,767,8/18/1968,26/11/2013,845,1-Jul,Boeing (McDonnell Douglas),DC-8-55,Jet,,137,142.4,no winglets,150.7,43.56,57.5,65.5,24.67,"325,000","328,000",2D,tbd,tbd
+289,533,6/20/1976,3/8/2012,529,1-Jul,Boeing (McDonnell Douglas),DC-8-55F,Jet,,137,142.4,no winglets,150.7,43.74,57.5,65.5,24.67,"325,000","328,000",2D,tbd,tbd
+290,612,1/30/1970,18/9/2012,940,1-Jul,Boeing (McDonnell Douglas),DC-8-61,Jet,,144,142.4,no winglets,187.4,43.23,77.5,85.5,24.67,"325,000","328,000",2D,tbd,tbd
+291,211,3/22/1971,3/9/2016,994,1-Jul,Boeing (McDonnell Douglas),DC-8-61F,Jet,,144,142.4,no winglets,187.4,43.19,77.5,85.5,24.67,"328,000","331,000",2D,tbd,tbd
+292,782,5/13/1985,19/9/2013,893,1-Jul,Boeing (McDonnell Douglas),DC-8-62,Jet,,138,148.4,no winglets,157.5,43.25,60.8,68.8,24.88,"350,000","353,000",2D,tbd,tbd
+293,158,11/17/1963,25/3/2015,930,1-Jul,Boeing (McDonnell Douglas),DC-8-62F,Jet,,138,148.4,no winglets,157.5,43.32,60.8,68.8,24.88,"350,000","353,000",2D,tbd,tbd
+294,656,10/7/1990,14/12/2014,977,1-Jul,Boeing (McDonnell Douglas),DC-8-63,Jet,,143,148.4,no winglets,187.4,43,77.5,85.5,24.88,"355,000","358,000",2D,tbd,tbd
+295,367,3/24/1976,10/5/2017,502,1-Jul,Boeing (McDonnell Douglas),DC-8-63F,Jet,,143,148.4,no winglets,187.4,43.13,77.5,85.5,24.88,"355,000","358,000",2D,tbd,tbd
+296,646,10/17/1989,25/1/2016,718,1-Jul,Boeing (McDonnell Douglas),DC-8-71,Jet,,144,142.4,no winglets,187.4,43.23,77.5,85.5,24.67,"325,000","328,000",2D,tbd,tbd
+297,630,10/17/1975,18/11/2017,575,1-Jul,Boeing (McDonnell Douglas),DC-8-71F,Jet,,144,142.4,no winglets,187.4,43.19,77.5,85.5,24.67,"328,000","331,000",2D,tbd,tbd
+298,922,11/19/1967,6/11/2017,976,1-Jul,Boeing (McDonnell Douglas),DC-8-72,Jet,,138,148.4,no winglets,157.5,43.25,60.8,68.8,24.88,"335,000","338,000",2D,tbd,tbd
+299,532,12/23/1967,29/8/2014,510,1-Jul,Boeing (McDonnell Douglas),DC-8-72F,Jet,,138,148.4,no winglets,157.5,43.32,60.8,68.8,24.88,"335,000","338,000",2D,tbd,tbd
+300,309,2/3/1973,24/2/2011,878,1-Jul,Boeing (McDonnell Douglas),DC-8-73,Jet,,143,148.4,no winglets,187.4,43,77.5,85.5,24.88,"355,000","358,000",2D,tbd,tbd
+301,313,4/16/1977,3/6/2012,556,1-Jul,Boeing (McDonnell Douglas),DC-8-73F,Jet,,143,148.4,no winglets,187.4,43.13,77.5,85.5,24.88,"355,000","358,000",2D,tbd,tbd
+302,856,8/14/1979,17/11/2015,842,,Boeing (McDonnell Douglas),DC-9-10,,,132,,,,,,,,,,,DC91,Large Jet Eqpt
+303,853,1/6/1989,23/12/2012,804,1-Jul,Boeing (McDonnell Douglas),DC-9-15,Jet,,132,89.4,no winglets,104.4,27.58,43.67,43.67,18.33,"90,700","91,500",D,DC95,Large Jet Eqpt
+304,109,1/16/1970,29/11/2014,822,1-Jul,Boeing (McDonnell Douglas),DC-9-15F,Jet,,132,89.4,no winglets,104.4,27.58,43.67,43.67,18.33,"90,700","91,500",D,DC95,Large Jet Eqpt
+305,990,1/17/1972,4/2/2010,720,1-Jul,Boeing (McDonnell Douglas),DC-9-20,Jet,,126,,tbd,tbd,tbd,tbd,tbd,tbd,tbd,tbd,D,DC92,Large Jet Eqpt
+306,447,12/14/1965,2/6/2015,522,1-Jul,Boeing (McDonnell Douglas),DC-9-21,Jet,,132,93.3,no winglets,104.4,27.42,43.67,43.67,18.42,"98,000","101,000",D,DC92,Large Jet Eqpt
+307,816,3/24/1974,6/11/2010,524,,Boeing (McDonnell Douglas),DC-9-30,,,132,93.3,,119.3,27.8,,,,"121,000",,,DC93,Large Jet Eqpt
+308,541,10/11/1977,18/1/2015,600,1-Jul,Boeing (McDonnell Douglas),DC-9-32/33F,Jet,,132,93.3,no winglets,119.3,27.75,53.17,53.17,18.42,"108,000","109,000",D,DC93,Large Jet Eqpt
+309,775,11/30/1969,20/6/2012,593,,Boeing (McDonnell Douglas),DC-9-40,,,132,93.3,,125.6,28.4,,,,"114,000",,,tbd,Large Jet Eqpt
+310,1060,9/5/1964,7/9/2015,534,1-Jul,Boeing (McDonnell Douglas),DC-9-41,Jet,,132,93.3,no winglets,125.6,28.42,56.17,56.17,18.17,"114,000","115,000",D,tbd,Large Jet Eqpt
+311,163,5/11/1973,6/7/2016,944,1-Jul,Boeing (McDonnell Douglas),DC-9-50,Jet,,135,tbd,tbd,tbd,tbd,tbd,tbd,tbd,tbd,tbd,D,tbd,Large Jet Eqpt
+312,254,10/14/1990,25/5/2014,949,1-Jul,Boeing (McDonnell Douglas),DC-9-51,Jet,,132,93.35,no winglets,133.58,28.75,60.92,60.92,18.17,"121,000","122,000",D,tbd,Large Jet Eqpt
+313,397,6/3/1985,25/7/2017,890,,Boeing (McDonnell Douglas),DC-9-80,,,132,107.8,,,30.3,,,,"140,000",,,tbd,Large Jet Eqpt
+314,1006,8/4/1982,19/6/2011,937,,Boeing (McDonnell Douglas),DC-9-82,,,135,107.8,,,30.3,,,,"149,500",,,tbd,Large Jet Eqpt
+315,1074,11/22/1979,15/5/2013,535,,Boeing (McDonnell Douglas),MD-10-10F,,,,,,,,,,,,,,tbd,tbd
+316,766,3/23/1990,2/1/2016,562,,Boeing (McDonnell Douglas),MD-10-30F,,,,,,,,,,,,,,tbd,tbd
+317,798,1/8/1972,9/5/2014,975,1-Jul,Boeing (McDonnell Douglas),MD-11,Jet,,153,170.5,winglets,202.17,58.83,80.75,101.67,41.25,"602,500","605,500",2D/D1,tbd,tbd
+318,552,7/22/1962,17/10/2014,502,1-Jul,Boeing (McDonnell Douglas),MD-11 ER,Jet,,158,170.5,winglets,202.17,58.83,80.75,101.67,41.25,"630,500","633,000",2D/D1,tbd,tbd
+319,1039,8/7/1983,23/9/2015,961,1-Jul,Boeing (McDonnell Douglas),MD-11F,Jet,,158,170.5,winglets,202.17,58.83,80.75,101.67,41.25,"602,500","605,500",2D/D1,tbd,tbd
+320,105,5/8/1980,13/8/2014,819,1-Jul,Boeing (McDonnell Douglas),MD-81,Jet,,134,107.85,no winglets,147.83,30.17,72.43,72.43,20.4,"140,000","141,000",D,tbd,tbd
+321,729,1/4/1980,1/8/2014,960,1-Jul,Boeing (McDonnell Douglas),MD-82,Jet,,134,107.85,no winglets,147.83,30.17,72.43,72.43,20.4,"149,500","150,500",D,MD82,Large Jet Eqpt
+322,402,8/16/1961,1/4/2014,958,1-Jul,Boeing (McDonnell Douglas),MD-83,Jet,,144,107.85,no winglets,147.83,30.17,72.43,72.43,20.4,"160,000","161,000",D,MD83,Large Jet Eqpt
+323,346,3/29/1969,18/10/2012,520,1-Jul,Boeing (McDonnell Douglas),MD-87,Jet,,134,107.85,no winglets,130.42,31.17,62.92,62.92,20.4,"149,500","150,500",D,tbd,tbd
+324,592,3/23/1966,4/4/2016,751,1-Jul,Boeing (McDonnell Douglas),MD-88,Jet,,144,107.85,no winglets,147.83,30.17,72.43,72.43,20.4,"149,500","150,500",D,MD88,Large Jet Eqpt
+325,429,8/22/1964,19/5/2010,776,1-Jul,Boeing (McDonnell Douglas),MD-90-30,Jet,,138,107.83,no winglets,152.58,31.17,77.17,77.17,20.4,"156,000","157,000",D,MD90,Large Jet Eqpt
+326,517,12/23/1979,27/11/2012,722,1-Jul,Boeing (McDonnell Douglas),MD-90-30ER,Jet,,138,107.83,no winglets,152.58,31.17,77.17,77.17,20.4,"168,000","168,500",D,MD90,Large Jet Eqpt
+327,788,9/4/1979,15/10/2017,558,,Boeing (McDonnell Douglas),MDC-C-133,,,128,179.7,,,48.2,,,,"300,000",,,tbd,tbd
+328,1034,10/26/1979,1/2/2012,579,,Boeing (McDonnell Douglas),R6D-1/C118-A,,,,,,,,,,,,,,tbd,tbd
+329,874,5/31/1986,3/12/2012,619,,Bombardier,BD-700 Global 5000,Jet,2,112,94,winglets,96.83,25.5,38.73,38.73,14,"92,500","92,750",D,GL5T,Medium Commuter Eqpt
+330,1023,12/27/1976,28/4/2010,868,,Bombardier,BD-700 Global Express,Jet,2,112,94,,99.4,24.8,,,,"95,000",,,GLEX,Medium Commuter Eqpt
+331,532,6/22/1971,29/12/2016,834,17-Aug,Bombardier,C Series Model CS100,Jet,,129,115.08,winglets,114.75,38.67,42.76,45.43,26.28,"134,000","135,000",D,tbd,tbd
+332,169,9/27/1968,8/3/2015,754,17-Aug,Bombardier,C Series Model CS300,Jet,,136,115.08,winglets,127,38.67,48.01,50.68,26.28,"149,000","150,000",D,tbd,tbd
+333,938,9/19/1974,19/2/2012,637,22-Aug,Bombardier,Canadair CL-215 Scooper (Land),Piston,,86,93.83,no winglets,65,29.46,24.61,24.61,13,"43,500","43,500",S,tbd,tbd
+334,441,1/13/1980,15/10/2016,538,22-Aug,Bombardier,Canadair CL-215 Scooper (Water modified per CSB # CL215-124),Piston,,86,93.83,no winglets,65,29.46,24.61,24.61,13,"37,700","38,000",S,tbd,tbd
+335,651,6/28/1988,15/9/2013,911,22-Aug,Bombardier,Canadair CL-215 Scooper (Water),Piston,,86,93.83,no winglets,65,29.46,24.61,24.61,13,"36,000","36,300",S,tbd,tbd
+336,387,6/20/1969,24/7/2017,837,22-Aug,Bombardier,Canadair CL-215T Scooper Retrofit (Land),Turboprop,,88,93.92,winglets,65,29.46,24.61,24.61,13,"43,500","43,500",S,tbd,tbd
+337,656,7/11/1982,25/3/2013,691,22-Aug,Bombardier,Canadair CL-215T Scooper Retrofit (Water),Turboprop,,88,93.92,winglets,65,29.46,24.61,24.61,13,"37,850","37,850",S,tbd,tbd
+338,806,12/26/1973,8/7/2015,939,22-Aug,Bombardier,Canadair CL-415 Super Scooper (Land),Turboprop,,88,93.92,winglets,65,29.46,24.61,24.61,13,"43,850","43,850",S,tbd,tbd
+339,937,10/28/1964,3/4/2016,843,22-Aug,Bombardier,Canadair CL-415 Super Scooper (Water),Turboprop,,88,93.92,winglets,65,29.46,24.61,24.61,13,"37,850","37,850",S,tbd,tbd
+340,1091,12/18/1988,8/12/2015,959,21-Aug,Bombardier,Challenger 300,Jet,,125,63.83,winglets,68.75,20,27.75,27.75,12.64,"38,850","39,000",D,CL30,Medium Commuter Eqpt
+341,1025,11/29/1980,25/10/2016,804,21-Aug,Bombardier,Challenger 350,Jet,,125,69,winglets,68.67,20,27.75,27.75,12.64,"40,600","40,750",D,CL35,Medium Commuter Eqpt
+342,161,11/5/1989,10/11/2015,803,21-Aug,Bombardier,Challenger 600,Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"41,100","41,250",D,CL60,Medium Commuter Eqpt
+343,449,9/18/1965,16/1/2010,973,21-Aug,Bombardier,Challenger 601 (CL-601-1A),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"43,100","43,250",D,CL60,Medium Commuter Eqpt
+344,365,6/20/1978,8/3/2016,634,21-Aug,Bombardier,Challenger 601 (CL-601-1A/ER),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"43,100","43,250",D,CL60,Medium Commuter Eqpt
+345,1024,9/18/1969,18/10/2015,574,21-Aug,Bombardier,Challenger 601 (CL-601-3A),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"43,100","43,250",D,CL60,Medium Commuter Eqpt
+346,239,2/11/1976,8/10/2016,574,21-Aug,Bombardier,Challenger 601 (CL-601-3A/ER),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"43,100","43,250",D,CL60,Medium Commuter Eqpt
+347,877,10/27/1985,25/5/2014,957,21-Aug,Bombardier,Challenger 601 (CL-601-3R),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"45,100","45,250",D,CL60,Medium Commuter Eqpt
+348,450,1/30/1967,7/9/2010,946,21-Aug,Bombardier,Challenger 601s (CL-601s),Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"45,100","45,250",D,CL60,Medium Commuter Eqpt
+349,121,1/2/1965,18/7/2016,757,21-Aug,Bombardier,Challenger 604,Jet,,137,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"48,200","48,300",D,CL60,Medium Commuter Eqpt
+350,137,10/24/1983,26/10/2015,509,21-Aug,Bombardier,Challenger 605,Jet,,137,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"48,200","48,300",D,tbd,tbd
+351,191,10/11/1976,15/10/2011,580,22-Aug,Bombardier,Challenger 650,Jet,,125,64.33,winglets,68.42,20.67,26.21,26.21,12.97,"48,200","48,300",D,tbd,tbd
+352,679,3/17/1988,2/11/2012,638,,Bombardier,Challenger 800,Jet,,125,64.33,winglets,68.42,20.67,,,,,,D,tbd,tbd
+353,701,7/29/1987,16/12/2012,891,,Bombardier,Challenger 850,Jet,,125,64.33,winglets,68.42,20.67,,,,,,D,tbd,tbd
+354,284,5/13/1969,7/1/2015,717,17-Aug,Bombardier,CRJ 100/200 ER,Jet,,140,68.67,winglets,87.83,20.75,37.42,37.42,13.17,"51,000","51,250",D,CRJ2,Large Commuter Eqpt
+355,201,10/21/1989,23/10/2011,834,17-Aug,Bombardier,CRJ 100/200 LR,Jet,,140,68.67,winglets,87.83,20.75,37.42,37.42,13.17,"53,000","53,250",D,CRJ2,Large Commuter Eqpt
+356,503,1/7/1963,1/9/2016,773,17-Aug,Bombardier,CRJ 100/200 Standard,Jet,,140,68.67,winglets,87.83,20.75,37.42,37.42,13.17,"47,450","47,700",D,CRJ2,Large Commuter Eqpt
+357,676,8/2/1981,2/2/2014,700,17-Aug,Bombardier,CRJ 1000 EL,Jet,,140,85.92,winglets,128.42,24.5,61.83,61.83,16.39,"85,968","86,468",D,tbd,tbd
+358,95,12/29/1960,2/5/2015,888,17-Aug,Bombardier,CRJ 1000 ER,Jet,,140,85.92,winglets,128.42,24.5,61.83,61.83,16.39,"91,800","92,300",D,tbd,tbd
+359,616,12/20/1975,22/5/2016,740,17-Aug,Bombardier,CRJ 1000 Standard,Jet,,140,85.92,winglets,128.42,24.5,61.83,61.83,16.39,"90,000","90,500",D,tbd,tbd
+360,565,12/4/1987,28/8/2010,504,17-Aug,Bombardier,CRJ 700/701/702 ER,Jet,,135,76.27,winglets,106.57,24.83,49.25,49.25,16.39,"75,000","75,250",D,CRJ7,Large Commuter Eqpt
+361,641,7/18/1971,26/10/2011,613,17-Aug,Bombardier,CRJ 700/701/702 LR,Jet,,135,76.27,winglets,106.57,24.83,49.25,49.25,16.39,"77,000","77,500",D,CRJ7,Large Commuter Eqpt
+362,352,3/1/1969,22/5/2016,730,17-Aug,Bombardier,CRJ 700/701/702 Standard,Jet,,135,76.27,winglets,106.57,24.83,49.25,49.25,16.39,"72,750","73,000",D,CRJ7,Large Commuter Eqpt
+363,1009,6/15/1966,5/5/2011,788,17-Aug,Bombardier,CRJ 705 (based on CRJ 900),Jet,,140,81.53,winglets,118.83,24.12,56.76,56.76,16.39,"84,500","85,000",D,tbd,tbd
+364,968,11/17/1987,20/1/2013,604,17-Aug,Bombardier,CRJ 900 ER,Jet,,140,81.53,winglets,118.83,24.12,56.76,56.76,16.39,"82,500","82,750",D,tbd,tbd
+365,245,2/19/1986,7/12/2014,553,17-Aug,Bombardier,CRJ 900 LR,Jet,,140,81.53,winglets,118.83,24.12,56.76,56.76,16.39,"84,500","85,000",D,tbd,tbd
+366,691,11/4/1987,12/7/2015,538,17-Aug,Bombardier,CRJ 900 Standard,Jet,,140,81.53,winglets,118.83,24.12,56.76,56.76,16.39,"80,500","80,750",D,tbd,tbd
+367,1031,4/5/1981,2/4/2013,725,,Bombardier,Global 6000,Jet,2,119,94,winglets,99.42,25.5,39.77,39.77,14,"99,500","99,750",D,tbd,tbd
+368,341,2/12/1963,20/4/2014,927,,Bombardier,Global 7000,Jet,2,119,104,winglets,111.17,27.08,44.47,44.47,14,,"106,250",D,tbd,tbd
+369,760,8/17/1965,29/8/2012,512,,Bombardier,Global 8000,Jet,2,119,104,winglets,102.17,27.08,40.87,40.87,14,,"104,800",D,tbd,tbd
+370,751,10/4/1982,7/2/2016,838,6-Sep,Bombardier,Learjet 23,Jet,2,128,35.58,tip tanks,43.25,12.58,,,,"12,500","12,500",D,tbd,Medium Commuter Eqpt
+371,849,11/11/1979,9/6/2013,633,6-Sep,Bombardier,Learjet 24,Jet,2,128,35.58,tip tanks,43.25,12.25,,,,"13,000","13,300",D,LJ24,Medium Commuter Eqpt
+372,957,6/10/1980,22/9/2017,531,6-Sep,Bombardier,Learjet 24A,Jet,2,128,35.58,tip tanks,43.25,12.25,,,,"12,499","12,749",D,LJ24,Medium Commuter Eqpt
+373,861,6/14/1988,30/7/2014,753,6-Sep,Bombardier,"Learjet 24B, D, F",Jet,2,128,35.58,tip tanks,43.25,12.25,tbd,tbd,tbd,"13,500","13,800",D,LJ24,Medium Commuter Eqpt
+374,90,8/1/1981,2/3/2012,923,6-Sep,Bombardier,"Learjet 24B-A, C, D-A, F-A",Jet,2,128,35.58,tip tanks,43.25,12.25,,,,"12,499","12,750",D,LJ24,Medium Commuter Eqpt
+375,331,3/9/1984,26/3/2011,690,6-Sep,Bombardier,Learjet 24E,Jet,2,128,35.58,tip tanks,43.25,12.25,,,,"12,900","13,200",D,LJ24,Medium Commuter Eqpt
+376,1015,1/24/1972,28/4/2015,557,6-Sep,Bombardier,Learjet 25 (all variants except 25A),Jet,2,137,35.58,tip tanks,47.58,12.25,tbd,tbd,tbd,"15,000","15,500",D,LJ25,Medium Commuter Eqpt
+377,438,9/8/1983,5/2/2016,658,6-Sep,Bombardier,Learjet 25A,Jet,2,125,35.58,tip tanks,47.58,12.25,,,,"12,499","12,749",D,LJ25,Medium Commuter Eqpt
+378,1044,1/13/1964,29/7/2017,830,6-Sep,Bombardier,Learjet 28/29,Jet,2,125,43.83,winglets,47.58,12.25,,,,"15,000","15,500",D,tbd,Medium Commuter Eqpt
+379,1096,4/15/1984,1/5/2011,895,6-Sep,Bombardier,Learjet 31/31A,Jet,2,125,43.83,winglets,48.67,12.25,,,,"15,500","15,750",D,LJ31,Medium Commuter Eqpt
+380,567,1/7/1982,12/9/2016,652,6-Sep,Bombardier,"Learjet 35/36, 35A/36A",Jet,2,143,39.5,tip tanks,48.67,12.25,,,,"18,000","18,250",D,LJ35,Medium Commuter Eqpt
+381,829,6/1/1983,29/11/2016,913,6-Sep,Bombardier,Learjet 40,Jet,2,123,47.78,winglets,55.56,14.13,,,,"21,000","21,250",D,LJ40,Small Eqpt
+382,93,7/6/1969,13/11/2012,880,6-Sep,Bombardier,"Learjet 45, 45XR",Jet,2,123,47.83,winglets,58,14.08,,,,"21,500","21,750",D,LJ45,Small Eqpt
+383,711,2/22/1967,6/11/2015,879,6-Sep,Bombardier,Learjet 55,Jet,2,125,43.83,winglets,55.08,14.67,,,,"19,500","19,750",D,LJ55,Medium Commuter Eqpt
+384,625,12/19/1966,21/12/2013,548,6-Sep,Bombardier,Learjet 55B,Jet,2,125,43.83,winglets,55.08,14.67,,,,"21,500","21,750",D,tbd,Medium Commuter Eqpt
+385,310,12/5/1983,28/7/2017,644,6-Sep,Bombardier,Learjet 55C,Jet,2,125,43.83,winglets,55.08,14.67,,,,"21,000","21,250",D,tbd,Medium Commuter Eqpt
+386,1061,8/24/1977,7/6/2017,957,6-Sep,Bombardier,"Learjet 60, 60XR",Jet,2,125,43.75,winglets,58.67,14.67,,,,"22,750","23,000",D,LJ60,Medium Commuter Eqpt
+387,704,8/26/1986,23/6/2012,567,28-Aug,Bombardier,Learjet 70,Jet,2,125,50.92,winglets,56,14,22.4,22.4,10,"21,500","21,750",D,tbd,Medium Commuter Eqpt
+388,830,10/9/1977,27/9/2017,775,28-Aug,Bombardier,Learjet 75,Jet,2,125,50.92,winglets,58,14,23.2,23.2,10,"21,500","21,750",D,LJ75,Small Eqpt
+389,947,4/7/1986,19/12/2010,829,,Bombardier (De Havilland Canada (DHC)),Dash 6 Twin Otter (DHC-6-100),,,,,,,,,,,,,,tbd,tbd
+390,187,6/20/1964,16/4/2015,910,,Bombardier (De Havilland Canada (DHC)),Dash 6 Twin Otter (DHC-6-200),,,,,,,,,,,,,,tbd,tbd
+391,424,7/2/1979,14/3/2017,824,,Bombardier (De Havilland Canada (DHC)),Dash 6 Twin Otter (DHC-6-300),,,,,,,,,,,,,,tbd,tbd
+392,278,4/8/1976,8/7/2011,932,,Bombardier (De Havilland Canada (DHC)),Dash 6 Twin Otter (DHC-6-300S),,,,,,,,,,,,,,tbd,tbd
+393,705,6/13/1967,10/5/2014,605,,Bombardier (De Havilland Canada (DHC)),Dash 7 Series 100 (DHC-7-100/101),,,,,,,,,,,,,,tbd,tbd
+394,958,5/6/1984,4/9/2013,954,,Bombardier (De Havilland Canada (DHC)),Dash 7 Series 150 (DHC-7-150/151),,,,,,,,,,,,,,tbd,tbd
+395,738,3/19/1973,31/12/2012,536,,Bombardier (De Havilland Canada (DHC)),Dash 8 Q100,,,,,,,,,,,,,,tbd,tbd
+396,326,7/27/1988,5/1/2017,840,,Bombardier (De Havilland Canada (DHC)),Dash 8 Q200,,,,,,,,,,,,,,tbd,tbd
+397,416,11/18/1984,1/5/2010,668,,Bombardier (De Havilland Canada (DHC)),Dash 8 Q300,,,,,,,,,,,,,,tbd,tbd
+398,855,7/7/1977,27/9/2013,814,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Q400,Turboprop,,125,93.25,no winglets,107.75,27.42,45.75,45.75,31.36,"65,200","65,400",D,tbd,Large Commuter Eqpt
+399,334,1/12/1980,13/2/2013,862,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 100 (DHC-8-101),Turboprop,,92,85,no winglets,73,24.58,26.08,26.08,28.12,"33,000","34,700",D,DH8A,Large Commuter Eqpt
+400,445,9/12/1965,31/7/2014,660,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 100 (DHC-8-102),Turboprop,,92,85,no winglets,73,24.58,26.08,26.08,28.12,"34,500","34,700",D,DH8A,Large Commuter Eqpt
+401,244,6/18/1970,16/2/2014,975,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 100 (DHC-8-103),Turboprop,,92,85,no winglets,73,24.58,26.08,26.08,28.12,"35,200","35,300",D,DH8A,Large Commuter Eqpt
+402,1055,2/9/1969,13/12/2010,610,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 100 (DHC-8-106),Turboprop,,92,85,no winglets,73,24.58,26.08,26.08,28.12,"36,300","36,500",D,DH8A,Large Commuter Eqpt
+403,1085,8/7/1985,7/8/2011,682,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 200 (DHC-8-201/202),Turboprop,,92,85,no winglets,73,24.58,26.08,26.08,28.12,"36,300","36,500",D,tbd,Large Commuter Eqpt
+404,651,8/19/1987,9/1/2016,689,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 300 (DHC-8-301),Turboprop,,99,90,no winglets,84.25,24.58,32.83,32.83,28.12,"41,100","41,300",D,tbd,Large Commuter Eqpt
+405,889,2/13/1986,13/9/2010,760,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 300 (DHC-8-311),Turboprop,,99,90,no winglets,84.25,24.58,33.5,33.5,28.12,"43,000","43,200",D,tbd,Large Commuter Eqpt
+406,533,4/22/1989,6/11/2010,863,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 300 (DHC-8-314/315),Turboprop,,99,90,no winglets,84.25,24.58,33.5,33.5,28.12,"43,000","43,200",D,tbd,Large Commuter Eqpt
+407,929,1/29/1970,21/2/2017,500,22-Aug,Bombardier (De Havilland Canada (DHC)),Dash 8 Series 400 (DHC-8-400/401/402),Turboprop,,120,93.25,no winglets,107.75,27.42,45.75,45.75,31.36,"64,500","64,700",D,tbd,Large Commuter Eqpt
+408,980,11/4/1979,3/4/2015,880,22-Aug,British Aerospace (BAe)/Avro,Avro RJ100/115,Jet,,123,86.42,no winglets,101.67,28.17,36.75,36.75,19,"101,500","102,000",D,RJ1H,tbd
+409,654,7/29/1976,9/12/2016,608,22-Aug,British Aerospace (BAe)/Avro,Avro RJ70,Jet,,121,86.42,no winglets,85.92,28.25,36.75,36.75,19,"95,000","95,500",D,RJ70,tbd
+410,562,6/10/1969,23/3/2015,608,22-Aug,British Aerospace (BAe)/Avro,Avro RJ85,Jet,,122,86.42,no winglets,93.67,28.25,36.75,36.75,19,"97,000","97,500",D,RJ85,tbd
+411,1037,3/19/1963,3/4/2017,850,22-Aug,British Aerospace (BAe)/Avro,"BAe 146-100, 100QC, 100QT",Jet,,121,86.42,no winglets,85.92,28.25,36.75,36.75,18,"84,000","84,500",D,B461,tbd
+412,963,5/14/1970,9/8/2017,633,22-Aug,British Aerospace (BAe)/Avro,"BAe 146-200, 200QC",Jet,,122,86.42,no winglets,93.67,28.25,36.75,36.75,18,"93,000","93,500",D,B462,tbd
+413,509,4/22/1986,23/12/2015,688,22-Aug,British Aerospace (BAe)/Avro,"BAe 146-300, 300QC, 300QT",Jet,,123,86.42,no winglets,101.67,28.17,36.75,36.75,18,"99,500","100,000",D,B463,tbd
+414,716,6/23/1983,9/1/2017,595,,British Aerospace (BAe)/Avro,BAe 3100 Jetstream,Turboprop,2,,,,,,,,,,,,JS31,Medium Commuter Eqpt
+415,546,10/18/1979,16/8/2011,959,,British Aerospace (BAe)/Avro,"BAe HS125-1/2/3, 400/600",Jet,2,,,,,,,,,,,,H25A,Medium Commuter Eqpt
+416,122,10/25/1988,30/4/2013,636,,British Aerospace (BAe)/Avro,BAe Jetstream 41,Turboprop,2,,,,,,,,,,,,JS41,Large Commuter Eqpt
+417,504,11/29/1974,16/4/2011,899,,British Aerospace (BAe)/Avro,Hawker 1000,Jet,2,108,47,no winglets,50.5,17.25,22.73,22.73,12,"31,100",,D,H25C,Medium Commuter Eqpt
+418,712,1/5/1962,22/2/2013,711,,British Aerospace (BAe)/Avro,Hawker 800,Jet,2,137,54.33,no winglets,51.17,18.08,tbd,tbd,tbd,"28,000",tbd,D,H25B,Medium Commuter Eqpt
+419,444,7/4/1983,28/12/2010,958,,Britten-Norman,BN-2A MKIII,,,65,53,,,14.2,,,,"10,000",,,TRIS,tbd
+420,447,10/18/1961,8/3/2012,694,,Canadair,CL,,,123,142.3,,,38.4,,,,"210,000",,,tbd,tbd
+421,973,11/15/1986,2/12/2011,671,,Canadair,CL 600,,,125,61.8,,,20.7,,,,"41,250",,,CL60,tbd
+422,321,8/20/1975,14/2/2012,591,,Canadair,CL-44,,,123,142.3,,,38.4,,,,"210,000",,,tbd,tbd
+423,388,9/26/1964,12/7/2016,889,,Canadair,CL-44,,,123,142.3,,,38.4,,,,"210,000",,,CL44,tbd
+424,674,2/22/1962,15/9/2012,701,,Casa,C-207A AZOR,,,102,91.2,,,25.4,,,,"36,400",,,C207,tbd
+425,201,4/22/1990,27/3/2012,954,,Casa,C-212-200 AVIOCAR,,,81,62.3,,,20.7,,,,"16,976",,,tbd,tbd
+426,229,8/9/1989,19/9/2014,522,7-Sep,Cessna,170,Piston,1,59,36,no winglets,24.96,6.58,tbd,tbd,tbd,"2,200","2,200",S,tbd,Small Eqpt
+427,852,8/29/1961,13/9/2014,848,7-Sep,Cessna,"120, 140/140A",Piston,1,52,33.33,no winglets,21.5,6.25,tbd,tbd,tbd,"1,450","1,450",S,tbd,Small Eqpt
+428,225,11/5/1986,27/8/2015,888,7-Sep,Cessna,162 Skycatcher,Piston,1,51,30,no winglets,22.8,8.54,tbd,tbd,tbd,"1,320","1,320",S,C162,Small Eqpt
+429,814,9/15/1966,24/7/2011,917,7-Sep,Cessna,172 Cutlass and Cutlass RG,Piston,1,62,36.08,no winglets,27.17,8.92,tbd,tbd,tbd,"2,650","2,650",S,"C172, C72R",Small Eqpt
+430,705,9/1/1989,18/10/2011,754,7-Sep,Cessna,175 Skylark,Piston,1,56,36.17,no winglets,25,8.5,tbd,tbd,tbd,"2,500","2,500",S,C175,Small Eqpt
+431,119,12/27/1980,24/11/2016,691,7-Sep,Cessna,177 Cardinal,Piston,1,52,35.5,no winglets,27.25,8.58,tbd,tbd,tbd,"2,500","2,500",S,C177,Small Eqpt
+432,638,2/25/1982,1/2/2011,815,7-Sep,Cessna,177 Cardinal RG,Piston,1,65,35.5,no winglets,27.25,8.58,tbd,tbd,tbd,"2,800","2,800",S,C177,Small Eqpt
+433,337,1/12/1984,7/5/2014,800,7-Sep,Cessna,180 Skywagon,Piston,1,64,35.83,no winglets,25.63,7.75,tbd,tbd,tbd,"2,800","2,800",S,C180,Small Eqpt
+434,1026,7/6/1985,24/6/2013,807,7-Sep,Cessna,185 Skywagon,Piston,1,64,35.83,none,25.63,7.75,tbd,tbd,tbd,"3,350","3,350",S,C185,Small Eqpt
+435,396,8/9/1961,28/9/2013,789,7-Sep,Cessna,185 Skywagon (A185 Agcarryall),Piston,1,64,35.83,none,25.75,7.75,tbd,tbd,tbd,"3,350","3,350",S,C185,Small Eqpt
+436,921,3/12/1970,18/9/2011,976,7-Sep,Cessna,185 Skywagon Amphibian,Piston,1,64,35.83,none,27.5,12.67,tbd,tbd,tbd,"3,265","3,265",S,C185,Small Eqpt
+437,306,7/19/1972,7/3/2010,829,7-Sep,Cessna,185 Skywagon Floatplane,Piston,1,64,35.83,none,27,12.17,tbd,tbd,tbd,"3,320","3,320",S,C185,Small Eqpt
+438,259,4/28/1975,14/7/2014,914,7-Sep,Cessna,188 AG Truck/AG Wagon,Piston,1,65,41.67,none,26.25,7.71,tbd,tbd,tbd,"4,200","4,200",S,tbd,Small Eqpt
+439,388,3/3/1980,3/7/2010,707,7-Sep,Cessna,190/195 Businessliner,Piston,1,52,36.17,none,27.33,7.17,tbd,tbd,tbd,"3,350","3,350",S,C195,Small Eqpt
+440,166,8/26/1972,26/11/2012,815,7-Sep,Cessna,205 Skywagon/206 Stationair,Piston,1,52,36.17,none,27.33,7.17,tbd,tbd,tbd,"3,300","3,300",S,tbd,Small Eqpt
+441,823,9/15/1977,11/11/2016,919,7-Sep,Cessna,"206 Stationair, 206H Stationair, T206H Turbo Stationair",Piston,1,70,36,none,28.25,9.29,5.77,5.77,8.09,"3,600","3,617",S,C206,Small Eqpt
+442,193,6/20/1985,1/8/2013,651,7-Sep,Cessna,207 Skywagon,Piston,1,70,36.17,none,27.33,7.17,tbd,tbd,tbd,"3,800","3,812",S,C207,Small Eqpt
+443,176,1/10/1980,30/11/2014,891,7-Sep,Cessna,"210 Centurion (1985 P-210R), 210 Turbo",Piston,1,75,36.75,none,28.25,9.67,tbd,tbd,tbd,"4,000","4,100",S,"C210, C10T",Small Eqpt
+444,895,6/11/1988,27/3/2015,894,,Cessna,303 (T303) Crusader,Piston,2,,,,,,,,,,,,C303,Small Eqpt
+445,632,5/6/1964,18/8/2017,989,,Cessna,320 Skynight,Piston,2,,,tip tanks,,,,,,,,,C320,Small Eqpt
+446,318,6/23/1966,16/4/2010,873,,Cessna,335            --- COPY 340 ___________,Piston,2,,,tip tanks,,,,,,,,,C335,Small Eqpt
+447,245,8/6/1986,3/5/2015,528,14-Sep,Cessna,425 Corsair/Conquest I,Turboprop,2,98,44.17,none,35.83,12.58,tbd,tbd,tbd,"8,600","8,675",S,C425,Medium Commuter Eqpt
+448,203,10/16/1978,3/5/2013,980,15-Sep,Cessna,A-37  Dragonfly,Jet,2,127,35.86,tip tanks,28.28,8.86,tbd,tbd,tbd,"14,000",tbd,S,tbd,tbd
+449,666,5/12/1990,16/6/2010,901,15-Sep,Cessna,Citation CJ2+                    (Model C525A),Jet,2,114,49.83,no winglets,47.67,14,17.83,17.83,15.92,"12,500","12,625",S,C25A,Small Eqpt
+450,452,2/14/1985,16/5/2015,916,15-Sep,Cessna,"Citation Encore, Encore+",Jet,2,108,54.75,no winglets,48.92,15.17,20.08,20.08,13.33,"16,830","17,030",S,C560,tbd
+451,485,3/16/1984,6/8/2011,817,15-Sep,Cessna,Citation Excel,Jet,2,107,55.71,no winglets,51.79,17.21,21.92,21.92,14.92,"20,000","20,200",S,C560,Medium Commuter Eqpt
+452,440,9/16/1976,18/9/2017,691,15-Sep,Cessna,Citation Hemisphere,Jet,2,,tbd,winglets,tbd,tbd,tbd,tbd,tbd,tbd,tbd,D,tbd,tbd
+453,214,2/8/1973,15/9/2016,710,15-Sep,Cessna,Citation Latitude,Jet,2,,72.33,tips curved up,62.25,20.92,27,27,10,"30,800","31,050",D,C68A,Medium Commuter Eqpt
+454,597,12/1/1977,28/10/2016,634,15-Sep,Cessna,Citation Longitude,Jet,2,,68.92,winglets,73.17,19.42,31.58,31.58,9.67,tbd,tbd,D,tbd,tbd
+455,831,3/6/1975,13/7/2010,945,15-Sep,Cessna,Citation Mustang               (Model C510),Jet,2,105,43.17,no winglets,40.58,13.42,14.33,14.33,11.83,"8,645","8,730",S,C510,Medium Commuter Eqpt
+456,578,1/7/1982,22/5/2011,549,15-Sep,Cessna,Citation Sovereign,Jet,2,108,63.33,no winglets,63.5,20.33,27.58,27.58,10,"30,300","30,550",D,C680,Medium Commuter Eqpt
+457,650,12/14/1989,22/8/2010,751,15-Sep,Cessna,Citation Sovereign+,Jet,2,108,72.33,tips curved up,63.5,20.33,27.83,27.83,10,"30,775","31,025",D,C680,Medium Commuter Eqpt
+458,130,3/3/1961,7/3/2011,600,15-Sep,Cessna,Citation Ultra Encore,Jet,2,107,52.17,no winglets,48.9,15,19.9,19.9,13.33,"16,630","16,830",S,C560,Medium Commuter Eqpt
+459,229,5/7/1988,16/2/2015,536,15-Sep,Cessna,"Citation V, Ultra",Jet,2,107,52.17,no winglets,48.9,15,19.9,19.9,17.58,"16,300","16,500",S,C560,Medium Commuter Eqpt
+460,466,9/25/1969,20/7/2012,571,15-Sep,Cessna,Citation X,Jet,2,112,63.58,no winglets,72.33,19.25,28.67,28.67,10.58,"36,100","36,400",D,C750,Medium Commuter Eqpt
+461,623,10/25/1971,13/10/2017,654,15-Sep,Cessna,Citation X+,Jet,2,132,69.17,winglets,73.58,19.25,29.92,29.92,10.58,"36,600","36,900",D,C750,Medium Commuter Eqpt
+462,657,9/14/1973,16/10/2010,747,15-Sep,Cessna,CitationJet,Jet,2,107,46.79,no winglets,42.58,13.77,15.33,15.33,13,"10,400","10,500",S,C525,tbd
+463,932,7/27/1961,1/2/2016,583,,Cirrus,SR20,Piston,1,,,,,,,,,,,,SR20,Small Eqpt
+464,1036,12/20/1973,5/2/2013,795,,Cirrus,SR22,Piston,1,,,,,,,,,,,,SR22,Small Eqpt
+465,698,5/9/1962,28/8/2016,964,,Cirrus,SR22T,Piston,1,,,,,,,,,,,,S22T,Small Eqpt
+466,761,10/1/1971,9/7/2017,952,,Cirrus,Vision Jet,,,,,,,,,,,,,,tbd,tbd
+467,256,9/3/1966,2/2/2015,578,,Convair (General Dynamics),240,,,107,91.8,,,26.9,,,,"41,790",,,CVLP,tbd
+468,414,12/27/1975,10/8/2013,606,,Convair (General Dynamics),340,,,104,105.33,,,28.17,,,,"49,700",,,CVLP,tbd
+469,926,6/25/1970,27/2/2014,573,,Convair (General Dynamics),440,,,106,105.33,,,28.17,,,,"49,700",,,CVLP,tbd
+470,140,10/30/1975,14/2/2013,679,,Convair (General Dynamics),580,,,107,105.3,,,29.2,,,,"54,600",,,CVLT,tbd
+471,130,6/19/1966,7/12/2012,738,,Convair (General Dynamics),Convair 880,,,155,120,,,36,,,,"193,500",,,tbd,tbd
+472,187,8/28/1967,9/9/2017,788,,Convair (General Dynamics),Convair 880,,,,,,,,,,,,,,tbd,tbd
+473,600,6/11/1987,30/4/2012,894,,Convair (General Dynamics),Convair 890,,,,,,,,,,,,,,tbd,tbd
+474,803,5/31/1961,9/2/2013,757,,Convair (General Dynamics),Convair 990 Coronado,,,156,120,,,39.5,,,,"255,000",,,tbd,tbd
+475,553,7/16/1971,24/3/2016,755,,Convair (General Dynamics),"CVLT - Convair CV-540/580/600/640, VC-131H",Piston,2,,,,,,,,,,,,CVLT,Large Commuter Eqpt
+476,471,10/19/1981,11/4/2012,906,7-Jul,Cubcrafters,XCub (CC19-180),Piston,1,60,34.33,no winglets,23.83,8.33,,,,"2,300","2,300",S,tbd,tbd
+477,860,8/21/1965,13/6/2014,863,,Daher-Socata,TB-21 Trinadad,Piston,1,,,,,,,,,,,,TRIN,Small Eqpt
+478,398,9/7/1979,15/9/2016,660,,Daher-Socata,TBM 700,Turboprop,1,,,,,,,,,,,,TBM7,Medium Commuter Eqpt
+479,976,8/31/1988,3/4/2017,784,,Daher-Socata,TBM 850,Turboprop,1,85,41.6,no winglets,34.9,14.3,,,,"7,394","7,430",S,TBM8,Medium Commuter Eqpt
+480,490,5/6/1986,2/2/2010,755,,Daher-Socata,TBM 900,Turboprop,1,85,42.1,winglets,35.22,14.29,9.56,9.56,12.71,"7,394","7,430",S,TBM9,Medium Commuter Eqpt
+481,393,5/6/1961,7/8/2017,977,,Daher-Socata,TBM 910,Turboprop,1,,,,,,,,,,,,TBM9,Medium Commuter Eqpt
+482,486,11/28/1961,29/4/2013,609,,Daher-Socata,TBM 930,Turboprop,1,,,,,,,,,,,,TBM9,Medium Commuter Eqpt
+483,670,4/8/1982,27/11/2010,936,,Dassault Aviation,1150 ATLANTIC,Piston,2,130,119.08,tbd,tbd,37.08,tbd,tbd,tbd,"95,902",tbd,tbd,tbd,tbd
+484,228,10/7/1986,11/9/2016,989,19-Sep,Dassault Aviation,Falcon 2000DX,Jet,2,111,63.42,no winglets,66.33,23.17,tbd,tbd,tbd,"41,000",tbd,D,F2TH,Medium Commuter Eqpt
+485,1029,7/21/1977,8/8/2014,885,19-Sep,Dassault Aviation,Falcon 2000S,Jet,2,107,70.17,winglets,66.33,23.17,tbd,tbd,tbd,"41,000",tbd,D,F2TH,Medium Commuter Eqpt
+486,130,9/16/1967,10/8/2012,659,19-Sep,Dassault Aviation,Falcon 2000XLS,Jet,2,105,70.17,winglets,66.33,23.17,tbd,tbd,tbd,"42,800",tbd,D,F2TH,Medium Commuter Eqpt
+487,95,8/16/1989,24/10/2010,652,19-Sep,Dassault Aviation,Falcon 50,Jet,3,113,61.88,no winglets,60.76,22.9,tbd,tbd,tbd,"38,800",tbd,D,FA50,Medium Commuter Eqpt
+488,348,10/14/1990,7/8/2016,968,19-Sep,Dassault Aviation,Falcon 50EX,Jet,2,113,61.88,no winglets,60.76,22.9,tbd,tbd,tbd,"39,708",tbd,D,tbd,tbd
+489,431,9/17/1985,10/12/2012,909,19-Sep,Dassault Aviation,Falcon 5X,Jet,2,105,85.11,winglets,82.6,24.6,tbd,tbd,tbd,"69,600",tbd,D,tbd,tbd
+490,179,6/24/1985,23/6/2012,661,19-Sep,Dassault Aviation,Falcon 7X,Jet,3,104,86,winglets,76.08,25.67,tbd,tbd,tbd,"70,000",tbd,D,FA7X,Medium Commuter Eqpt
+491,164,11/25/1977,4/7/2011,606,19-Sep,Dassault Aviation,Falcon 8X,Jet,3,106,86.25,winglets,80.2,26.1,tbd,tbd,tbd,"73,000",tbd,D,tbd,tbd
+492,503,1/21/1989,6/4/2010,536,19-Sep,Dassault Aviation,Falcon 900B,Jet,3,111,63.42,no winglets,66.33,24.79,tbd,tbd,tbd,"45,503",tbd,D,F900,Medium Commuter Eqpt
+493,906,12/8/1975,27/11/2015,704,19-Sep,Dassault Aviation,Falcon 900LX,Jet,3,110,70.17,winglets,66.31,24.75,tbd,tbd,tbd,"49,000",tbd,D,F900,Medium Commuter Eqpt
+494,652,3/12/1962,31/5/2017,619,,Dassault Aviation,Falcon/Mystere 10,Jet,2,104,42.92,tbd,tbd,15.08,tbd,tbd,tbd,"18,300",tbd,tbd,FA10,Medium Commuter Eqpt
+495,574,4/29/1961,27/2/2012,554,,Dassault Aviation,Falcon/Mystere 20,Jet,2,107,53.5,tbd,tbd,17.42,tbd,tbd,tbd,"28,660",tbd,tbd,FA20,Medium Commuter Eqpt
+496,828,10/26/1989,7/1/2017,931,,Dassault Aviation,MERCURE,,,117,100.25,,,37.33,,,,"119,048",,,tbd,tbd
+497,494,2/2/1986,30/4/2015,842,,De Havilland,D.H.C.,,,77,95.63,,,31.75,,,,"28,765",,,tbd,tbd
+498,1092,9/13/1981,30/12/2010,904,23-Aug,De Havilland,Dash 7 100/101,Turboprop,,83,93,no winglets,80.5,26.17,26.08,26.08,28.12,"44,000","44,000",D,DHC7,tbd
+499,812,6/10/1976,6/9/2011,805,23-Aug,De Havilland,Dash 7-150/151,Turboprop,,83,93,no winglets,80.5,26.17,26.08,26.08,28.12,"47,000","47,000",D,DHC7,tbd
+500,891,6/16/1962,27/4/2017,673,,De Havilland,DHC-104 DOVE 8,,,84,57,,,13.3,,,,"8,950",,,DOVE,tbd
+501,490,5/6/1975,23/12/2011,838,,De Havilland,DHC-106 COMET 4C,,,108,115,,,29.5,,,,"162,000",,,tbd,tbd
+502,912,8/4/1978,22/12/2011,968,,De Havilland,DHC-114 HERON 2,,,85,71.5,,,15.6,,,,"13,500",,,HERN,tbd
+503,964,10/8/1976,30/6/2013,995,,De Havilland,DHC-2 Beaver,Piston,,50,48,,,9,,,,"5,100",,,DHC2,Medium Commuter Eqpt
+504,442,12/27/1988,7/9/2011,562,,De Havilland,DHC-4 CARIBOU,,,77,95.67,,,31.75,,,,"28,500",,,DHC4,tbd
+505,637,7/17/1983,27/9/2015,830,,De Havilland,DHC-5D BUFFALO,,,91,96,,,28.7,,,,"49,200",,,tbd,tbd
+506,145,2/22/1964,12/2/2012,576,,De Havilland,DHC-6-300 Twin Otter,,,75,65,,,19.5,,,,"12,500",,,DHC6,tbd
+507,274,8/16/1982,22/8/2015,648,25-Oct,Diamond,DA20 Katana,Piston,1,59,35.67,no winglets,23.33,6.92,tbd,tbd,tbd,"1,764","1,770",S,DA20,Small Eqpt
+508,143,12/18/1969,18/4/2012,892,25-Oct,Diamond,DA40 Tundra or NG,Piston,1,87,38.17,winglets,26.42,6.5,tbd,tbd,tbd,"2,888","2,888",S,DA40,Small Eqpt
+509,149,6/23/1964,23/7/2012,835,25-Oct,Diamond,DA40 XLT,Piston,1,77,39.17,winglets,26.25,6.5,tbd,tbd,tbd,"2,646","2,655",S,DA40,Small Eqpt
+510,546,7/30/1976,13/1/2010,934,25-Oct,Diamond,DA42 Twin Star,Piston,2,88,44.5,winglets,28.08,8.17,tbd,tbd,tbd,"4,407","4,407",S,DA42,Small Eqpt
+511,688,10/26/1982,20/7/2016,695,25-Oct,Diamond,DA50 SuperStar,Piston,1,90,38.33,,28.92,7.25,tbd,tbd,tbd,"2,200","2,200",S,tbd,tbd
+512,844,10/23/1981,24/6/2016,773,25-Oct,Diamond,DA50-V,Piston,1,90,44,winglets,29.5,9.42,tbd,tbd,tbd,"2,712","2,712",S,tbd,tbd
+513,258,1/3/1983,22/1/2016,539,25-Oct,Diamond,DA62,Piston,2,91,47.83,winglets,30.08,9.25,tbd,tbd,tbd,"5,071","5,071",S,tbd,tbd
+514,609,6/7/1988,15/2/2013,834,25-Oct,Diamond,HK36 Super Dimona (powered glider),Piston,1,57,53.58,no winglets,23.83,6.25,tbd,tbd,tbd,"1,698","1,698",S,tbd,tbd
+515,668,12/27/1987,17/6/2017,645,25-Oct,Eclipse Aerospace,Eclipse 500,Jet,2,90,37.25,tip tanks,33.08,11,tbd,tbd,tbd,"5,950","5,950",S,EA50,Medium Commuter Eqpt
+516,939,10/2/1976,1/6/2011,986,,Eclipse Aerospace,Eclipse 550,Jet,,,,,,,,,,,,,E550,Small Eqpt
+517,435,12/12/1983,14/9/2017,668,25-Oct,Embraer,EMB 121 XINGU II,Jet,2,99,48.67,no winglets,44.08,15.58,tbd,tbd,tbd,"13,536","13,536",S,tbd,tbd
+518,252,6/26/1971,3/12/2011,989,29-Jul,Embraer,EMB-110 Bandeirante,Jet,2,92,50.25,no winglets,50.33,16.17,17,17,17,"13,010",tbd,S,E110,Large Commuter Eqpt
+519,887,2/27/1963,6/3/2012,737,29-Jul,Embraer,EMB-120 Brasilia (ER Model),Jet,2,113,64.92,no winglets,65.67,21.43,22.9,22.9,23.48,"26,433","26,610",D,E120,Large Commuter Eqpt
+520,878,4/6/1979,2/8/2014,919,2-Aug,Embraer,"EMB-170 LR, SU, or SE",Jet,2,124,85.33,winglets,98.08,32.25,34.83,38.75,20.5,"82,012","82,365",D,tbd,tbd
+521,569,2/1/1974,6/11/2014,679,2-Aug,Embraer,EMB-175 AR,Jet,2,124,85.33,winglets,103.92,32.33,37.42,41.33,20.5,"89,000","89,353",D,tbd,tbd
+522,387,8/25/1981,5/4/2012,960,2-Aug,Embraer,"EMB-175 AR, extended wingtips",Jet,2,124,93.92,extended wingtip,103.92,32.33,37.42,41.33,20.5,"89,000","89,353",D,tbd,tbd
+523,938,2/21/1983,28/6/2010,771,2-Aug,Embraer,EMB-175 LR,Jet,2,124,85.33,winglets,103.92,32.33,37.42,41.33,20.5,"85,517","85,810",D,tbd,tbd
+524,721,7/13/1962,3/3/2015,919,2-Aug,Embraer,"EMB-175 LR, extended wingtips",Jet,2,124,93.92,extended wingtip,103.92,32.33,37.42,41.33,20.5,"85,517","85,810",D,tbd,tbd
+525,835,2/16/1987,29/4/2015,909,2-Aug,Embraer,EMB-175 Standard,Jet,2,124,85.33,winglets,103.92,32.33,37.42,41.33,20.5,"82,673","83,026",D,tbd,tbd
+526,171,8/11/1976,9/6/2011,707,2-Aug,Embraer,"EMB-175 Standard, extended wingtips",Jet,2,124,93.92,extended wingtip,103.92,32.33,37.42,41.33,20.5,"82,673","83,026",D,tbd,tbd
+527,96,9/20/1983,22/4/2011,947,2-Aug,Embraer,EMB-175-E2,Jet,2,124,101.67,no winglets,106,32.67,tbd,tbd,tbd,"98,436",tbd,D,tbd,tbd
+528,645,1/31/1967,23/4/2010,531,2-Aug,Embraer,EMB-190 AR,Jet,2,124,94.25,winglets,118.92,34.58,45.33,49.25,23.67,"114,199","114,552",D,tbd,tbd
+529,290,7/29/1981,13/7/2015,546,2-Aug,Embraer,EMB-190 LR,Jet,2,124,94.25,winglets,118.92,34.58,45.33,49.25,23.67,"110,892","111,245",D,tbd,tbd
+530,371,8/9/1963,19/7/2015,927,2-Aug,Embraer,EMB-190 Standard,Jet,2,124,94.25,winglets,118.92,34.58,45.33,49.25,23.67,"105,359","105,712",D,tbd,tbd
+531,423,8/24/1980,24/9/2017,766,2-Aug,Embraer,EMB-190-E2,Jet,2,124,101.67,no winglets,106,32.67,tbd,tbd,tbd,"123,900",tbd,D,tbd,tbd
+532,930,1/31/1986,1/4/2010,833,2-Aug,Embraer,EMB-195 AR,Jet,2,124,94.25,winglets,126.83,34.58,48.03,51.95,23.67,"115,280","115,632",D,tbd,tbd
+533,392,7/11/1964,6/2/2010,601,2-Aug,Embraer,EMB-195 LR,Jet,2,124,94.25,winglets,126.83,34.58,48.03,51.95,23.67,"111,973","112,326",D,tbd,tbd
+534,487,10/23/1981,29/11/2011,882,2-Aug,Embraer,EMB-195 Standard,Jet,2,124,94.25,winglets,126.83,34.58,48.03,51.95,23.67,"107,564","107,916",D,tbd,tbd
+535,132,10/16/1980,18/5/2011,510,2-Aug,Embraer,EMB-195-E2,Jet,2,124,101.67,no winglets,106,32.67,tbd,tbd,tbd,"129,411",tbd,D,tbd,tbd
+536,846,2/14/1964,22/9/2011,616,2-Aug,Embraer,ERJ-135 ER,Jet,2,124,65.75,no winglets,86.42,22.17,40.75,40.75,15.72,"41,888","42,108",D,E135,Large Commuter Eqpt
+537,211,1/26/1988,21/5/2010,770,2-Aug,Embraer,ERJ-135 LR,Jet,2,124,65.75,no winglets,86.42,22.17,40.75,40.75,15.72,"44,092","44,313",D,E35L,Large Commuter Eqpt
+538,468,10/22/1972,13/1/2014,616,2-Aug,Embraer,ERJ-140 ER,Jet,2,124,65.75,no winglets,93.42,22.17,40.75,40.75,15.72,"44,312","44,533",D,E135,Large Commuter Eqpt
+539,1043,10/5/1988,16/9/2011,867,2-Aug,Embraer,ERJ-140 LR,Jet,2,124,65.75,no winglets,93.42,22.17,40.75,40.75,15.72,"46,517","46,738",D,E135,Large Commuter Eqpt
+540,1041,8/2/1990,25/6/2012,991,7-Nov,Embraer,ERJ-145 EP,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"46,275","46,495",D,E145,Large Commuter Eqpt
+541,465,4/5/1983,6/4/2011,828,2-Aug,Embraer,ERJ-145 ER,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"45,415","45,636",D,tbd,tbd
+542,116,4/12/1972,10/1/2012,706,7-Nov,Embraer,ERJ-145 EU,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"44,070","44,291",D,tbd,tbd
+543,439,10/29/1987,4/3/2011,735,2-Aug,Embraer,ERJ-145 LR,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"48,502","48,722",D,tbd,tbd
+544,1045,5/3/1983,14/11/2017,500,7-Nov,Embraer,ERJ-145 LU,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"48,480","48,700",D,tbd,tbd
+545,209,11/3/1969,1/6/2011,758,7-Nov,Embraer,ERJ-145 MK,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"44,070","44,291",D,tbd,tbd
+546,1078,12/4/1966,21/8/2014,898,7-Nov,Embraer,ERJ-145 MP,Jet,2,124,65.75,no winglets,98,22.17,47.42,47.42,15.72,"46,275","46,495",D,tbd,tbd
+547,995,5/20/1964,15/2/2013,974,2-Aug,Embraer,ERJ-145 XR,Jet,2,124,68.92,no winglets,98,22.17,47.42,47.42,15.72,"53,131","53,352",D,tbd,tbd
+548,1063,5/25/1968,17/5/2010,723,25-Oct,Embraer,Ipanema 201 (Ag Sprayer),Piston,1,65,37.75,no winglets,24.42,7.25,18.42,18.42,6.33,"3,968","3,968",S,tbd,tbd
+549,479,2/4/1980,23/2/2017,622,25-Oct,Embraer,Ipanema 202 (Ag Sprayer),Piston,1,65,38.33,winglets,24.42,7.25,18.42,18.42,6.33,"3,969","3,969",S,tbd,tbd
+550,432,1/18/1965,14/11/2017,886,25-Oct,Embraer,Ipanema 203 (Ag Sprayer),Piston,1,65,43.64,winglets,26.33,8,18.42,18.42,6.33,"3,969","3,969",S,tbd,tbd
+551,260,10/12/1989,27/9/2017,642,,Embraer,Legacy 450,Jet,,,,,,,,,,,,,tbd,tbd
+552,761,8/1/1962,17/5/2015,992,,Embraer,Legacy 500,Jet,,,,,,,,,,,,,tbd,tbd
+553,585,6/28/1987,8/3/2017,932,,Embraer,Legacy 600,Jet,,,,,,,,,,,,,tbd,tbd
+554,178,6/11/1962,24/1/2014,760,,Embraer,Legacy 650,Jet,,,,,,,,,,,,,tbd,tbd
+555,395,5/1/1979,27/9/2012,916,,Embraer,Lineage 1000,Jet,,,,,,,,,,,,,tbd,tbd
+556,540,7/2/1968,17/5/2016,872,24-Aug,Embraer,Phenom 100,Jet,2,100,40.33,no winglets,42.08,14.25,16.83,16.83,10,"10,582","10,582",S,E50P,Small Eqpt
+557,789,7/22/1985,27/5/2016,606,24-Aug,Embraer,Phenom 300,Jet,2,116,52.17,winglets,51.33,16.75,20.53,20.53,10,"17,968","18,078",S,E55P,Small Eqpt
+558,937,8/9/1963,25/10/2013,964,24-Aug,Epic Aircraft,E1000,Jet,1,79,43,no winglets,35.83,12.5,tbd,tbd,tbd,"7,500","7,500",S,tbd,tbd
+559,200,8/23/1977,28/11/2010,567,,Evektor,Sportstar,Piston,,,,,,,,,,,,,EVSS,Small Eqpt
+560,806,7/21/1987,28/2/2010,783,,Experimental Aviation,Berkut 360,Piston,1,,,,,,,,,,,,BKUT,Small Eqpt
+561,443,8/21/1971,31/3/2017,936,,Extra Aerobatic Planes,Extra 200,,,,,,,,,,,,,,tbd,tbd
+562,1042,2/9/1979,9/8/2011,852,,Extra Aerobatic Planes,Extra 300 LP,,,,,,,,,,,,,,tbd,tbd
+563,895,1/20/1987,20/1/2011,519,,Extra Aerobatic Planes,Extra 300 LT,,,,,,,,,,,,,,tbd,tbd
+564,802,8/15/1971,6/3/2015,612,,Extra Aerobatic Planes,Extra 300 LX,,,,,,,,,,,,,,tbd,tbd
+565,220,10/15/1970,24/8/2013,896,,Fairchild Dornier,328 Jet,Jet,,,,,,,,,,,,,J328,Large Commuter Eqpt
+566,1004,1/7/1979,22/4/2016,546,,Fairchild Dornier,C,,,122,109.3,,,27.5,,,,"77,000",,,tbd,tbd
+567,494,3/6/1990,28/8/2017,552,,Fairchild Dornier,Do 28,,,74,51,,,12.8,,,,"8,855",,,D28D,tbd
+568,254,9/25/1974,7/8/2016,947,,Fairchild Dornier,DORNIER LTA,,,74,58.4,,,18.2,,,,"15,100",,,tbd,tbd
+569,480,8/21/1967,28/9/2016,651,,Fairchild Dornier,FAIRCHILD C-119 ,,,122,109,,,27.5,,,,"77,000",,,tbd,tbd
+570,484,4/6/1970,16/4/2017,907,,Fairchild Dornier,FAIRCHILD C-121,,,88,110,,,34.1,,,,"60,000",,,tbd,tbd
+571,410,12/20/1976,30/1/2016,549,,Fairchild Dornier,FAIRCHILD F-27 A,,,109,95.2,,,27.5,,,,"42,000",,,tbd,tbd
+572,955,9/11/1980,4/12/2016,851,,Fairchild Dornier,FAIRCHILD F-27J,,,109,95.2,,,27.5,,,,"42,000",,,tbd,tbd
+573,603,11/1/1961,2/1/2015,717,,Fairchild Dornier,FAIRCHILD FH-227 B,,,105,95.2,,,27.5,,,,"45,500",,,tbd,tbd
+574,224,5/10/1976,1/11/2012,981,,Fairchild Dornier,FAIRCHILD FH-227 D,,,105,95.2,,,27.5,,,,"43,500",,,tbd,tbd
+575,705,8/4/1965,7/8/2015,523,,Fairchild Industries,A-10 Warthog,,,140,57.5,,,14.67,,,,"51,000",,,A10*,tbd
+576,431,7/24/1961,1/10/2016,764,,Flight Design USA,CTLSi,Piston,1,,,,,,,,,,,,,
+577,715,2/11/1964,25/8/2016,893,,Fma,FMA IA-50 GUARNI II,,,101,64.1,,,19.1,,,,"15,700",,,tbd,tbd
+578,1033,3/17/1988,27/11/2012,508,,Fokker,F,,,121,82.3,,,27.1,,,,"71,000",,,tbd,tbd
+579,778,6/14/1980,2/8/2012,965,,Fokker,F-100,,,,,,,,,,,,,,F100,tbd
+580,908,5/17/1977,31/7/2010,764,7-Sep,Fokker,F-28-1000,Jet,2,119,77.33,no winglets,89.92,27.79,tbd,tbd,tbd,"65,000","65,000",D,tbd,tbd
+581,210,8/15/1984,14/8/2015,898,7-Sep,Fokker,F-28-2000,Jet,2,119,77.33,no winglets,97.15,27.79,tbd,tbd,tbd,"65,000","65,000",D,tbd,tbd
+582,885,3/24/1964,20/7/2016,946,7-Sep,Fokker,F-28-3000,Jet,2,121,82.25,no winglets,89.92,27.79,tbd,tbd,tbd,"73,000","73,000",D,tbd,tbd
+583,864,12/1/1988,11/5/2013,557,7-Sep,Fokker,F-28-4000,Jet,2,121,82.25,no winglets,97.15,27.79,tbd,tbd,tbd,"73,000","73,000",D,tbd,tbd
+584,1093,10/27/1965,12/9/2012,513,7-Sep,Fokker,F-28-6000,Jet,2,113,82.25,no winglets,97.15,27.79,tbd,tbd,tbd,"73,000","73,000",D,tbd,tbd
+585,527,3/26/1962,21/2/2013,872,,Fokker,F-50,,,,,,,,,,,,,,,
+586,270,10/19/1964,3/3/2016,527,17-Oct,Fokker VFW,VFW 614 (engines on over-wing pylons),Jet,2,85,70.54,no winglets,67.58,25.67,tbd,tbd,tbd,"44,000",tbd,D,tbd,tbd
+587,100,2/23/1978,30/3/2012,880,17-Oct,Game Composites,GB1 GameBird,Piston,1,73,25.25,no winglets,23,8.42,7,15.08,15.08,"2,200","2,200",S,tbd,tbd
+588,440,4/27/1990,2/6/2016,599,,Grumman,G-40 Avenger,Piston,,,,,,,,,,,,,TBM,Large Commuter Eqpt
+589,482,6/30/1989,26/7/2010,610,6-Sep,Gulfstream (Grumman Aircraft Engineering),"Gulfstream I (G-I), model G-159",Turboprop,,113,78.5,no winglets,63.75,22.75,28.69,28.69,15.7,"36,000","36,000",D,tbd,tbd
+590,143,11/19/1976,5/3/2011,877,6-Sep,Gulfstream (Gulfstream Aerospace Corp.),"Gulfstream IV, IV-SP, G300, G400",Jet,,125,77.83,winglets,88.33,24.42,39.75,39.75,15.57,"74,600","75,000",D,GLF4,Medium Commuter Eqpt
+591,466,7/7/1971,27/5/2013,507,6-Sep,Gulfstream (Gulfstream American Corp.),"Gulfstream IC (G-IC), model G-159C",Turboprop,,113,78.5,no winglets,75.33,23,33.9,33.9,15.7,"36,000","36,000",D,tbd,tbd
+592,277,9/7/1967,8/5/2010,565,6-Sep,Gulfstream (Gulfstream American Corp.),"Gulfstream II (G-II), model G-1159",Jet,,125,68.83,no winglets,79.92,24.5,35.96,35.96,13.77,"64,800","65,300",D,tbd,tbd
+593,824,2/10/1976,16/4/2017,508,6-Sep,Gulfstream (Gulfstream American Corp.),Gulfstream IIB (G-IIB is a G-II fitted with a G-III wing),Jet,,125,77.83,winglets,79.92,24.5,35.96,35.96,13.77,"69,700","70,200",D,tbd,tbd
+594,133,3/3/1990,28/4/2011,963,6-Sep,Gulfstream (Gulfstream American Corp.),"Gulfstream III (G-III), model G-1159A",Jet,,125,77.83,winglets,83.08,24.42,37.39,37.39,15.57,"69,700","70,200",D,tbd,tbd
+595,970,12/17/1965,8/2/2015,823,6-Sep,Gulfstream (Gulfstream American Corp.),"Gulfstream II-SP (G-II-SP),",Jet,,125,68.83,winglets,79.92,24.5,35.96,35.96,13.77,"65,500",tbd,D,tbd,tbd
+596,386,4/28/1970,16/3/2016,587,6-Sep,Gulfstream (Gulfstream American Corp.),"Gulfstream IITT (G-IITT), model G-1159",Jet,,125,68.83,tip tanks,79.92,24.5,35.96,35.96,13.77,"65,500","66,000",D,tbd,tbd
+597,632,1/12/1977,28/7/2016,813,6-Sep,Gulfstream Aerospace Corp.,G200 (the IAI Galaxy 1126 rebranded in 2002 as the G200),Jet,,125,58.08,winglets,62.25,21.42,24.25,24.25,12.03,"35,650","35,800",D,GALX,Medium Commuter Eqpt
+598,1023,1/22/1966,21/11/2011,935,6-Sep,Gulfstream Aerospace Corp.,G280,Jet,,125,63,winglets,66.83,21.33,30.08,30.08,12.6,"39,600","39,750",D,G280,Medium Commuter Eqpt
+599,249,4/5/1977,11/7/2012,707,6-Sep,Gulfstream Aerospace Corp.,G350 (less range than its big brother the G450),Jet,,145,77.83,winglets,89.33,25.17,38.1,38.1,15.21,"74,600","75,000",D,tbd,tbd
+600,363,3/22/1976,25/1/2012,882,6-Sep,Gulfstream Aerospace Corp.,G450,Jet,,145,77.83,winglets,89.33,25.17,38.1,38.1,15.21,"74,600","75,000",D,tbd,tbd
+601,953,4/23/1975,7/12/2013,514,6-Sep,Gulfstream Aerospace Corp.,G500,Jet,,145,87.08,winglets,91.17,25.5,45,45,15.88,"85,100","85,500",D,tbd,tbd
+602,364,6/21/1985,12/4/2011,725,6-Sep,Gulfstream Aerospace Corp.,G550 (is the newer version of V-SP),Jet,,145,93.5,winglets,96.42,25.83,45,45,15.88,"91,000","91,400",D,GLF5,Medium Commuter Eqpt
+603,576,1/11/1979,19/2/2014,769,6-Sep,Gulfstream Aerospace Corp.,G600,Jet,,145,95,winglets,96.08,25.25,45,45,16,"91,600","92,000",D,GLF6,Medium Commuter Eqpt
+604,1059,5/27/1983,26/12/2015,672,6-Sep,Gulfstream Aerospace Corp.,G650,Jet,,145,99.58,winglets,99.75,25.67,45,45,16,"99,600","100,000",D,tbd,tbd
+605,685,1/26/1978,25/1/2016,781,6-Sep,Gulfstream Aerospace Corp.,G650ER,Jet,,145,99.58,winglets,99.75,25.67,45,45,16,"103,600","104,000",D,tbd,tbd
+606,616,2/15/1970,10/1/2013,792,6-Sep,Gulfstream Aerospace Corp.,Gulfstream V (G-V),Jet,,125,93.33,winglets,95.42,25.75,45,45,16,"90,500","90,900",D,GLF5,Medium Commuter Eqpt
+607,174,10/15/1965,16/5/2017,824,6-Sep,Gulfstream Aerospace Corp.,Gulfstream V-SP (G-V-SP),Jet,,125,93.33,winglets,95.42,25.75,45,45,16,"91,000","91,400",D,GLF5,Medium Commuter Eqpt
+608,780,11/30/1967,6/2/2011,608,6-Sep,Gulfstream Aerospace Corp. (General Dynamics),G100 (the IAI Astra SPX rebranded in 2002 as the G100),Jet,,125,54.58,winglets,55.58,18.17,24.08,24.08,10.92,"24,650","24,800",D,tbd,tbd
+609,1088,8/20/1962,7/10/2011,804,6-Sep,Gulfstream Aerospace Corp. (General Dynamics),G150,Jet,,125,55.58,winglets,56.75,19.08,21,21,11.12,"26,100","26,250",D,G80,Medium Commuter Eqpt
+610,673,1/23/1980,10/10/2014,750,,Handley-Page,HP HERALD,,,88,94.8,,,24.1,,,,"43,000",,,tbd,tbd
+611,933,1/27/1963,28/3/2013,772,,Hawker,Hawker 4000,Jet,,,,,,,,,,,,,HA4T,Small Eqpt
+612,1072,7/30/1975,6/6/2016,702,,Hawker,Hawker 400XP (formerly Beechjet 400A),Jet,2,116,43.5,no winglets,48.42,13.92,tbd,tbd,tbd,"16,300","16,500",S,BE40,Medium Commuter Eqpt
+613,557,6/16/1961,16/7/2012,670,,Hawker-Siddeley,748,,,94,102.46,,,24.83,,,,"46,500",,,A748,tbd
+614,705,4/26/1985,7/5/2017,549,,Hawker-Siddeley,ARGOSY,,,123,115,,,27,,,,"93,000",,,tbd,tbd
+615,107,1/23/1962,18/5/2013,582,,Hawker-Siddeley,ARGOSY,,,113,115,,,27,,,,"97,000",,,tbd,tbd
+616,1094,9/29/1963,16/10/2011,563,,Hawker-Siddeley,HS 121 TRIDENT 1E,,,137,95,,,27,,,,"135,500",,,tbd,tbd
+617,1014,1/8/1977,8/12/2014,871,,Hawker-Siddeley,HS 121 TRIDENT 2E,,,138,98,,,27,,,,"144,000",,,tbd,tbd
+618,954,7/26/1973,20/10/2012,644,,Hawker-Siddeley,HS 121 TRIDENT 3B,,,143,98,,,28.3,,,,"150,000",,,tbd,tbd
+619,554,12/2/1985,7/1/2014,690,,Hawker-Siddeley,HS 121 Trident Super 3B,,,146,98,,,28.3,,,,"158,000",,,TRID,tbd
+620,816,12/30/1982,4/9/2011,623,,Hawker-Siddeley,HS 125 SERIES 400A,,,124,47,,,16.5,,,,"23,300",,,tbd,tbd
+621,831,11/20/1961,9/6/2011,792,,Hawker-Siddeley,HS 125 SERIES 600A,,,125,47,,,17.2,,,,"25,000",,,tbd,tbd
+622,415,2/14/1965,19/7/2015,688,,Hawker-Siddeley,HS 125 SERIES 700A,,,125,47,,,17.6,,,,"24,200",,,tbd,tbd
+623,971,11/19/1964,28/8/2014,584,,Hawker-Siddeley,HS 780 ANDOVER C.MK.1,,,100,98.2,,,30.1,,,,"50,000",,,A748,tbd
+624,784,1/28/1989,27/4/2010,682,,Hawker-Siddeley,HS 801 NIMROD MR MK.2,,,125,114.8,,,29.7,,,,"177,500",,,tbd,tbd
+625,591,4/30/1982,29/10/2011,504,,Honda,Honda Jet,,,,,,,,,,,,,,tbd,tbd
+626,963,3/7/1968,21/1/2014,693,24-Oct,Icon Aircraft,A5 Amphibious Light Sport (S-LSA),Piston,1,59,34.8,wings fold to tow,23,8.1,tbd,tbd,tbd,"1,510","1,510",S,tbd,tbd
+627,1030,5/28/1985,26/8/2011,880,,Ilyushin,IL-12,,,78,104,,,30.5,,,,"38,000",,,tbd,tbd
+628,206,1/7/1965,26/10/2011,685,,Ilyushin,IL-18,,,103,122.7,,,33.3,,,,"134,640",,,IL18,tbd
+629,739,4/12/1976,4/6/2013,672,,Ilyushin,IL-62,,,152,141.8,,,40.5,,,,"363,760",,,tbd,tbd
+630,402,9/17/1989,30/5/2014,602,,Ilyushin,IL-76,,,119,165.7,,,48.4,,,,"374,785",,,IL76,tbd
+631,479,10/10/1978,16/10/2010,504,,Ilyushin,IL-86,,,141,157.7,,,51.8,,,,"454,150",,,tbd,tbd
+632,288,1/7/1970,15/6/2014,857,6-Sep,Israel Aircraft Industries (IAI),1121A/1121B Jet Commander,Jet,2,129,44.79,no winglets,55.58,15.79,,25,12,"17,500","17,800",D,tbd,tbd
+633,180,3/17/1977,22/5/2012,799,6-Sep,Israel Aircraft Industries (IAI),1123 Commodore Jet,Jet,2,129,44.79,tip tanks,52.25,15.79,,23,12,"20,700","21,000",D,tbd,tbd
+634,880,5/1/1974,15/5/2013,721,6-Sep,Israel Aircraft Industries (IAI),"1124 Westwind, 1124 Westwind I",Jet,2,129,44.79,tip tanks,52.25,15.79,,23,12,"23,500","23,650",D,WW24,Medium Commuter Eqpt
+635,837,7/9/1969,20/6/2014,712,6-Sep,Israel Aircraft Industries (IAI),1124A Westwind II,Jet,2,129,44.79,winglets on tip tanks,52.25,15.79,,23,12,"23,500","23,650",D,WW24,Medium Commuter Eqpt
+636,519,10/8/1972,20/11/2012,545,6-Sep,Israel Aircraft Industries (IAI),1125 Astra,Jet,2,125,52.67,no winglets,55.58,18.17,tbd,25,12,"23,500","23,650",D,ASTR,Medium Commuter Eqpt
+637,478,3/14/1975,16/3/2016,637,6-Sep,Israel Aircraft Industries (IAI),1125 Astra Galaxy,Jet,2,125,58.08,winglets,62.25,21.42,,28,12,"35,650","35,800",D,tbd,tbd
+638,725,12/18/1979,2/10/2014,719,6-Sep,Israel Aircraft Industries (IAI),1125 Astra SP and SPX,Jet,2,125,54.58,winglets,55.58,18.17,tbd,25,12,"24,650","24,800",D,tbd,tbd
+639,700,8/31/1981,3/7/2014,657,,Israel Aircraft Industries (IAI),Arava 101,Turboprop,,81,68.8,,,17.1,,,,"15,000",,,ARVA,tbd
+640,200,9/22/1983,7/5/2011,731,,Israel Aircraft Industries (IAI),Arava 201,Turboprop,,81,68.8,,,17.1,,,,"15,000",,,ARVA,tbd
+641,600,2/19/1976,17/11/2012,916,6-Sep,Israel Aircraft Industries (IAI) but originally Aero Commander's 1121 Jet Commander,1121 Jet Commander,Jet,,129,44.79,no winglets,55.58,15.79,,25,12,"16,800","17,100",D,tbd,tbd
+642,712,11/15/1963,4/8/2017,642,,Kawasaki Heavy Industries,C-1,,,118,100.4,,,32.9,,,,"85,320",,,tbd,tbd
+643,1027,5/16/1973,4/7/2015,881,,Lake,LA-4 Amphibian,Piston,,,,,,,,,,,,,LA4,Small Eqpt
+644,187,11/8/1987,10/4/2011,763,,Lancair,235,,,,,,,,,,,,,,,
+645,483,1/16/1964,26/10/2011,917,,Lancair,320,,,,,,,,,,,,,,,
+646,1086,10/20/1988,14/12/2010,525,,Lancair,360,Piston,,,,,,,,,,,,,LNC2,Small Eqpt
+647,408,12/13/1984,10/1/2014,775,,Lancair,ES,,,,,,,,,,,,,,,
+648,133,7/3/1982,20/6/2016,627,,Lancair,Evolution,,,,,,,,,,,,,,EVOT,Small Eqpt
+649,471,12/13/1984,23/2/2016,819,,Lancair,IV,,,,,,,,,,,,,,LNC4,Small Eqpt
+650,410,1/29/1981,11/9/2013,512,,Lancair,Legacy,,,,,,,,,,,,,,,
+651,742,10/26/1966,21/5/2013,642,,Lancair,Super ES,,,,,,,,,,,,,,LNCE,Small Eqpt
+652,578,3/7/1979,1/2/2014,987,,Lancair,Tigress,,,,,,,,,,,,,,,
+653,1063,4/22/1962,28/11/2011,524,,Let,L,,,95,65.55,,,19.13,,,,"6,600",,,tbd,tbd
+654,288,9/10/1971,9/9/2016,802,,Let,L,,,95,65.55,,,19.13,,,,"6,600",,,tbd,tbd
+655,621,10/10/1975,4/11/2013,915,,Let,L,,,94,65.05,,,19.01,,,,"6,600",,,tbd,tbd
+656,214,8/5/1980,19/11/2014,660,,Let,L,,,94,65.05,,,19.01,,,,"6,600",,,tbd,tbd
+657,340,4/7/1980,7/2/2014,516,,Lockheed,1011-1 ,,,138,155.3,,,55.3,,,,"430,000",,,L101,tbd
+658,342,8/14/1968,27/4/2015,699,,Lockheed,1011-100,,,140,155.3,,,55.3,,,,"466,000",,,L101,tbd
+659,385,10/2/1990,23/1/2014,813,,Lockheed,1011-200,,,144,155.3,,,55.3,,,,"466,000",,,L101,tbd
+660,334,4/4/1969,4/11/2014,979,,Lockheed,1011-250,,,144,155.3,,,55.3,,,,"510,000",,,L101,tbd
+661,850,8/11/1968,5/12/2014,643,,Lockheed,1011-500,,,148,155.3,,,55.3,,,,"516,000",,,L101,tbd
+662,1068,12/4/1967,1/12/2011,761,,Lockheed,1329 JetStar,,,132,54.4,,,20.4,,,,"43,750",,,L29A,tbd
+663,702,3/7/1971,15/8/2014,950,,Lockheed,C-130-100-20 Hercules*,,,129,132.58,,,39.3,,,,"155,000",,2S,C130,tbd
+664,976,7/5/1988,26/6/2010,660,,Lockheed,C-130-100-20 Hercules*,,,129,132.58,,,39.3,,,,"155,000",,2S,C130,tbd
+665,1092,3/30/1968,6/5/2014,689,19-Sep,Lockheed,"C-130H, J",,,130,132.6,no winglets,97.75,38.8,24.56,behind nose gear,15.98,"155,000",tbd,2S,C130,tbd
+666,176,12/31/1985,19/3/2011,713,19-Sep,Lockheed,C-130J-30,,,130,132.6,no winglets,112.75,38.8,32.06,behind nose gear,15.98,"164,000",tbd,2S,C130,tbd
+667,778,11/17/1984,14/2/2014,962,,Lockheed,C-141A,,,129,159.9,,,39.3,,,,"316,600",,,C141,tbd
+668,381,10/3/1962,22/11/2013,822,,Lockheed,C-141B,,,129,159.9,,,39.3,,,,"343,000",,,C141,tbd
+669,177,1/29/1966,30/12/2015,573,,Lockheed,C-5B,,,135,222.7,,,65.1,,,,"769,000",,,C5,tbd
+670,360,7/4/1966,14/9/2013,616,,Lockheed,C-5B Galaxy,,,135,222.7,,,65.1,,,,"837,000",,,C5,tbd
+671,702,8/7/1978,15/5/2015,827,,Lockheed,P-3 ORION,,,134,99.7,,,33.8,,,,"135,000",,,P3,tbd
+672,697,12/13/1965,29/1/2011,540,,Martin,MARTIN-404,,,98,93.3,,,28.7,,,,"44,900",,,tbd,tbd
+673,215,8/4/1977,8/2/2017,760,,Mcdonnell Douglas,A-4,,,120,27.5,,,15,,,,"24,500",,,A4*,tbd
+674,944,12/9/1975,19/9/2010,703,,Mitsubishi,DIAMOND MU-300,,,100,43.5,,,13.8,,,,"15,730",,,BE40,tbd
+675,940,10/7/1961,30/6/2016,655,,Mitsubishi,MARQUISE MU-2N,,,88,39.2,,,13.7,,,,"11,575",,,tbd,tbd
+676,1038,1/5/1966,8/1/2013,809,,Mitsubishi,Marquise MU-2N,,,88,39.17,,,13.58,,,,"11,575",,,MU2,tbd
+677,588,11/29/1988,4/7/2013,616,,Mitsubishi,MU2 Marquise/Solitaire,,,119,39.2,,,13.8,,,,"10,800",,,MU2,tbd
+678,787,10/13/1984,3/2/2012,801,,Mooney,M-205,Piston,,,,,,,,,,,,,M20J,Small Eqpt
+679,686,11/17/1982,29/9/2014,556,,Mooney,M-20C Ranger,Piston,,,,,,,,,,,,,M20P,Small Eqpt
+680,524,9/9/1977,2/7/2011,867,,Mooney,M20K Turbo Mooney,Piston,,,,,,,,,,,,,M20T,Small Eqpt
+681,164,1/20/1965,21/3/2014,582,,Mooney,M20L,Piston,,,,,,,,,,,,,MO20,Small Eqpt
+682,1009,3/5/1979,11/6/2013,562,,Mooney,M20R Ovation 3,Piston,,,,,,,,,,,,,MO20,Small Eqpt
+683,452,8/22/1969,10/6/2017,722,,Mooney,M20U Ovation Ultra,Piston,,,,,,,,,,,,,MO20,Small Eqpt
+684,876,8/12/1978,28/1/2016,727,,Mooney,M20V Acclaim Ultra,Piston,,,,,,,,,,,,,MO20,Small Eqpt
+685,792,2/14/1982,15/1/2014,736,,Navion,Navion,,,70,34,,,9,,,,"2,750",,,tbd,tbd
+686,411,5/9/1990,27/11/2014,909,,Nihon,YS-11,,,98,105,,,29.5,,,,"54,010",,,tbd,tbd
+687,230,4/21/1983,12/4/2016,992,,North American,NA-145,,,,,,,,,,,,,,,
+688,246,5/2/1981,3/11/2014,791,,North American,T-28 Trojan,,,,,,,,,,,,,,tbd,tbd
+689,436,1/10/1990,23/3/2013,605,,North American,T-6 Texan,Piston,,,,,,,,,,,,,T6,Small Eqpt
+690,146,2/5/1979,25/10/2015,622,,North American Rockwell,Gulfstream Commander,Piston,2,,,,,,,,,,,,AC90,Medium Commuter Eqpt
+691,240,8/28/1983,15/2/2012,768,,North American Rockwell,Gulfstream Jetprop Commander 1000,Turboprop,2,,,,,,,,,,,,AC95,Small Eqpt
+692,313,12/2/1963,20/3/2010,943,,North American Rockwell,Rockwell Commander 112,Piston,1,,,,,,,,,,,,AC11,Small Eqpt
+693,988,1/13/1980,3/3/2011,608,,North American Rockwell,Sabre 40/60,Jet,,,,,,,,,,,,,SBR1,Medium Commuter Eqpt
+694,1087,3/24/1976,4/6/2012,662,,Northrop,B-2,,,140,172,,,17,,,,"336,500",,,B2,tbd
+695,165,4/19/1982,18/6/2010,983,,On Mark Engineering Co.,On Mark Marksman (converted Douglas A-26 Invader),Piston,2,,,,,,,,,,,,BE26,Medium Commuter Eqpt
+696,283,1/23/1961,2/8/2011,685,,Partenavia,P.68B VICTOR,,,73,39.3,,,11.9,,,,"6,283",,,tbd,tbd
+697,869,4/17/1981,29/7/2010,754,,Piaggio,P-166 PORTOFINO,,,82,47.2,,,16.4,,,,"9,480",,,tbd,tbd
+698,652,6/27/1988,26/11/2012,809,,Piaggio,P-180 Avanti,Turboprop,2,,,,,,,,,,,,P180,Small Eqpt
+699,1036,12/27/1971,24/10/2016,858,,Piaggio,PD-808,,,117,43.3,,,15.8,,,,"18,300",,,tbd,tbd
+700,1071,5/4/1980,14/7/2017,583,,Pilatus,PC-21,Turboprop,1,,,,,,,,,,,,tbd,tbd
+701,206,3/22/1989,15/11/2017,808,,Pilatus,PC-24,Jet,2,,,,,,,,,,,,tbd,tbd
+702,970,3/27/1980,13/9/2010,826,,Pilatus,PC-6 PORTER,Turboprop,1,57,49.7,,,10.5,,,,"4,850",,,tbd,tbd
+703,606,8/22/1969,17/4/2014,646,,Pilatus,PC-7 MkII,Turboprop,1,,,,,,,,,,,,tbd,tbd
+704,828,3/22/1964,19/10/2011,782,,Pilatus,PC-9 M,Turboprop,1,,,,,,,,,,,,tbd,tbd
+705,261,1/10/1974,15/9/2016,832,3-Nov,Piper,PA-18-150 Super Cub,Piston,1,48,35.29,no winglets,22.5,6.71,16.67,16.67,6.04,"1,750",1750,,PA18,Small Eqpt
+706,581,7/11/1974,19/3/2015,995,,Piper,PA-20-115 Pacer,Piston,,,,,,,,,,,,S,PA20,Small Eqpt
+707,309,12/26/1962,14/5/2016,927,,Piper,PA-20-135 Pacer,Piston,,,,,,,,,,,,S,PA20,Small Eqpt
+708,899,6/8/1987,4/4/2013,669,,Piper,PA-20-150 Pacer,Piston,,,,,,,,,,,,S,PA20,Small Eqpt
+709,404,8/21/1972,8/11/2011,945,,Piper,PA-20S Pacer Seaplane,Piston,,,,,,,,,,,,S,PA20,Small Eqpt
+710,891,8/26/1987,19/10/2010,536,,Piper,PA-20S-135 Pacer Seaplane,Piston,,,,,,,,,,,,S,PA20,Small Eqpt
+711,412,8/7/1981,13/10/2016,915,,Piper,PA-22-108 Colt,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+712,534,7/4/1988,21/2/2016,945,,Piper,PA-22-135 Tri-Pacer,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+713,522,3/18/1961,6/11/2010,787,,Piper,PA-22-150 Tri-Pacer/Caribbean,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+714,468,8/13/1990,7/11/2012,814,,Piper,PA-22-160 Tri-Pacer,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+715,739,5/30/1972,10/3/2013,879,,Piper,PA-22S Tri-Pacer Seaplane,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+716,222,6/13/1967,17/9/2016,736,,Piper,PA-22S-135 Tri-Pacer Seaplane,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+717,757,2/3/1976,14/9/2017,858,,Piper,PA-22S-150 Tri-Pacer Seaplane,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+718,584,9/11/1970,27/4/2012,975,,Piper,PA-22S-160 Tri-Pacer Seaplane,Piston,,,,,,,,,,,,S,PA22,Small Eqpt
+719,145,7/16/1962,22/6/2010,638,,Piper,PA-23-150 Apache,Piston,,,,,,,,,,,,S,tbd,tbd
+720,645,3/29/1964,12/5/2016,579,,Piper,PA-23-160 Apache,Piston,,,,,,,,,,,,S,tbd,tbd
+721,359,8/15/1980,7/5/2010,892,,Piper,PA-23-180 Apache,Piston,,,,,,,,,,,,S,tbd,tbd
+722,910,6/15/1971,3/10/2016,500,,Piper,PA-23-235 Apache,Piston,,,,,,,,,,,,S,tbd,tbd
+723,257,8/4/1985,28/4/2012,607,,Piper,PA-23-250 Aztec,Piston,,,,,,,,,,,,S,PAZT,Small Eqpt
+724,1033,8/21/1966,26/3/2011,912,2-Nov,Piper,"PA-28-180 Cherokee Challenger, Archer",Piston,1,65,32,no winglets,23.79,7.29,6.21,6.21,10.53,"2,450","assume 2,458",S,PA28,Small Eqpt
+725,1046,6/5/1977,30/6/2012,819,2-Nov,Piper,"PA-28-181 Cherokee Archer II, III, DX, TX",Piston,1,77,35,no winglets,24,7.29,6.58,6.58,10.53,"2,550","2,558",S,PA28,Small Eqpt
+726,162,4/3/1986,14/1/2013,784,2-Nov,Piper,PA-28-210T Cherokee Turbo Dakota,Piston,1,62,35,no winglets,24.73,7.17,6.5,6.5,10.53,"2,900","2,900",S,PA28,Small Eqpt
+727,332,5/23/1967,10/2/2013,854,2-Nov,Piper,PA-28-235 Cherokee,Piston,1,65,32,no winglets,23.79,7.29,6.21,6.21,10.53,"2,900","2,900",S,PA28,Small Eqpt
+728,1008,7/1/1961,14/5/2013,942,2-Nov,Piper,PA-28R-180 Cherokee Arrow,Piston,1,78,30,no winglets,23.5,7.29,7.85,7.85,10.98,"2,500","2,500",S,P28R,Small Eqpt
+729,329,4/27/1986,14/5/2014,548,2-Nov,Piper,PA-28R-201 Cherokee Arrow III,Piston,1,82,35.42,no winglets,24.67,7.85,7.85,7.85,10.98,"2,750","2,758",S,P28R,Small Eqpt
+730,242,4/12/1967,20/5/2016,919,2-Nov,Piper,PA-28R-201T Cherokee Turbo Arrow III,Piston,1,73,35.42,no winglets,24.67,7.85,7.85,7.85,10.98,"2,900","assume 2,911",S,P28S,Small Eqpt
+731,584,7/31/1985,11/1/2015,711,2-Nov,Piper,PA-28RT-201 Cherokee Arrow IV (has T tail),Piston,1,73,35.42,no winglets,24.67,7.85,7.85,7.85,10.98,"2,750","2,758",S,PA28,Small Eqpt
+732,1005,2/2/1970,12/11/2016,891,2-Nov,Piper,PA-28RT-201T Cherokee Turbo Arrow IV (has T tail),Piston,1,73,35.42,no winglets,24.67,7.85,7.85,7.85,10.98,"2,900","assume 2,911",S,P28T,Small Eqpt
+733,572,10/16/1974,9/9/2014,606,2-Nov,Piper,PA-28S-160 Cherokee C Seaplane,Piston,1,61,30,no winglets,23.5,11.08,n/a,n/a,n/a,"2,140","2,140",S,PA28,Small Eqpt
+734,988,8/9/1976,2/8/2014,868,2-Nov,Piper,PA-28S-180 Cherokee C Seaplane,Piston,1,61,30,no winglets,23.5,11.08,n/a,n/a,n/a,"2,222","2,222",S,PA28,Small Eqpt
+735,475,6/3/1966,25/1/2011,807,,Piper,PA-29 Papoose,Piston,1,,,,,,,,,,,,,
+736,717,5/4/1967,14/1/2012,697,,Piper,PA-30 Twin Commanche,Piston,2,,,,,,,,,,,,,
+737,344,2/16/1981,8/12/2013,691,,Piper,PA-30B-160 Twin Comanche,,,,,,,,,,,,,,tbd,tbd
+738,575,6/12/1970,1/4/2015,542,,Piper,PA-31 Navajo,Piston,2,79,40.67,no winglets,32.63,13,,,,"6,500","6,500",S,PA31,Small Eqpt
+739,995,3/22/1974,25/8/2016,865,,Piper,PA-31-300 Navajo (turbocharged model unofficially known as -310),Piston,2,79,40.67,no winglets,32.63,13,,,,"6,000","6,000",S,PA31,Small Eqpt
+740,793,10/16/1971,20/6/2015,533,,Piper,PA-31-325 Navajo C/R,Piston,2,91,40.67,no winglets,32.63,13,,,,"6,500","6,500",S,PA31,Small Eqpt
+741,214,12/20/1969,3/4/2014,540,,Piper,PA-31-350 Chieftain/T-1020 Navajo C/R,Piston,2,96,40.67,no winglets,34.63,13,,,,"7,000","7,000",S,tbd,Small Eqpt
+742,1042,12/16/1978,21/5/2010,982,,Piper,PA-31P Navajo (pressurized),Piston,2,95,40.67,no winglets,32.63,13,,,,"7,800","7,800",S,tbd,tbd
+743,284,4/10/1977,3/4/2011,688,,Piper,PA-31P-350 Mojave,Piston,2,98,40.67,no winglets,32.63,13,,,,"7,200","7,245",S,tbd,tbd
+744,999,1/11/1979,27/9/2012,871,,Piper,PA-31T Cheyenne/Cheyenne II,Piston,2,98,42.69,tip tanks,34.67,12.75,,,,"9,000","9,050",S,PAY2,Small Eqpt
+745,664,12/3/1986,27/9/2011,902,,Piper,PA-31T1 Cheyenne I/IA,Piston,2,92,42.69,tip tanks,34.67,12.75,,,,"8,700","8,750",S,PAY1,Small Eqpt
+746,1041,7/4/1969,16/5/2016,985,,Piper,PA-31T2 Cheyenne IIXL,Piston,2,100,42.69,tip tanks,34.67,12.75,,,,"9,474","9,540",S,PAY2,Small Eqpt
+747,684,8/31/1975,5/12/2010,653,,Piper,PA-31T3 T-1040 Airliner,Piston,2,100,42.69,tip tanks,34.67,12.75,,,,"9,000","9,050",S,tbd,tbd
+748,131,4/24/1985,23/2/2014,605,,Piper,PA-31T3-500,Piston,,,,,,,,,,,,,PAT4,Small Eqpt
+749,1052,2/9/1984,28/7/2010,671,,Piper,PA-32-260 Cherokee Six,Piston,,,same WS as PA-28-235,,,,,,,,,,PA32,Small Eqpt
+750,529,10/14/1978,6/10/2011,831,,Piper,PA-32-300 Cherokee Six,Piston,,,,,,,,,,,,,PA32,Small Eqpt
+751,461,9/30/1977,9/9/2015,965,,Piper,PA-32-300L Cherokee Six,Piston,,,,,,,,,,,,,PA32,Small Eqpt
+752,314,1/20/1979,28/8/2014,634,2-Nov,Piper,"PA-32-301 Saratoga, 32R-301 Saratoga SP/IIHP,  32R-301T Saratoga II TC, 32-301FT 6X, and 32-301XTC 6XT",Piston,1,78,36.17,no winglets,27.9,8.5,7.96,7.96,11.13,"3,600","3,615",S,tbd,tbd
+753,1058,2/1/1980,25/11/2010,735,,Piper,PA-32R-300 Lance,,,,,,,,,,,,,,P32,Small Eqpt
+754,295,1/1/1969,20/12/2015,763,,Piper,PA-32RT-300 Lance II,,,,,,,,,,,,,,P32A,Small Eqpt
+755,696,6/1/1980,19/11/2011,987,,Piper,PA-32RT-300T/301T Turbo Lance II,,,,,,,,,,,,,,P32A,Small Eqpt
+756,960,12/27/1962,5/12/2015,703,,Piper,PA-32S-300 Cherokee Six Seaplane,,,,,,,,,,,,,,tbd,tbd
+757,980,2/20/1985,22/8/2016,953,,Piper,PA-34 Seneca,Piston,2,,,,,,,,,,,,tbd,tbd
+758,623,9/19/1964,14/11/2010,617,,Piper,PA-34-200T Seneca II,Piston,2,,,,,,,,,,,,PA34,Small Eqpt
+759,708,12/15/1970,19/3/2013,792,2-Nov,Piper,"PA-34-220T Seneca III, IV, V",Piston,2,81,38.9,no winglets,28.63,9.9,7,7,11.08,"4,750","4,773",S,PA34,Small Eqpt
+760,527,1/29/1973,9/11/2017,964,,Piper,PA-36-285 Pawnee Brave 285 (Ag plane),,,,,,,,,,,,,,tbd,tbd
+761,618,2/24/1967,27/1/2010,591,,Piper,PA-36-300 Pawnee Brave 300,,,,,,,,,,,,,,tbd,tbd
+762,874,3/28/1968,19/8/2011,993,,Piper,PA-36-320 Pawnee Brave,,,,,,,,,,,,,,tbd,tbd
+763,1069,11/17/1978,12/8/2011,971,,Piper,PA-36-375 Pawnee Brave,,,,,,,,,,,,,,tbd,tbd
+764,338,11/26/1969,26/5/2016,987,,Piper,PA-38-112 Tomahawk,,,,,,,,,,,,,,tbd,tbd
+765,269,7/10/1979,4/11/2011,713,,Piper,PA-39 Twin Comanche C/R,,,,,,,,,,,,,,tbd,tbd
+766,742,10/21/1973,30/12/2015,715,2-Nov,Piper,PA-42-1000 Cheyenne 400 LS (formerly IV),Turboprop,2,109,47.67,tip tanks,43.4,17,10.6,10.6,18.75,"12,050","12,135",S,PAY4,Small Eqpt
+767,703,5/23/1970,20/6/2017,513,2-Nov,Piper,"PA-42-720 Cheyenne III, IIIA",Turboprop,2,113,47.67,tip tanks,43.4,14.75,10.6,10.6,18.75,"11,200","11,285",S,PAY3,Small Eqpt
+768,339,12/26/1979,18/8/2015,729,2-Nov,Piper,"PA-44-180 Seminole, -180T Turbo Seminole",Piston,2,66,38.6,no winglets,27.6,8.5,8.4,8.4,10.5,"3,800","3,815",S,PA44,Small Eqpt
+769,368,10/4/1976,28/5/2016,667,2-Nov,Piper,"PA-46-310P Malibu, -350P Malibu Mirage, 46R-350T Malibu Matrix, M350",Piston,1,75,43,no winglets,28.9,11.29,8,8,12.29,"4,340","4,358",S,PA46,Small Eqpt
+770,1012,6/22/1984,16/5/2017,676,2-Nov,Piper,PA-46-400TP Malibu Meridian,Turboprop,1,78,43,no winglets,29.6,11.33,8,8,12.29,"4,850","4,892",S,P46T,Small Eqpt
+771,1006,4/4/1978,5/12/2014,705,2-Nov,Piper,"PA-46-500TP Malibu Meridian, M500",Turboprop,1,75,43,no winglets,29.6,11.33,8,8,12.29,"5,092","5,134",S,P46T,Small Eqpt
+772,690,7/7/1990,9/6/2013,964,2-Nov,Piper,"PA-46-600TP Malibu Meridian, M600",Turboprop,1,75,43.17,no winglets,29.6,11.33,8,8,12.29,"6,000","6,050",S,P46T,Small Eqpt
+773,379,8/27/1972,13/11/2012,951,3-Nov,Piper,PA-60 Aerostar 700P (602P with counter rot engines),Piston,2,104,36.67,no winglets,34.81,12.67,11.67,11.67,10.21,"6,315","6,356",S,AEST,Small Eqpt
+774,1033,8/4/1984,20/8/2011,772,3-Nov,Piper,PA-60 Aerostar 702P (700P with reinf nose gear for higher MTOW),Piston,2,104,36.67,no winglets,34.81,12.67,11.67,11.67,10.21,"6,850","6,884",S,AEST,Small Eqpt
+775,1030,12/16/1975,18/2/2014,578,3-Nov,Piper,PA-60 Sequoya (Aerostar 602P) (the Piper version of the 601P),Piston,2,100,36.67,no winglets,34.81,12.67,11.67,11.67,10.21,"6,000","6,029",S,tbd,tbd
+776,451,8/13/1988,6/11/2017,546,3-Nov,Piper,PA-61 Aerostar 601 (is the 600 turbocharged),Piston,2,96,34.17,no winglets,34.81,12.13,11.67,11.67,10.21,"6,000","6,025",S,tbd,tbd
+777,536,12/28/1976,10/7/2011,647,3-Nov,Piper,PA-61B Aerostar 601B (is 601 with increased WS),Piston,2,100,36.67,no winglets,34.81,12.13,11.67,11.67,10.21,"6,000","6,025",S,tbd,tbd
+778,1071,7/13/1971,16/8/2013,791,3-Nov,Piper,PA-61P Aerostar 601P (is 601 pressurized + increased gross weight),Piston,2,100,36.67,no winglets,34.81,12.67,11.67,11.67,10.21,"6,000","6,025",S,tbd,tbd
+779,445,5/25/1969,20/1/2011,619,30-Oct,Progressive Aerodyne,Searey Sport/Elite (Amphibious LSA),Piston,1,42.9,30.8,no winglets,22.4,6.4,,,,"1,430","1,430",S,tbd,tbd
+780,304,4/5/1963,8/10/2015,541,3-Nov,PZL Mielec,AN-2 Antek,Piston,1,34,59.65,no winglets,40.69,13.17,27.08,27.08,11.02,"12,125","12,125",S,AN2,tbd
+781,165,4/5/1964,18/8/2012,540,3-Nov,PZL Mielec,M-18 Dromader (an Ag plan) (all versions),Piston,1,77,58.06,no winglets,31.08,12.15,20.5,20.5,11.42,"11,684","11,684",S,M18,tbd
+782,240,10/30/1969,16/9/2013,692,3-Nov,PZL Mielec,M-20 Mewa (Polish version of Piper PA-34-200T Seneca II),Piston,2,79,38.92,no winglets,28.6,9.08,7,7,11.06,"4,563","4,563",S,tbd,tbd
+783,498,9/16/1981,11/6/2013,815,3-Nov,PZL Mielec,M-28 Skytruck (the M28B Bryza is the non-pressurised ver),Turboprop,2,70,72.38,no winglets,42.98,16.08,14.44,14.44,11.17,"15,432","16,534",S,tbd,tbd
+784,1091,3/30/1967,18/6/2016,841,,Raytheon,76,,,76,38,,,9.5,,,,"3,900",,,tbd,tbd
+785,177,3/15/1963,29/1/2012,514,,Raytheon,180,,,68,32.8,,,8.2,,,,"2,450",,,tbd,tbd
+786,993,9/12/1974,11/9/2014,533,,Raytheon,200,,,70,32.8,,,8.2,,,,"2,750",,,tbd,tbd
+787,606,11/12/1990,17/11/2012,907,,Raytheon,300,,,103,54.06,,,14.04,,,,"12,500",,,tbd,tbd
+788,676,12/21/1986,25/5/2011,604,,Raytheon,A,,,72,33.5,,,8.6,,,,"3,650",,,tbd,tbd
+789,794,2/8/1981,10/11/2016,999,,Raytheon,A,,,111,43.06,,,13.11,,,,"16,100",,,BE40,tbd
+790,653,8/3/1981,30/8/2012,595,,Raytheon,B,,,75,37.8,,,8.6,,,,"3,850",,,tbd,tbd
+791,224,12/10/1981,18/5/2010,858,,Raytheon,B,,,98,39.2,,,12.3,,,,"6,775",,,tbd,tbd
+792,813,9/7/1970,27/6/2011,797,,Raytheon,B,,,111,45.8,,,15.3,,,,"11,800",,,tbd,tbd
+793,782,4/23/1974,22/12/2010,678,,Raytheon,B,,,103,54.5,,,15,,,,"12,500",,,tbd,tbd
+794,697,1/21/1965,20/2/2010,847,,Raytheon,C,,,100,50.2,,,14.2,,,,"9,650",,,tbd,tbd
+795,370,3/9/1985,27/2/2011,671,,Raytheon,C,,,107,45.9,,,14.4,,,,"11,300",,,tbd,tbd
+796,998,2/9/1962,12/2/2010,675,,Raytheon,E,,,88,37.8,,,9.1,,,,"5,300",,,tbd,tbd
+797,395,11/4/1976,21/10/2017,611,,Raytheon,E,,,87,49.7,,,9.5,,,,"9,300",,,tbd,tbd
+798,866,7/2/1985,27/2/2017,690,,Raytheon,F,,,70,33.5,,,8.2,,,,"3,400",,,tbd,tbd
+799,133,5/13/1990,28/8/2011,515,,Raytheon,F,,,108,45.9,,,15.1,,,,"10,950",,,tbd,tbd
+800,215,10/14/1970,30/5/2017,913,,Raytheon,Texan 2,Turboprop,,,,,,,,,,,,,TEX2,Medium Commuter Eqpt
+801,438,2/6/2002,,108,,Raytheon,V,,,70,33.5,,,6.6,,,,"3,400",,,tbd,tbd
+802,499,4/20/1991,,155,,Republic Aviation,RC-3 Seabee Amphibious,Piston,1,,,,,,,,,,,,,
+803,263,1/8/2005,,200,,Rockwell International,112,,,75,46,,,9.58,,,,"11,500",,,AC11,tbd
+804,922,7/11/2004,,119,,Rockwell International,695,,,121,52.2,,,15,,,,"10,325",,,AC95,tbd
+805,702,1/8/2002,,168,,Rockwell International,Aero Commander 500,Piston,2,97,49.08,,,15,,,,"6,750",,,AC50,Small Eqpt
+806,255,11/14/2007,,283,,Rockwell International,Aero Commander 560,,,97,49.08,,,14.5,,,,"6,500",,,AC56,tbd
+807,410,2/10/2008,,225,,Rockwell International,Aero Commander 680,,,97,49.08,,,14.5,,,,"7,500",,,AC68,tbd
+808,813,11/14/2007,,124,,Rockwell International,B-1,,,165,137,,,34,,,,"477,000",,,B1*,tbd
+809,574,12/23/2001,,95,,Rockwell International,COMMANDER 520,,,97,44.1,,,14.83,,,,"5,500",,,AC52,tbd
+810,229,2/6/2010,,258,,Rockwell International,Turbo Commander 680T,,,97,49.05,,,14.5,,,,"8,950",,,AC80,tbd
+811,184,6/16/2009,,122,,Rockwell International,Turbo Commander 690,,,97,46.67,,,15,,,,"10,250",,,AC90,tbd
+812,293,5/6/1995,,121,,Rutan,Cozy,Piston,,,,,,,,,,,,,COZY,Small Eqpt
+813,504,12/26/2008,,227,,Ryan Aeronautical,NAVION,,,70,34,,,9,,,,"2,750",,,tbd,tbd
+814,685,8/27/2010,,276,,Ryan Aeronautical,NAVION,,,77,34,,,9,,,,"2,850",,,tbd,tbd
+815,194,9/26/1991,,119,,Ryan Aeronautical,NAVION,,,85,35,,,9,,,,"3,150",,,tbd,tbd
+816,172,4/21/1994,,138,,Ryan Aeronautical,NAVION,,,85,35,,,7.42,,,,"3,315",,,tbd,tbd
+817,891,3/26/2005,,244,18-Mar,Saab,2000,Turboprop,2,120,81.25,no winglets,89.5,25.33,,,,"50,265",tbd,D,SB20,Large Commuter Eqpt
+818,1064,2/25/1994,,77,18-Mar,Saab,340B,Turboprop,2,114,70.33,no winglets,64.75,22.92,,,,"29,000",tbd,D,SF34,Large Commuter Eqpt
+819,289,3/23/1991,,297,,Sabreliner Corp,SABRELINER 40,,,120,44.5,,,16,,,,"18,650",,,SBR1,tbd
+820,851,5/6/2000,,246,,Sabreliner Corp,SABRELINER 60,,,120,44.5,,,16,,,,"20,000",,S,SBR1,tbd
+821,582.6684211,8/22/2008,,71,,Sabreliner Corp,SABRELINER 65,,,105,50.5,,,16,,,,"24,000",,,SBR1,tbd
+822,589.4368421,6/19/1998,,50,,Sabreliner Corp,SABRELINER 75A,,,137,44.5,,,17.02,,,,"23,300",,,SBR2,tbd
+823,596.2052632,9/27/2009,,119,,Sabreliner Corp,SABRELINER 80,,,128,50.4,,,17.03,,,,"24,500",,,SBR2,tbd
+824,602.9736842,1/19/2001,,173,,Shorts Brothers,330,,,96,74.67,,,16.25,,,,"22,000",,,SH33,tbd
+825,609.7421053,12/23/1996,,229,,Shorts Brothers,360,Turboprop,,104,74.8,,,23.08,,,,"26,000",,,SH36,Large Commuter Eqpt
+826,616.5105263,12/13/1995,,120,,Sirrus,SF-50,Jet,1,87,38.58,,30.58,10.75,,,,,,,,
+827,623.2789474,8/24/2005,,180,,Swearingen,Merlin 3B,,,105,46.2,,,16.7,,,,"12,500",,,tbd,tbd
+828,630.0473684,7/29/2010,,285,,Swearingen,"Merlin 4/4A, Metro 2",Turboprop,2,,,,,,,,,,,,SW4,Medium Commuter Eqpt
+829,636.8157895,12/11/1993,,90,,Swearingen,METRO,,,112,46.2,,,16.7,,,,"12,500",,,tbd,tbd
+830,643.5842105,2/2/2008,,244,,Swearingen,SA-226T/TB Merlin 3,Turboprop,,,,,,,,,,,,,SW3,Large Commuter Eqpt
+831,650.3526316,1/28/2006,,57,,Taylorcraft,Seabird,Piston,,,,,,,,,,,,,TB20,Small Eqpt
+832,657.1210526,4/7/2002,,177,,Team,Rocket F-1,Piston,,,,,,,,,,,,,TRF1,Small Eqpt
+833,663.8894737,8/10/1994,,133,,Tecnam,Astore,,,,,,,,,,,,,,,
+834,670.6578947,3/12/2004,,166,,Tecnam,Astore US-LSA,,,,,,,,,,,,,,,
+835,677.4263158,2/19/1999,,194,,Tecnam,P2002 JF,,,,,,,,,,,,,,,
+836,684.1947368,7/11/2010,,65,,Tecnam,P2002 JR,,,,,,,,,,,,,,,
+837,690.9631579,10/24/2006,,179,,Tecnam,P2002 Sierra,,,,,,,,,,,,,,,
+838,697.7315789,10/3/2001,,160,,Tecnam,P2002 Sierra RG,,,,,,,,,,,,,,,
+839,704.5,5/12/2009,,88,29-Nov,Tecnam,"P2006T (Civilian) and MRI, SMP (Military)",Piston,,62,37.4,winglets,28.54,9.51,9.58,9.58,6.83,"2,712","2,712",S,tbd,tbd
+840,711.2684211,8/25/1993,,258,,Tecnam,P2008,,,,,,,,,,,,,,,
+841,718.0368421,1/25/1997,,113,,Tecnam,P2008 JC,,,,,,,,,,,,,,,
+842,724.8052632,12/30/1990,,107,,Tecnam,P2008 US-LSA,,,,,,,,,,,,,,,
+843,731.5736842,5/4/1996,,84,,Tecnam,P2010 Ptwenty-Ten,,,,,,,,,,,,,,,
+844,738.3421053,2/11/2010,,177,,Tecnam,P2012 Traveller,,,,,,,,,,,,,,,
+845,745.1105263,10/28/1998,,194,,Tecnam,P92 Classic De Luxe,,,,,,,,,,,,,,,
+846,751.8789474,4/19/2003,,281,,Tecnam,P92 Eagle US-LSA,,,,,,,,,,,,,,,
+847,758.6473684,5/16/2007,,188,,Tecnam,P92 Echo Light,,,,,,,,,,,,,,,
+848,765.4157895,3/7/1994,,68,,Tecnam,P92 JS,,,,,,,,,,,,,,,
+849,772.1842105,6/12/1995,,145,,Tecnam,P92 JS Eagle SmartBay,,,,,,,,,,,,,,,
+850,778.9526316,1/2/1997,,158,,Tecnam,P92 JS SmartBay,,,,,,,,,,,,,,,
+851,785.7210526,10/2/1999,,220,,Tecnam,P92 SeaSky Hydroplane,,,,,,,,,,,,,,,
+852,792.4894737,3/17/1998,,134,,Tecnam,P92 Tail Dragger,,,,,,,,,,,,,,,
+853,799.2578947,7/11/2005,,132,,Tupolev,TU-114,,,132,167.6,,,50,,,,"361,620",,,tbd,tbd
+854,806.0263158,7/11/2007,,67,,Tupolev,TU-124,,,132,83.8,,,50,,,,"80,482",,,tbd,tbd
+855,812.7947368,9/26/2001,,62,,Tupolev,TU-134,,,144,95.2,,,30,,,,"103,600",,,tbd,tbd
+856,819.5631579,4/15/1996,,132,,Tupolev,TU-144,,,178,94.8,,,42.2,,,,"396,000",,,tbd,tbd
+857,826.3315789,12/17/2009,,93,,Tupolev,TU-154,,,145,123.3,,,37.4,,,,"216,050",,,tbd,tbd
+858,833.1,4/11/1996,,148,,Volpar,TURBO 18,,,100,46,,,9.5,,,,"10,280",,,B18T,tbd
+859,839.8684211,2/19/1994,,65,7-Jul,Zivko Aeronautics Inc.,Edge 540,Piston,,75,,no winglets,,,,,,"1,550","1,550",S,tbd,tbd
+860,846.6368421,10/28/1991,,173,7-Jul,Zivko Aeronautics Inc.,Edge 540T,Piston,,79,25.17,no winglets,22.67,9.4,,,,"1,950","1,950",S,tbd,tbd
+861,853.4052632,10/7/1999,,224,,,FBA2 - Found FBA-2,Piston,,,,,,,,,,,,,,Small Eqpt
+862,860.1736842,6/15/2001,,287,,,FDCT - Flight Design CT,Piston,,,,,,,,,,,,,,Small Eqpt
+863,866.9421053,8/16/1994,,122,,,GA7 - Grumman American Cougar,Piston,,,,,,,,,,,,,,Small Eqpt
+864,873.7105263,4/30/1998,,126,,,GC1 - Globe GC-1 Swift,Piston,,,,,,,,,,,,,,Small Eqpt
+865,880.4789474,11/26/1992,,203,,,GLAS - New Glasair,Piston,,,,,,,,,,,,,,Small Eqpt
+866,887.2473684,10/22/1996,,277,,,GLSP - F-GLSP,Piston,,,,,,,,,,,,,,Small Eqpt
+867,894.0157895,5/6/1993,,51,,,GLST - Stoddard-Hamilton SH-4 GlaStar,Piston,,,,,,,,,,,,,,Small Eqpt
+868,900.7842105,10/22/2000,,78,,,M6 - Maule M-6 Super Rocket,Piston,,,,,,,,,,,,,,Small Eqpt
+869,907.5526316,5/15/1993,,214,,,M7 - Maule M-7-235 Orion,Piston,,,,,,,,,,,,,,Small Eqpt
+870,914.3210526,11/7/1996,,166,,,PTS1 - Pitts S-1 Special,Piston,,,,,,,,,,,,,PTS1,Small Eqpt
+871,921.0894737,5/19/1995,,173,,,RALL - Socata/Morane-Saulnier MS-880 Rallye,Piston,,,,,,,,,,,,,,Small Eqpt
+872,927.8578947,9/4/1992,,165,,,RC70 - Rockwell 710 Commander 710,Piston,,,,,,,,,,,,,,Small Eqpt
+873,934.6263158,1/30/2005,,188,,,RV10 - Experimental,Piston,,,,,,,,,,,,,,Small Eqpt
+874,941.3947368,7/13/2003,,162,,,RV6 - AIEP Air Beetle,Piston,,,,,,,,,,,,,,Small Eqpt
+875,948.1631579,6/13/2010,,223,,,RV6A - Experimental,Piston,,,,,,,,,,,,,,Small Eqpt
+876,954.9315789,9/27/2007,,140,,,RV7 - Experimental RV-7,Piston,,,,,,,,,,,,,,Small Eqpt
+877,961.7,12/23/1990,,79,,,RV8 - RV-4/6/7/8; VANS,Piston,,,,,,,,,,,,,,Small Eqpt
+878,968.4684211,10/10/1996,,205,,,RV9 - Experimental,Piston,,,,,,,,,,,,,,Small Eqpt
+879,975.2368421,7/24/2000,,182,,,RV9A - Experimental RV-9,Piston,,,,,,,,,,,,,,Small Eqpt
+880,982.0052632,9/3/1998,,221,,,,,,,,,,,,,,,,,,
+881,988.7736842,11/10/2005,,99,7-Sep,Fokker,F-27-500,Turboprop,2,100,95.15,no winglets,82.21,29,31.94,31.94,23.63,"45,900","45,900",D,F27,Large Commuter Eqpt
+,,,,117,,,,,,,,,,,,,,,,,,
