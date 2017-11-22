@@ -17,6 +17,10 @@ body {
           align-items: center;
 }
 
+#map {
+        height: 100%;
+      }
+
 .Search{
   position: absolute;
   top: 10vh;
