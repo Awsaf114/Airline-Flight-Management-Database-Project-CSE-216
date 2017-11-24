@@ -17,12 +17,19 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendor/materialize/css/materialize.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
+
+   
+    
+
 
   </head>
 
@@ -38,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">Booking</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Schedule</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -64,7 +71,7 @@
             </h1>
             <hr>
           </div>
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 ">
             <!-- <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Book Now</a>
           </div>
@@ -83,29 +90,59 @@
             		<div class="col-12-md search-box mx-auto text-center">
 				<form class="table">
 					<ul class="list">
+						<!-- <li>
+							<input type="text" class="textbox autocomplete" id="autocomplete-input" name="source" placeholder="Select Origin" >
+						</li> -->
+            <li>
+            <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">flight_takeoff</i> -->
+              <input type="text" id="autocomplete" class="autocomplete source">
+              <label for="autocomplete" >source</label>
+            </div>
+            </li>
 						<li>
-							<input type="text" class="textbox" name="source" placeholder="Select Origin" >
+							<!-- <input type="text" class="textbox" name="Dest" placeholder="Select Destination">			 -->
+              <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">flight_land</i> -->
+              <input type="text" id="autocomplete" class="autocomplete destination">
+              <label for="autocomplete">Destination</label>
+            </div>
 						</li>
 						<li>
-							<input type="text" class="textbox" name="Dest" placeholder="Select Destination">			
+
+							<!-- <input type="text" class="textbox datepicker" name="Depart" placeholder="Depart Date"> -->
+              <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">date_range</i> -->
+              <input type="text" class="textbox datepicker departdate" name="Depart" >
+              <label for="autocomplete">Departure Date</label>
+            </div>
 						</li>
 						<li>
-							<input type="text" class="textbox" name="Depart" placeholder="Depart Date">
+							<!-- <input type="text" class="textbox datepicker" name="Return" placeholder="Return Date"> -->
+               <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">date_range</i> -->
+              <input type="text" class="textbox datepicker returndate" name="Depart" >
+              <label for="autocomplete">Return Date</label>
+            </div>
 						</li>
 						<li>
-							<input type="text" class="textbox" name="Return" placeholder="Return Date">
-						</li>
-						<li>
-							<input type="text" class="textbox" name="Travellers">
-						</li>
+
+							<!-- <input type="text" class="textbox" placeholder="Travellers" name="Travellers"> -->
+             <div class="input-field col s12">
+              <!-- <i class="material-icons prefix">people</i> -->
+              <input type="text" class="textbox" name="Depart" >
+              <label for="autocomplete">Travellers</label>
+            </div>
+            </li>
+
 						
 					</ul>
 				
 				</form>
-			</div>
-<a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Submit</a>
+			   </div>
+          <a class="btn btn-light btn-xl js-scroll-trigger" id="booking" >Submit</a>
         	</div>
-
+          <div id="table"></div>
           </div>
         </div>
       </div>
@@ -154,43 +191,43 @@
       </div>
     </section>
 
-    <section class="Map-section" id="portfolio">
-   <div id="map" class="map"></div>
-	    <script>
-	      var map;
-	      function initMap() {
-	        map = new google.maps.Map(document.getElementById('map'), {
-	          center: {lat: -34.397, lng: 150.644},
-	          zoom: 1
-	        });
-	      }
-	    </script>
+    <section class="Mapsection" id="portfolio">
+     <div id="map" class="map"></div>
+  	    <script>
+  	      var map;
+  	      function initMap() {
+  	        map = new google.maps.Map(document.getElementById('map'), {
+  	          center: {lat: -34.397, lng: 150.644},
+  	          zoom: 2
+  	        });
+  	      }
+  	    </script>
 	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPl4rV4Fn1mpeTjmSqPw5ZQxiNJTvT1SU&callback=initMap"
-    async defer></script>
+      async defer></script>
       </div>
       <div class="Card">
-      <div class="snap">
-	  <div class="tab-panel">
-	    <div class="tab"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
-	    <div class="tab"><i class="fa fa-plane" aria-hidden="true"></i>
-	      <div class="camera"></div>
-	    </div>
-	    <div class="tab"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-	  </div>
-	  <div class="active"></div>
-	  <div class="blue"></div>
-	  <div class="yellow"></div>
-	</div>
-	
+        <div class="snap">
+    	  <div class="tab-panel">
+    	    <div class="tab"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
+    	    <div class="tab"><i class="fa fa-plane" aria-hidden="true"></i>
+  	      <div class="camera"></div>
+  	       </div>
+  	      <div class="tab"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+  	    </div>
+    	  <div class="active"></div>
+    	  <div class="blue"></div>
+    	  <div class="yellow"></div>
+  	   </div>
+  	
       </div>
     </section>
 
-    <section class="bg-dark text-white">
+    <!-- <section class="bg-dark text-white">
       <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
         <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
       </div>
-    </section>
+    </section> -->
 
     <section id="contact">
       <div class="container">
@@ -216,6 +253,10 @@
       </div>
     </section>
 
+   <!--  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+ -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -224,9 +265,171 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/materialize/js/materialize.min.js"></script>
+
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
+
+<script>
+$(document).ready(function(){
+//   var validOptions = ["First Last", "First1 Last1", "First2 Last2"]
+//   previousValue = "";
+
+//   $('#autocomplete').autocomplete({
+//     autoFocus: true,
+//     source: validOptions
+//   }).keyup(function() {
+//     var isValid = false;
+//     for (i in validOptions) {
+//         if (validOptions[i].toLowerCase().match(this.value.toLowerCase())) {
+//             isValid = true;
+//         }
+//     }
+//     if (!isValid) {
+//         this.value = previousValue
+//     } else {
+//         previousValue = this.value;
+//     }
+//   });
+// });
+
+document.getElementById('booking').addEventListener('click', bookingclicked);
+
+function bookingclicked(){
+  console.log("Clicked");
+
+  var source = document.querySelector('.source').value;
+  var destination = document.querySelector('.destination').value;
+  var Departure = document.querySelector('.departdate').value;
+  var Arrival = document.querySelector('.returndate').value;
+  
+
+  var uploadtoDb="v1/index.php/uploadquestion";
+  
+
+  var j=11,k=0,f=0;
+  var user="shadman";
+  var data=new FormData();
+  
+  data.append('source',source);
+  data.append('destination',destination);
+  data.append('Departure',Departure);
+  data.append('Arrival',Arrival);
+  
+
+  //     var xmlhttp = new XMLHttpRequest();
+    //     xmlhttp.onreadystatechange = function() {
+    //         if (this.readyState == 4 && this.status != 404) {
+                
+    //     alert("Upload Successful");
+                      
+                
+    //         }
+    //     };
+    // xmlhttp.open("POST", uploadtoDb, true); 
+      
+        
+    // xmlhttp.send(data);
+
+
+ var getFromDb="v1/index.php";
+   var Obj;
+   xmlhttp = new XMLHttpRequest();
+   
+   // xmlhttp.onload = function(){
+
+   //  // console.log(xmlhttp.responseText);
+
+   //        Obj = JSON.parse(xmlhttp.responseText);
+           
+   //        console.log("Printing response...");
+   //       console.log(Obj);
+   // }
+   
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("table").innerHTML = this.responseText;
+    }
+  };
+ xmlhttp.open("GET", getFromDb, true);
+
+ xmlhttp.send();
+   
+}
+
+
+
+var availableTags = [
+      "Bahamas",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+
+
+ $('input.autocomplete').autocomplete({
+    data: {
+      "Bahamas": null,
+      "Microsoft": null,
+      "ActionScript": null,
+      "AppleScript": null,
+      "Asp": null,
+      "BASIC": null,
+      "C": null,
+      "C++": null,
+      "Clojure": null,
+      "COBOL": null,
+      "ColdFusion": null,
+      "Erlang": null,
+      "Fortran": null,
+      "Groovy": null,
+      "Haskell": null,
+      "Java": null,
+      "JavaScript": null,
+      "Lisp": null,
+      "Perl": null,
+      "PHP": null,
+      "Python": null,
+      "Ruby": null,
+      "Scala": null,
+      "Scheme": null,
+      "Google": 'https://placehold.it/250x250'
+      
+    },
+    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+    onAutocomplete: function(val) {
+      // Callback function when value is autcompleted.
+      console.log(val);
+      bookingclicked();
+    },
+    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+  });
+
+ 
+
+});
+
+</script>
+
 
   </body>
 
