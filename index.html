@@ -83,12 +83,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white ">We've got what you need!</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4"></p>
             	<div class="Search text-center">
             		<div class="col-12-md search-box mx-auto text-center">
-				<form class="table">
+				<form class="table" method="GET" action="v1/index.php">
+        <div class="switch" >
+            <label>
+              One Way
+              <input type="checkbox" id="returnticket">
+              <span class="lever"></span>
+              Return
+            </label>
+          </div>
 					<ul class="list">
 						<!-- <li>
 							<input type="text" class="textbox autocomplete" id="autocomplete-input" name="source" placeholder="Select Origin" >
@@ -113,7 +121,7 @@
 							<!-- <input type="text" class="textbox datepicker" name="Depart" placeholder="Depart Date"> -->
               <div class="input-field col s12">
               <!-- <i class="material-icons prefix">date_range</i> -->
-              <input type="text" class="textbox datepicker departdate" name="Depart" >
+              <input type="text" class="textbox datepicker departdate" id="Departure" name="Depart" >
               <label for="autocomplete">Departure Date</label>
             </div>
 						</li>
@@ -121,7 +129,7 @@
 							<!-- <input type="text" class="textbox datepicker" name="Return" placeholder="Return Date"> -->
                <div class="input-field col s12">
               <!-- <i class="material-icons prefix">date_range</i> -->
-              <input type="text" class="textbox datepicker returndate" name="Depart" >
+              <input type="text" class="textbox datepicker returndate" id="Return" name="Return" disabled="true">
               <label for="autocomplete">Return Date</label>
             </div>
 						</li>
@@ -130,19 +138,63 @@
 							<!-- <input type="text" class="textbox" placeholder="Travellers" name="Travellers"> -->
              <div class="input-field col s12">
               <!-- <i class="material-icons prefix">people</i> -->
-              <input type="text" class="textbox" name="Depart" >
+              <!-- <input type="text" class="textbox" name="Depart" >
               <label for="autocomplete">Travellers</label>
-            </div>
-            </li>
+               -->
+               <div class="fixed-action-btn">
+                <a class="btn-floating btn-large blue darken-2">
+                  <i class="large material-icons">people</i>
+                </a>
+                <ul>
+                  <li>
+                    <div class="content">
+                    <span style="margin: 15px;">Adults</span>
+                    </div>
+                    <a class="btn-floating black" id="countup1"><i class="material-icons">add</i></a>
+                    <span class="counter" id="counter1">1</span>
+                    <a class="btn-floating black" id="countdown1"><i class="material-icons" style="font-size: 2.5em;">do_not_disturb_on</i></a>
+                    </li>
+                  <li>
+                    <div class="content">
+                    <span>Children</span>
+                    <span style="font-size: 0.2em color: #cfd8dc;">(Ages 2-12)</span>
+                    </div>
+                    <a class="btn-floating black" id="countup2"><i class="material-icons">add</i></a>
+                    <span class="counter" id="counter2">0</span>
+                    <a class="btn-floating black" id="countdown2"><i class="material-icons" style="font-size: 2.5em;">do_not_disturb_on</i></a>
+                  </li>
+                  <li>
+                    <div class="content">
+                    <span>Infant</span>
+                    <span>Under 2</span>
+                    </div>
+                    <a class="btn-floating black" id="countup3"><i class="material-icons">add</i></a>
+                    <span class="counter" id="counter3">0</span>
+                    <a class="btn-floating black" id="countdown3"><i class="material-icons" style="font-size: 2.5em;">do_not_disturb_on</i></a>
+                  </li>
+                  <!-- <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li> -->
+                </ul>
+              </div>
+              </div>
 
-						
+              <!-- <div class="Travellers">
+                <form>
+                <div class="Adults"><span>Adults</span></div>
+                <div class="Children"><span>Children</span><span>Ages 2- 12</span></div>
+                <div class="Infaant"><span>Infants</span><span>Under 2</span></div>
+                <div class="submit"></div>
+              </form>
+              </div> -->
+            
+            </li>
 					</ul>
-				
+				  
 				</form>
 			   </div>
-          <a class="btn btn-light btn-xl js-scroll-trigger" id="booking" >Submit</a>
-        	</div>
-          <div id="table"></div>
+        <a class="btn btn-light btn-xl js-scroll-trigger" id="booking" >Submit</a>
+        
+          </div>
+          <div id="table" style="margin-top: 15px;"></div>
           </div>
         </div>
       </div>
@@ -162,29 +214,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <!-- <h3 class="mb-3">Sturdy Templates</h3> -->
+              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <!-- <h3 class="mb-3">Ready to Ship</h3> -->
+              <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <!-- <h3 class="mb-3">Up to Date</h3> -->
+              <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <!-- <h3 class="mb-3">Made with Love</h3> -->
+              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
             </div>
           </div>
         </div>
@@ -279,7 +331,81 @@ $(document).ready(function(){
 //   $('#autocomplete').autocomplete({
 //     autoFocus: true,
 //     source: validOptions
-//   }).keyup(function() {
+//   })
+// });
+
+document.getElementById('booking').addEventListener('click', bookingclicked);
+
+function bookingclicked(){
+ 
+  var source = document.querySelector('.source').value;
+  var destination = document.querySelector('.destination').value;
+  var Departure = document.querySelector('.departdate').value;
+  var Arrival = document.querySelector('.returndate').value;
+  
+ console.log("Clicked " +source+" "+destination+" "+Departure+" "+Arrival );
+
+
+  // var j=11,k=0,f=0;
+  // var data=new FormData();
+  
+  // data.append('source',source);
+  // data.append('destination',destination);
+  // data.append('Departure',Departure);
+  // data.append('Arrival',Arrival);
+ var getFromDb="v1/index.php?destination="+destination+"&source="+source+"&Departure="+Departure+"&Arrival="+Arrival ;
+   var Obj;
+   xmlhttp = new XMLHttpRequest();
+   
+   // xmlhttp.onload = function(){
+
+   //  console.log(xmlhttp.responseText);
+    
+   //       //  Obj = JSON.parse(xmlhttp.responseText);
+           
+   //       //  console.log("Printing response...");
+   //      document.getElementById("table").innerHTML = this.responseText;
+         // console.log(Obj);
+   
+   // }
+   
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // var flightdata = JSON.parse(this.responseText);
+      // console.log(flightdata);
+        document.getElementById("table").innerHTML = this.responseText;
+    }
+  };
+   xmlhttp.open("GET", getFromDb, true);
+
+   xmlhttp.send();
+   
+  }
+
+    var jsondata = {
+          "Bahamas": null,
+          "Microsoft": null,
+          "ActionScript": null,
+          "Google": 'https://placehold.it/250x250'
+    }
+
+    var newUser = "Dhaka";
+    var newValue = null;
+    jsondata[newUser] = newValue ;
+
+
+ $('input.autocomplete').autocomplete({
+    data: jsondata,
+    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+    onAutocomplete: function(val) {
+      // Callback function when value is autcompleted.
+      console.log(val);
+      bookingclicked();
+    },
+    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+  }).keyup(function() {
+
+    console.log("KEy up\n");
 //     var isValid = false;
 //     for (i in validOptions) {
 //         if (validOptions[i].toLowerCase().match(this.value.toLowerCase())) {
@@ -291,137 +417,6 @@ $(document).ready(function(){
 //     } else {
 //         previousValue = this.value;
 //     }
-//   });
-// });
-
-document.getElementById('booking').addEventListener('click', bookingclicked);
-
-function bookingclicked(){
-  console.log("Clicked");
-
-  var source = document.querySelector('.source').value;
-  var destination = document.querySelector('.destination').value;
-  var Departure = document.querySelector('.departdate').value;
-  var Arrival = document.querySelector('.returndate').value;
-  
-
-  var uploadtoDb="v1/index.php/uploadquestion";
-  
-
-  var j=11,k=0,f=0;
-  var user="shadman";
-  var data=new FormData();
-  
-  data.append('source',source);
-  data.append('destination',destination);
-  data.append('Departure',Departure);
-  data.append('Arrival',Arrival);
-  
-
-  //     var xmlhttp = new XMLHttpRequest();
-    //     xmlhttp.onreadystatechange = function() {
-    //         if (this.readyState == 4 && this.status != 404) {
-                
-    //     alert("Upload Successful");
-                      
-                
-    //         }
-    //     };
-    // xmlhttp.open("POST", uploadtoDb, true); 
-      
-        
-    // xmlhttp.send(data);
-
-
- var getFromDb="v1/index.php";
-   var Obj;
-   xmlhttp = new XMLHttpRequest();
-   
-   // xmlhttp.onload = function(){
-
-   //  // console.log(xmlhttp.responseText);
-
-   //        Obj = JSON.parse(xmlhttp.responseText);
-           
-   //        console.log("Printing response...");
-   //       console.log(Obj);
-   // }
-   
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("table").innerHTML = this.responseText;
-    }
-  };
- xmlhttp.open("GET", getFromDb, true);
-
- xmlhttp.send();
-   
-}
-
-
-
-var availableTags = [
-      "Bahamas",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-
-
- $('input.autocomplete').autocomplete({
-    data: {
-      "Bahamas": null,
-      "Microsoft": null,
-      "ActionScript": null,
-      "AppleScript": null,
-      "Asp": null,
-      "BASIC": null,
-      "C": null,
-      "C++": null,
-      "Clojure": null,
-      "COBOL": null,
-      "ColdFusion": null,
-      "Erlang": null,
-      "Fortran": null,
-      "Groovy": null,
-      "Haskell": null,
-      "Java": null,
-      "JavaScript": null,
-      "Lisp": null,
-      "Perl": null,
-      "PHP": null,
-      "Python": null,
-      "Ruby": null,
-      "Scala": null,
-      "Scheme": null,
-      "Google": 'https://placehold.it/250x250'
-      
-    },
-    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
-    onAutocomplete: function(val) {
-      // Callback function when value is autcompleted.
-      console.log(val);
-      bookingclicked();
-    },
-    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
   });
 
  

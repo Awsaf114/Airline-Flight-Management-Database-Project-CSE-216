@@ -155,7 +155,78 @@ thirdTab.on('click',function(){
 });
 
 
+var countup1 = $('#countup1'),
+countup2 = $('#countup2'),
+countup3 = $('#countup3'),
+countdown1 = $('#countdown1'),
+countdown2 = $('#countdown2'),
+countdown3 = $('#countdown3'),
+counter1 = $('#counter1'),
+counter2 = $('#counter2'),
+counter3 = $('#counter3');
 
+
+countup1.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter1").innerHTML ;
+  var count = parseInt(i);
+  if(count<5)
+    count++;
+  document.getElementById("counter1").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+
+});
+
+countup2.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter2").innerHTML ;
+  var count = parseInt(i);
+  if(count<2)
+    count++;
+  document.getElementById("counter2").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+
+});
+countup3.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter3").innerHTML ;
+  var count = parseInt(i);
+  if(count<2)
+    count++;
+  document.getElementById("counter3").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+
+});
+
+countdown1.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter1").innerHTML ;
+  var count = parseInt(i);
+  if(count>0)
+    count--;
+  document.getElementById("counter1").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+
+});
+countdown2.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter2").innerHTML ;
+  var count = parseInt(i);
+  if(count>0)
+    count--;
+  document.getElementById("counter2").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+});
+countdown3.on("click" , function(){
+  // var i = parseInt(counter1.nodeValue);
+  var i = document.getElementById("counter3").innerHTML ;
+  var count = parseInt(i);
+  if(count>0)
+    count--;
+  document.getElementById("counter3").innerHTML = count;
+  // console.log(counter1.innerHTML +"  " + count);
+
+});
 
 $('.datepicker').pickadate({
     selectMonths: true, // Creates a dropdown to control month
@@ -165,6 +236,27 @@ $('.datepicker').pickadate({
     close: 'Ok',
     closeOnSelect: false // Close upon selecting a date,
   });
+
+
+$('#returnticket').on("change" , function () {
+  // body...
+  document.getElementById('Return').value = "";
+  document.getElementById('Return').blur();
+  
+  console.log("Switch");
+  if($('#returnticket').is(':checked')){
+
+     $('.returndate').value = "";
+      $('.returndate').removeAttr("disabled");
+   
+  }
+   else{
+     $('.returndate').text = "";
+     
+     $('.returndate').attr("disabled", "disabled");
+     
+   }
+});
 
 
 

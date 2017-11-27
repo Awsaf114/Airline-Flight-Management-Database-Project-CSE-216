@@ -381,13 +381,12 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             DataTables Advanced Tables
                         </div>
-                        <!-- /.panel-heading -->
                         <div class="panel-body">
                             <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
                                 <thead>
@@ -802,19 +801,91 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            <!-- /.table-responsive -->
                             <div class="well">
                                 <h4>DataTables Usage Information</h4>
                                 <p>DataTables is a very flexible, advanced tables plugin for jQuery. In SB Admin, we are using a specialized version of DataTables built for Bootstrap 3. We have also customized the table headings to use Font Awesome icons in place of images. For complete documentation on DataTables, visit their website at <a target="_blank" href="https://datatables.net/">https://datatables.net/</a>.</p>
                                 <a class="btn btn-default btn-lg btn-block" target="_blank" href="https://datatables.net/">View DataTables Documentation</a>
                             </div>
                         </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
+                       </div>
                 </div>
-                <!-- /.col-lg-12 -->
             </div>
+ -->
+            <?php 
+
+
+    $conn=oci_connect("BUETAIRLINES" , "113114","localhost/xe");
+    if (!$conn) {
+        $e = oci_error();
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
+
+    $id = 1;
+    $username = "Hazrat Sahjalal International Airport";
+    $Lusername = "Dhaka";
+    $country = "Bangladesh";
+
+    // Prepare the statement
+    // $strings="INSERT INTO AIRPORT VALUES (" . "'". $id . "'". "," . "'". $username . "'". "," ."'". $Lusername . "'". "," ."'". $country. "'". ")";
+
+    $strings = "SELECT * FROM PASSENGER";
+
+    $stid = oci_parse($conn, $strings);
+    if (!$stid) {
+        $e = oci_error($conn);
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
+
+    // Perform the logic of the query
+    $r = oci_execute($stid);
+    if (!$r) {
+        $e = oci_error($stid);
+        trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+    }
+
+
+    // Fetch the results of the query
+    print "<div class=\"row\">
+                <div class=\"col-lg-12\">
+                    <div class=\"panel panel-default\">
+                        <div class=\"panel-heading\">
+                            DataTables Advanced Tables
+                        </div>
+                        <div class=\"panel-body\">
+                            <table width=\"100%\" class=\"table table-striped table-bordered table-hover\" id=\"dataTables-example\">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>First Name</th>
+                                        <th>Last name</th>
+                                        <th>Phone</th>
+                                        <th>Date of Birth</th>
+                                        <th>Gender</th>
+                                        <th>Passport Number</th>
+                                        <th>Email ID</th>
+                                        <th>Street Address</th>
+                                        <th>Country</th>
+                                        <th>Category</th>
+                                    </tr>
+                                </thead>
+                                <tbody>\n";
+
+
+    while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
+        print "<tr>\n";
+        foreach ($row as $item) {
+            print "<th>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</th>\n";
+        }
+        print "</tr>\n";
+    }
+    print "</table>\n";
+
+    oci_free_statement($stid);
+
+    
+    oci_close($conn);
+?>
+
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-6">

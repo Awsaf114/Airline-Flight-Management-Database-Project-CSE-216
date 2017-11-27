@@ -75,7 +75,7 @@
   
   <div class="form-container off-canvas">
 
-    <form role="form" action="test.php" class="form-signin" id="contact_form">
+    <form role="form" action="pages/index.php" method="post" class="form-signin" id="contact_form">
       <h2>Please sign in...</h2>
 
       <div class="form-group">
@@ -96,7 +96,7 @@
         </label>
       </div>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Sign in</button>
 
     </form>
   </div> <!-- /container -->
