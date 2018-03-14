@@ -16,16 +16,21 @@
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="vendor/materialize/css/materialize.min.css" rel="stylesheet">
+    <link href="vendor/materialize/css/materialize.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/materialize-stepper/materialize-stepper.min.css">
+    <link href="vendor/sweetalert/sweetalert.css" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
+    <link href="css/ManageBooking.css" rel="stylesheet">
 
    
     
@@ -48,10 +53,10 @@
               <a class="nav-link js-scroll-trigger" href="#about">Booking</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#offers">Offers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Schedule</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Quick Pay</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -72,23 +77,52 @@
             <hr>
           </div>
           <div class="col-lg-8 ">
-            <!-- <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Book Now</a>
+            <!-- <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+             --><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Book Now</a>
           </div>
+          <!-- <div class="carousel carousel-slider center" data-indicators="true">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+              <h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p>
+            </div>
+          </div> -->
+  
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto text-center">
-            <h2 class="section-heading text-white ">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4"></p>
-            	<div class="Search text-center">
-            		<div class="col-12-md search-box mx-auto text-center">
-				<form class="table" method="GET" action="v1/index.php">
+
+<section class="bg-primary" id="about">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12 mx-auto text-center">
+    <h2 class="section-heading">We've got what you need!</h2>
+    <hr class="light my-4">
+    <p class="text-faded mb-4"></p>
+      
+            <!-- Stepper -->
+<ul class="stepper linear horizontal" style="min-height:800px; margin-top: 2.1em;">
+    <li class="step active">
+      <div class="step-title waves-effect">Travel Dates</div>
+      <div class="step-content" >
+      <div class="Search text-center" style="margin-top: 3.3em;">
+      <div class="col-12-md search-box mx-auto text-center">
+      <form class="table" method="GET" action="v1/index.php">
         <div class="switch" >
             <label>
               One Way
@@ -96,51 +130,38 @@
               <span class="lever"></span>
               Return
             </label>
-          </div>
-					<ul class="list">
-						<!-- <li>
-							<input type="text" class="textbox autocomplete" id="autocomplete-input" name="source" placeholder="Select Origin" >
-						</li> -->
-            <li>
+        </div>
+        <ul class="list">
+          <li>
             <div class="input-field col s12">
               <!-- <i class="material-icons prefix">flight_takeoff</i> -->
-              <input type="text" id="autocomplete" class="autocomplete source">
+              <input type="text" id="autocomplete" class="autocomplete source" autocomplete="off">
               <label for="autocomplete" >source</label>
             </div>
-            </li>
-						<li>
-							<!-- <input type="text" class="textbox" name="Dest" placeholder="Select Destination">			 -->
-              <div class="input-field col s12">
-              <!-- <i class="material-icons prefix">flight_land</i> -->
-              <input type="text" id="autocomplete" class="autocomplete destination">
-              <label for="autocomplete">Destination</label>
+          </li>
+          <li>
+            <div class="input-field col s12">
+            <!-- <i class="material-icons prefix">flight_land</i> -->
+            <input type="text" id="autocomplete" class="autocomplete destination" autocomplete="off">
+            <label for="autocomplete">Destination</label>
             </div>
-						</li>
-						<li>
-
-							<!-- <input type="text" class="textbox datepicker" name="Depart" placeholder="Depart Date"> -->
-              <div class="input-field col s12">
+          </li>
+          <li>
+             <div class="input-field col s12">
               <!-- <i class="material-icons prefix">date_range</i> -->
               <input type="text" class="textbox datepicker departdate" id="Departure" name="Depart" >
               <label for="autocomplete">Departure Date</label>
             </div>
-						</li>
-						<li>
-							<!-- <input type="text" class="textbox datepicker" name="Return" placeholder="Return Date"> -->
-               <div class="input-field col s12">
+          </li>
+          <li>
+            <div class="input-field col s12">
               <!-- <i class="material-icons prefix">date_range</i> -->
               <input type="text" class="textbox datepicker returndate" id="Return" name="Return" disabled="true">
               <label for="autocomplete">Return Date</label>
             </div>
-						</li>
-						<li>
-
-							<!-- <input type="text" class="textbox" placeholder="Travellers" name="Travellers"> -->
-             <div class="input-field col s12">
-              <!-- <i class="material-icons prefix">people</i> -->
-              <!-- <input type="text" class="textbox" name="Depart" >
-              <label for="autocomplete">Travellers</label>
-               -->
+          </li>
+          <li>
+            <div class="input-field col s12" style="width: 60px; transform: translateX(-70px);">
                <div class="fixed-action-btn">
                 <a class="btn-floating btn-large blue darken-2">
                   <i class="large material-icons">people</i>
@@ -172,114 +193,586 @@
                     <span class="counter" id="counter3">0</span>
                     <a class="btn-floating black" id="countdown3"><i class="material-icons" style="font-size: 2.5em;">do_not_disturb_on</i></a>
                   </li>
-                  <!-- <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li> -->
+              
                 </ul>
               </div>
               </div>
-
-              <!-- <div class="Travellers">
-                <form>
-                <div class="Adults"><span>Adults</span></div>
-                <div class="Children"><span>Children</span><span>Ages 2- 12</span></div>
-                <div class="Infaant"><span>Infants</span><span>Under 2</span></div>
-                <div class="submit"></div>
-              </form>
-              </div> -->
-            
             </li>
-					</ul>
-				  
-				</form>
-			   </div>
-        <a class="btn btn-light btn-xl js-scroll-trigger" id="booking" >Submit</a>
+            <li>
+              <a class="btn btn-light btn-xl js-scroll-trigger red lighten-1 next-step" id="booking" style="border-top-left-radius: inherit;" >Search Flights</a>
+            </li>
+            
+          </ul>
+          
+        </form>
+         </div>
         
           </div>
-          <div id="table" style="margin-top: 15px;"></div>
-          </div>
+     
+      </div>
+    </li>
+    <li class="step">
+      <div class="step-title waves-effect">Departure</div>
+      <div id="Booking-step" class="step-content col s12">
+      </div>
+    </li>
+    <li class="activate-after" style="display:none;">
+      <div class="step-title waves-effect">Return</div>
+      <div id="Return-step" class="step-content col s12">
+      </div>     
+    </li>
+    <li class="step">
+      <div class="step-title waves-effect">Your Details</div>
+      <div class="step-content" id="DetailsForm">
+        <div class="row">
+        <!-- <div class="col s6 l6" style="border-right: 2px solid grey; margin-bottom: 10px;"> -->
+            <!-- <button class="btn btn-large" style="margin-top: 9em;">Signup as Guest</button> -->
+        <ul class="nav nav-tabs nav-justified" id="Tabform" style="margin-bottom: 30px;">
+          <!-- <li><a class="myTab" data-toggle="tab" href="#home">Children 1</a></li> -->
+          <!-- <li><a class="myTab" data-toggle="tab" href="#home2">Children 1</a></li> -->
+
+        </ul>
+        <div class="tab-content" id="ContentTab">
+         <!-- <div id="home2" class="tab-pane">
+            <div class="row">
+            <div class="col s7 l7" style="border-right: 2px solid grey; margin-bottom: 10px;">
+              <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s3">
+                  <input id="passport_number" type="text" class="validate">
+                  <label for="passport_number">Passport N0.</label>
+                </div>
+                <div class="input-field col s3">
+                  <select id="Gender">
+                      <option value="1">Male</option>
+                      <option value="2">Female</option>
+                    </select>
+                  <label>Gender</label>
+                </div>
+
+                <div class="input-field col s6">
+                  <input type="text" id="dob" class="datepicker">
+                  <label for="dob">Date of Birth</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="telephone" type="tel" class="validate">
+                  <label for="telephone">Telephone</label>
+                </div>
+                <div class="input-field col s6">
+                <i class="material-icons prefix">flag</i>
+                <input id="Nationality" type="text" class="validate">
+                  <label for="Nationality">Nationality</label>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Confirm Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="Address" class="materialize-textarea"></textarea>
+                  <label for="Address">Address</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <a href="#" class="blue lighten-1 btn btn-large" id="ajaira"  style="border-radius: 0;">Next Step</a>
+                </div>
+              </div>
+              
+            </form>
+            </div>
+            <div class="col s5 l5">
+              <h5>Have an account?</h5>
+              <div class="container" style="padding: 30px; margin-top:  50px; box-shadow:  0 10px 90px -2px rgba(0, 0, 0, 0.3);">
+                <strong>Log in</strong>
+                <input type="text" name="" placeholder="Username">
+                <input type="text" name="" placeholder="password">
+                <span  ><a href="#" class="btn blue lighten-1">Submit</a></span>
+              </div>
+            </div>
+            </div>
+         </div> -->
+         </div>
+       
+      </div>
+      <div class="row">
+        <div class="switch col s1 offset-l7" style="padding-left: 30px;" >
+            <label>
+              <input type="checkbox" id="paylater">
+              <span class="lever"></span>
+              Pay Later?
+            </label>
+        </div>
+
+       <div class="col s12 grey darken-2">
+        <a class="light-blue lighten-1 btn btn-large next-step modal-trigger" href="#modalrec" style="border-radius: 0 !important; margin-left: 45em; width: 25%;" id="BookingForm" >Proceed to payment</a>
+        <!-- <a href="Payment.html" class="waves-effect waves-dark btn btn-light" id="BookingForm" >Pay later</a> -->
         </div>
       </div>
-    </section>
+      </div>
+   </li>
+   <li class="step activate-later">
+      <div class="step-title waves-effect">Payment</div>
+      <div class="step-content">
+        <div class="checkout">
+          <div class="credit-card-box">
+            <div class="flip">
+              <div class="front">
+                <div class="chip"></div>
+                <div class="logo">
+                  <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                    <g>
+                      <g>
+                        <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                 c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                 c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                 M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                 c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                 c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                 l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                 C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                 C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                 c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                 h-3.888L19.153,16.8z"/>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div class="number"></div>
+                <div class="card-holder">
+                  <label>Card holder</label>
+                  <div></div>
+                </div>
+                <div class="card-expiration-date">
+                  <label>Expires</label>
+                  <div></div>
+                </div>
+              </div>
+              <div class="back">
+                <div class="strip"></div>
+                <div class="logo">
+                  <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                       width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                    <g>
+                      <g>
+                        <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                 c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                 c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                 M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                 c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                 c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                 l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                 C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                 C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                 c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                 h-3.888L19.153,16.8z"/>
+                      </g>
+                    </g>
+                  </svg>
 
-    <section id="services">
+                </div>
+                <div class="ccv">
+                  <label>CCV</label>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="form" autocomplete="off" novalidate>
+            <fieldset>
+              <label for="card-number">Card Number</label>
+              <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
+              <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
+              <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
+              <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+            </fieldset>
+            <fieldset>
+              <label for="card-holder">Card holder</label>
+              <input type="text" id="card-holder" />
+            </fieldset>
+            <fieldset class="fieldset-expiration">
+              <label for="card-expiration-month">Expiration date</label>
+              <div class="select" style="border:none; transform: translateY(-12px);">
+                <select id="card-expiration-month">
+                  <option></option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                  <option>05</option>
+                  <option>06</option>
+                  <option>07</option>
+                  <option>08</option>
+                  <option>09</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                  <option>14</option>
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  <option>26</option>
+                  <option>27</option>
+                  <option>28</option>
+                  <option>29</option>
+                  <option>30</option>
+                  <option>31</option>
+                </select>
+              </div>
+              <div class="select">
+                <select id="card-expiration-year">
+                  <option></option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset class="fieldset-ccv">
+              <label for="card-ccv">CCV</label>
+              <input type="text" id="card-ccv" maxlength="3" />
+            </fieldset>
+            <a class="btn blue lighten-1 modal-trigger" style="margin-top: 50px; margin-left: 20px;" id="final-submit" href="#modalrec"><i class="fa fa-lock"></i> submit</a>
+
+          </form>
+        </div>
+      </div>
+   </li>
+  </ul>
+  </div>
+
+  </div>
+  </div>
+</section>
+
+    <!-- Bundle Offers-->
+    <section class="bg-light" id="offers">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
-            <hr class="my-4">
+            <h4 class="section-heading">New Offers</h4>
+            <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <!-- <h3 class="mb-3">Sturdy Templates</h3> -->
-              <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
+        <div class="row" id="dynamicOffer">
+          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link modal-trigger" href="#modal1">
+
+              <img class="img-fluid" style="height:60% !important; width: 100%;" src="img/portfolio/01-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Shanghai Special</h4>
+              <p class="text-muted">Economy Offer</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <!-- <h3 class="mb-3">Ready to Ship</h3> -->
-              <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <!-- <h3 class="mb-3">Up to Date</h3> -->
-              <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <!-- <h3 class="mb-3">Made with Love</h3> -->
-              <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
-            </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
-    <section class="Mapsection" id="portfolio">
-     <div id="map" class="map"></div>
-  	    <script>
-  	      var map;
-  	      function initMap() {
-  	        map = new google.maps.Map(document.getElementById('map'), {
-  	          center: {lat: -34.397, lng: 150.644},
-  	          zoom: 2
-  	        });
-  	      }
-  	    </script>
-	    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPl4rV4Fn1mpeTjmSqPw5ZQxiNJTvT1SU&callback=initMap"
-      async defer></script>
+<div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">Quick Pay</h3>
+          <hr class="my-4">
+        </div>
       </div>
-      <div class="Card">
-        <div class="snap">
-    	  <div class="tab-panel">
+    </div>
+
+  <section class="Mapsection" id="portfolio">
+    
+    <div id="map" class="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 24.397, lng: 50.644},
+          zoom: 2
+        });
+      }
+    </script>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPl4rV4Fn1mpeTjmSqPw5ZQxiNJTvT1SU&callback=initMap"
+      async defer></script>
+      
+    <div class="Card">
+        
+      <div class="snap">
+        
+        <div class="tab-panel">
     	    <div class="tab"><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
     	    <div class="tab"><i class="fa fa-plane" aria-hidden="true"></i>
-  	      <div class="camera"></div>
-  	       </div>
-  	      <div class="tab"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+  	      <div id="btncamera" class="camera"></div>
+  	      </div>
+  	      <div class="tab"><i class="fa fa-credit-card-alt" aria-hidden="true"></i></div>
   	    </div>
-    	  <div class="active"></div>
-    	  <div class="blue"></div>
-    	  <div class="yellow"></div>
+    	  <div class="active">
+        </div>
+        <div class="blue selb">
+          <div class='flight-card' style="padding: 13px; height: 100%; width: 100%; position: absolute;">
+            <div class='flight-card--header'>
+
+              <div class='flight-card--header-details'>
+                <div class='details-passenger'>
+                  <span class='detail--title'>
+                    Passenger
+                  </span>
+                  <span class='detail--text' id="MpassengerName">
+                    James Macpherson
+                  </span>
+                </div>
+                <div class='details-depart'>
+                  <span class='detail--title' >
+                    Departs
+                  </span>
+                  <span class='detail--text' id="Mdeparture">
+                    Apr 2, 2017
+                  </span>
+                </div>
+                <div class='details-arrive'>
+                  <span class='detail--title'>
+                    Arrives
+                  </span>
+                  <span class='detail--text' id="Marrival">
+                    Apr 3, 2017
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class='flight-card--details'>
+              <div class='bc-from'>
+                <span class='detail-code' id="MsrcCode">
+                  SFO
+                </span>
+                <span class='detail-city' id="MsrcAirport">
+                  San Francisco, California
+                </span>
+              </div>
+              <div class='bc-plane'>
+                <i style="transform: rotate(45deg)" class="fa fa-plane fa-3x"></i>
+              </div>
+              <div class='bc-to'>
+                <span class='detail-code' id="MdstCode">
+                  PVD
+                </span>
+                <span class='detail-city' id="MdstAirport">
+                  Providence, Rhode Island
+                </span>
+              </div>
+              <div class='flight-card-details--text'>
+                <div class='text-left'>
+                  <span class='text-hline'>
+                    FLight
+                  </span>
+                  <span class='text-actual' id="MFlight">
+                    B6 843
+                  </span>
+                </div>
+                <!-- <div class='text-middle'>
+                  <span class='text-hline'>
+                    Flight
+                  </span>
+                  <span class='text-actual'>
+                    B6 843
+                  </span>
+                </div> -->
+                <div class='text-right'>
+                  <span class='text-hline'>
+                    Class
+                  </span>
+                  <span class='text-actual mint' id="MClass">
+                    Economy
+                  </span>
+                </div>
+              </div>
+              <div class='flight-card-details--admin' style="display: flex;">
+                <!-- <div class='admin-left'>
+                  PVD-SFO FUN 2017 - A321
+                </div>
+                <div class='admin-right'>
+                  SEA1F MOSAIC
+                </div> -->
+              <h5 class="text-white">Boarding Time</h5>
+              <strong style="margin-left: 30px;"><h5 class="text-white" id="MBoard">0945</h5></strong>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+    	  <div class="yellow">
+          <div class="checkout">
+            <div class="credit-card-box">
+              <div class="flip">
+                <div class="front">
+                  <div class="chip"></div>
+                  <div class="logo">
+                    <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                      <g>
+                        <g>
+                          <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                   c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                   c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                   M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                   c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                   c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                   l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                   C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                   C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                   c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                   h-3.888L19.153,16.8z"/>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div id="numq" class="numberq"></div>
+                  <div class="qholder">
+                    <label>Card holder</label>
+                    <div></div>
+                  </div>
+                  <div class="qexp card-expiration-date">
+                    <label>Expires</label>
+                    <div></div>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="strip"></div>
+                  <div class="logo">
+                    <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+                      <g>
+                        <g>
+                          <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                                   c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                                   c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                                   M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                                   c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                                   c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                                   l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                                   C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                                   C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                                   c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                                   h-3.888L19.153,16.8z"/>
+                        </g>
+                      </g>
+                    </svg>
+
+                  </div>
+                  <div class="qccv ccv">
+                    <label>CCV</label>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <form class="form" autocomplete="off" novalidate>
+              <fieldset>
+                <label for="card-number">Card Number</label>
+                <input type="num" id="Qcard-number" class="q" maxlength="4" />
+                <input type="num" id="Qcard-number-1" class="q" maxlength="4" />
+                <input type="num" id="Qcard-number-2" class="q" maxlength="4" />
+                <input type="num" id="Qcard-number-3" class="q" maxlength="4" />
+              </fieldset>
+              <fieldset>
+                <label for="card-holder">Card holder</label>
+                <input type="text" id="Qcard-holder" />
+              </fieldset>
+              <fieldset class="fieldset-expiration">
+                <label for="card-expiration-month">Expiration date</label>
+                <input type="num" id="Qcard-expiration-month"  maxlength="2" style="width: 70px; display: inline-block;
+  margin-right: 8px;" name="">
+                <input type="num" id="Qcard-expiration-year"  maxlength="4" style="width: 70px; display: inline-block;
+  margin-right: 8px;" name="">
+               </fieldset>
+              <fieldset class="fieldset-ccv">
+                <label for="card-ccv">CCV</label>
+                <input type="text" id="Qcard-ccv" maxlength="3" />
+              </fieldset>
+              <a class="btn" id="Qfinal-submit" style="transform: translate(8em , 1.5em);"><i class="fa fa-lock"></i> submit</a>
+            </form>
+          </div>
+        </div>
+        <div class="" id="manage"  style="height: 100%; width: 100%; position: absolute;">
+         <h4 class="text-white text-center" style="margin: 30px;">Manage Your Booking</h4>
+         <input type="text" name="" class="booking_input" id="Book_ID" placeholder="Booking ID">
+            <div class="paypal" id="detail" style="display: none;">
+
+             <div class="paypal__subheader-wrapper">
+                <div class="paypal__subheader">
+                  <h1 id="usernam" class="paypal__username">Awsaf, Hi</h1>
+                </div>
+              </div>
+
+              <div class="paypal__cart">
+                <div style="display: flex;">
+                  <h5 style="width: 50%; margin-left: 10px; margin-right: 15px;" class="text-cyan lighten-3 ">Status</h5>
+                  <h5 id="payment_status">NOT PAID</h5>
+                </div>
+                <ul class="paypal__cart-list" style="display: flex;">
+                  <li class="paypal__cart-item" style="width: 50%; margin-left: 5px;">
+                    <h4 style="margin-top: 0px !important;" id="srcC">DAC</h4>
+                    <h5 style="transform: rotate(135deg);
+    transform-origin: 20px 15px;"><i class="fa fa-plane"></i></h5>
+                    <h4 style="margin-top: 0px !important; margin-bottom: 0px !important;" id="dstC">DXB</h4>
+                  </li>
+                  <div>
+                  <button class="btn btn-large light-blue darken-2" style="border-radius: none !important; margin-top: 15px;" id="anim">Proceed To Payment</button>
+                  <button class="btn btn-large red darken-3" id="cancelbooking" style="border-radius: none !important; margin-top: 20px; width: 235px; margin-bottom: 20px;">Cancel</button>
+                  </div>
+                  <!-- <li class="paypal__cart-item">
+                    <span class="paypal__cart-total">Total</span>
+                    <span class="paypal__item-price">$268.00</span>
+                  </li> -->
+                </ul>
+              </div>
+
+              <div class="paypal__footer" class="cyan btn btn-large paypal__barcode" style="border-radius: none !important; background: transparent !important;">
+                
+              </div>
+            </div>
+
+        </div>
+
   	   </div>
   	
       </div>
     </section>
 
-    <!-- <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section> -->
 
     <section id="contact">
       <div class="container">
@@ -287,25 +780,135 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Have any complaints? Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>+88-01630246627</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:buetairlines@gmail.com">buetairlines@gmail.com</a>
             </p>
           </div>
         </div>
       </div>
     </section>
 
+<div id="modalrec" class="modal">
+    <div class="modal-content">
+      <h5>BUET Airlines</h5>
+      <p id="booking_ref"></p>
+    <div class="row">
+          <strong class="purple-text darken-2">Departing</strong>
+        <div class="col-xs-12 table-responsive">
+          <table id="Departing_receipt"  class="table table-striped">
+            <thead>
+            <tr>
+              <th>Qty</th>
+              <th>Source</th>
+              <th></th>
+              <th>Destination</th>
+              <th>Subtotal</th>
+            </tr>
+            </thead>
+          <!-- <tbody> -->
+            <!-- <tr>
+              <td>1</td>
+              <td>Dhaka / Hazrat Shahjalal International Airport</td>
+              <td>To</td>
+              <td>Dubai International Airport</td>
+              <td>$644.00</td>
+            </tr>
+            </tr>
+            </tbody> -->
+          </table>
+        </div>
+      </div>
+      <div class="row" id="ret_row" style="display: none;">
+          <strong class="purple-text darken-2">Returning</strong>
+        <div class="col-xs-12 table-responsive">
+          <table id="Departing_receipt_ret"  class="table table-striped">
+            <thead>
+            <tr>
+              <th>Qty</th>
+              <th>Source</th>
+              <th></th>
+              <th>Destination</th>
+              <th>Subtotal</th>
+            </tr>
+            </thead>
+          <!-- <tbody> -->
+            <!-- <tr>
+              <td>1</td>
+              <td>Dhaka / Hazrat Shahjalal International Airport</td>
+              <td>To</td>
+              <td>Dubai International Airport</td>
+              <td>$644.00</td>
+            </tr>
+            </tr>
+            </tbody> -->
+          </table>
+        </div>
+      </div>
+        <!-- /.col -->
+        <div class="col-xs-6">
+          <!-- <p class="lead">Amount Due 11/01/2018</p> -->
+
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <th style="width:50%">Sub Total:</th>
+                <td id="gtotal">$250.30</td>
+              </tr>
+              <tr>
+                <th >VAT (15%)</th>
+                <td id="VAT">$10.34</td>
+              </tr>
+              <tr>
+                <th>Travel Tax:</th>
+                <td id="tt">$5.80</td>
+              </tr>
+              <tr>
+                <th>Discount:</th>
+                <td id="disc">$5.80</td>
+              </tr>
+              <tr>
+                <th>Total:</th>
+                <td id="grand">$265.24</td>
+              </tr>
+            </table>
+          </div>
+      </div>
+      
+      </div>
+      
+    <!-- </div> -->
+    <div class="modal-footer">
+        
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+    <!-- Portfolio Modals -->
+<!-- <div id="modal1" class="modal" style="max-height: 95% !important; max-width: 100% !important;">
+    <div class="modal-content">
+      <div>
+          <img class="img-fluid" style="width: 100%; height: 50%;" src="img/portfolio/06-thumbnail.jpg" alt="">
+        
+      </div>
+      <div class="container" style="margin-top: 50px;">
+      <p>Enjoy super deals on  DHAKA-KOLKATA. So book your seat and take advantage of this fantastic offer! The offer is valid until 31 January, 2018.
+      </p>
+      </div>
+  </div>
+ -->
+  
    <!--  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
  -->
@@ -318,108 +921,228 @@
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="vendor/materialize/js/materialize.min.js"></script>
+    <script src="vendor/sweetalert/sweetalert.min.js"></script>
 
+    <!-- jQueryValidation Plugin (optional) -->
+   <!-- <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script> -->
+
+   <!--Import Materialize-Stepper JavaScript (after the jquery.validate.js and materialize.js) -->
+    <script src="vendor/materialize-stepper/materialize-stepper.min.js"></script>
+    <script src="vendor/materialize-stepper/materialize-stepper.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/ManageBooking.js"></script>
+
+ 
 
 <script>
 $(document).ready(function(){
-//   var validOptions = ["First Last", "First1 Last1", "First2 Last2"]
-//   previousValue = "";
 
-//   $('#autocomplete').autocomplete({
-//     autoFocus: true,
-//     source: validOptions
-//   })
-// });
+  $('select').material_select();
+  $('ul.tabs').tabs();
 
-document.getElementById('booking').addEventListener('click', bookingclicked);
+document.getElementById('anim').addEventListener("click", function () {
 
-function bookingclicked(){
+    // body...
+
+    var active = $('.active'),
+  firstTab = $('.tab:nth-child(1)'),
+  secondTab = $('.tab:nth-child(2)'),
+  thirdTab = $('.tab:nth-child(3)'),
+  yellowBg= $('.yellow'),
+  blueBg = $('.selb'),
+  snap = $('.snap'),
+  manage = $('#manage'),
+  sort = $('.sort');
+
+      active.animate({
+    left:'80%'
+  });
+  secondTab.animate({
+    marginTop:'50px'
+  });
+  $('.camera').animate({
+    left:'17%'
+  });
+  yellowBg.animate({
+    right:'0'
+  });
+  blueBg.animate({
+    left:'-100%'
+  });
+  snap.animate({
+    // padding:'0 40px 0 40px'
+  });
+  sort.animate({
+    marginLeft:'20px'
+  });
+  manage.animate({
+    marginLeft: '2000px'
+  });
+  });
+  var yesterday = new Date((new Date()).valueOf()-1000*60*60*24);
+
+  $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 5, // Creates a dropdown of 15 years to control year,
+    today: 'Today',
+    clear: 'Clear',
+    close: 'Ok',
+    closeOnSelect: true, // Close upon selecting a date,
+    disable: [
+      { from: [0,0,0], to: yesterday }
+    ]
+  });
  
-  var source = document.querySelector('.source').value;
-  var destination = document.querySelector('.destination').value;
-  var Departure = document.querySelector('.departdate').value;
-  var Arrival = document.querySelector('.returndate').value;
-  
- console.log("Clicked " +source+" "+destination+" "+Departure+" "+Arrival );
+
+  $('.stepper').activateStepper({
+      linearStepsNavigation: true, //allow navigation by clicking on the next and previous steps on linear steppers
+      autoFocusInput: true, //since 2.1.1, stepper can auto focus on first input of each step
+      autoFormCreation: true, //control the auto generation of a form around the stepper (in case you want to disable it)
+      showFeedbackLoader: true //set if a loading screen will appear while feedbacks functions are running
+   });
 
 
-  // var j=11,k=0,f=0;
-  // var data=new FormData();
-  
-  // data.append('source',source);
-  // data.append('destination',destination);
-  // data.append('Departure',Departure);
-  // data.append('Arrival',Arrival);
- var getFromDb="v1/index.php?destination="+destination+"&source="+source+"&Departure="+Departure+"&Arrival="+Arrival ;
-   var Obj;
+    $('.step-title').on("click" , function () {
+      // body...
+      console.log($(this).text() +" Cliked a step "+$('.stepper').getActiveStep());
+        // $('.stepper').getStep($('.stepper').getActiveStep()).addClass('wrong');
+        // $('.stepper').previous();
+        // alert("");
+        // location.reload();
+        if($('.stepper').getActiveStep() == 2 && $(this).text() == "Travel Dates"){
+          if(confirm("Are you sure you want to quit your current selection?")) {
+              location.href = "index.html";
+              console.log("Gese.......");
+          }
+          else{
+            return false;
+          }
+        }
+        else if( $('.stepper').getActiveStep() == 2  && $(this).text() != "Travel Dates"){
+          return false;
+        }
+        else if($('.stepper').getActiveStep() == 1 && $(this).text() == "Departure"){
+          return false;
+    
+        }
+        else if ($('.stepper').getActiveStep() == 3 && $(this).text() == "Your Details"){
+            return false;          
+        }
+        // else if ($('.stepper').getActiveStep() == 3 && $(this).text() == "D"){
+        //     return false;          
+        // }
+        
+
+    })
+
+
+   var getFromDb="v1/Query.php?table=DiscountsShow&data=";
    xmlhttp = new XMLHttpRequest();
    
-   // xmlhttp.onload = function(){
+   var flightresponse;
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        
+        flightresponse = JSON.parse(this.responseText);
 
-   //  console.log(xmlhttp.responseText);
-    
-   //       //  Obj = JSON.parse(xmlhttp.responseText);
-           
-   //       //  console.log("Printing response...");
-   //      document.getElementById("table").innerHTML = this.responseText;
-         // console.log(Obj);
-   
-   // }
-   
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      // var flightdata = JSON.parse(this.responseText);
-      // console.log(flightdata);
-        document.getElementById("table").innerHTML = this.responseText;
-    }
-  };
+        NewOffers(flightresponse);
+        
+      }
+
+    };
+
    xmlhttp.open("GET", getFromDb, true);
 
    xmlhttp.send();
-   
+
+function NewOffers(flightresponse) {
+  // body...
+  console.log(flightresponse);
+
+  var Body = document.getElementById('page-top');
+  var OfferBody = document.getElementById('dynamicOffer');
+
+  for (var i = flightresponse.length - 1; i >= 0; i--) {
+    var modal = document.createElement('div');
+    modal.id = "modal"+flightresponse[i][0];
+    modal.classList.add("modal");
+    modal.style.cssText = "max-height: 95% !important; max-width: 100% !important;";        
+    Body.append(modal);
+
+    var modalContent = document.createElement('div');
+    modalContent.classList.add("modal-content");
+    modal.append(modalContent);
+
+    var imgdiv = document.createElement('div');
+    modalContent.append(imgdiv);
+
+    var image = document.createElement('img');
+    image.classList.add('img-fluid');
+    image.style.cssText = "width: 100%; height: 50%;";
+    image.src = flightresponse[i][6];
+    imgdiv.append(image);
+
+    var Description = document.createElement('div');
+    Description.classList.add('container');
+    Description.style.cssText = "margin-top: 50px;";
+    modalContent.append(Description);
+
+    var content = document.createElement('p');
+    content.textContent = flightresponse[i][3];
+    Description.append(content);
+
+   var offerdiv = document.createElement('div');
+   offerdiv.classList.add('col-md-4');
+   offerdiv.classList.add('col-sm-6');
+   offerdiv.classList.add('portfolio-item');
+   OfferBody.append(offerdiv);
+
+   var offerpic = document.createElement('a');
+   offerpic.classList.add('portfolio-link');
+   offerpic.classList.add('modal-trigger');
+   offerpic.href = "#modal"+flightresponse[i][0];
+   offerdiv.append(offerpic);
+
+   var imageoffer = document.createElement('img');
+   imageoffer.classList.add('img-fluid');
+   imageoffer.style.cssText = "height: 60% !important; width: 100%;";
+   imageoffer.src = flightresponse[i][6];
+   offerpic.append(imageoffer);
+
+  var offerdivT = document.createElement('div');
+    offerdivT.classList.add('portfolio-caption');
+   offerdiv.append(offerdivT);
+
+   var Title = document.createElement('h5');
+   Title.textContent = flightresponse[i][5];
+   offerdivT.append(Title);
+
   }
 
-    var jsondata = {
-          "Bahamas": null,
-          "Microsoft": null,
-          "ActionScript": null,
-          "Google": 'https://placehold.it/250x250'
+  $('.modal').modal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: .6, // Opacity of modal background
+      inDuration: 300, // Transition in duration
+      outDuration: 200, // Transition out duration
+      startingTop: '4%', // Starting top style attribute
+      endingTop: '10%', // Ending top style attribute
+      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+        // alert("Ready");
+        console.log(modal, trigger);
+      },
+      complete: function() { 
+      // alert('Closed');
+       } // Callback for Modal close
     }
-
-    var newUser = "Dhaka";
-    var newValue = null;
-    jsondata[newUser] = newValue ;
-
-
- $('input.autocomplete').autocomplete({
-    data: jsondata,
-    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
-    onAutocomplete: function(val) {
-      // Callback function when value is autcompleted.
-      console.log(val);
-      bookingclicked();
-    },
-    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
-  }).keyup(function() {
-
-    console.log("KEy up\n");
-//     var isValid = false;
-//     for (i in validOptions) {
-//         if (validOptions[i].toLowerCase().match(this.value.toLowerCase())) {
-//             isValid = true;
-//         }
-//     }
-//     if (!isValid) {
-//         this.value = previousValue
-//     } else {
-//         previousValue = this.value;
-//     }
-  });
-
+  );
  
+
+}
+
+ // $('.carousel.carousel-slider').carousel({fullWidth: true}); 
 
 });
 

@@ -77,8 +77,9 @@
   secondTab = $('.tab:nth-child(2)'),
   thirdTab = $('.tab:nth-child(3)'),
   yellowBg= $('.yellow'),
-  blueBg = $('.blue'),
+  blueBg = $('.selb'),
   snap = $('.snap'),
+  manage = $('#manage'),
   sort = $('.sort');
 
 
@@ -100,10 +101,14 @@ firstTab.on('click',function(){
     left:'17%'
   });
   snap.animate({
-    padding:'0 40px 0 40px'
+    // padding:'0 40px 0 40px'
   });
   sort.animate({
     marginLeft:'20px'
+  });
+  manage.animate({
+    marginLeft: '2000px'
+
   });
 });
 
@@ -129,6 +134,9 @@ secondTab.on('click',function(){
   sort.animate({
     marginLeft:'0'
   });
+  manage.animate({
+    marginLeft: '0'
+  });
 });
 thirdTab.on('click',function(){
   active.animate({
@@ -147,116 +155,31 @@ thirdTab.on('click',function(){
     left:'-100%'
   });
   snap.animate({
-    padding:'0 40px 0 40px'
+    // padding:'0 40px 0 40px'
   });
   sort.animate({
     marginLeft:'20px'
   });
-});
-
-
-var countup1 = $('#countup1'),
-countup2 = $('#countup2'),
-countup3 = $('#countup3'),
-countdown1 = $('#countdown1'),
-countdown2 = $('#countdown2'),
-countdown3 = $('#countdown3'),
-counter1 = $('#counter1'),
-counter2 = $('#counter2'),
-counter3 = $('#counter3');
-
-
-countup1.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter1").innerHTML ;
-  var count = parseInt(i);
-  if(count<5)
-    count++;
-  document.getElementById("counter1").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-
-});
-
-countup2.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter2").innerHTML ;
-  var count = parseInt(i);
-  if(count<2)
-    count++;
-  document.getElementById("counter2").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-
-});
-countup3.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter3").innerHTML ;
-  var count = parseInt(i);
-  if(count<2)
-    count++;
-  document.getElementById("counter3").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-
-});
-
-countdown1.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter1").innerHTML ;
-  var count = parseInt(i);
-  if(count>0)
-    count--;
-  document.getElementById("counter1").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-
-});
-countdown2.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter2").innerHTML ;
-  var count = parseInt(i);
-  if(count>0)
-    count--;
-  document.getElementById("counter2").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-});
-countdown3.on("click" , function(){
-  // var i = parseInt(counter1.nodeValue);
-  var i = document.getElementById("counter3").innerHTML ;
-  var count = parseInt(i);
-  if(count>0)
-    count--;
-  document.getElementById("counter3").innerHTML = count;
-  // console.log(counter1.innerHTML +"  " + count);
-
-});
-
-$('.datepicker').pickadate({
-    selectMonths: true, // Creates a dropdown to control month
-    selectYears: 15, // Creates a dropdown of 15 years to control year,
-    today: 'Today',
-    clear: 'Clear',
-    close: 'Ok',
-    closeOnSelect: false // Close upon selecting a date,
+  manage.animate({
+    marginLeft: '2000px'
   });
-
-
-$('#returnticket').on("change" , function () {
-  // body...
-  document.getElementById('Return').value = "";
-  document.getElementById('Return').blur();
-  
-  console.log("Switch");
-  if($('#returnticket').is(':checked')){
-
-     $('.returndate').value = "";
-      $('.returndate').removeAttr("disabled");
-   
-  }
-   else{
-     $('.returndate').text = "";
-     
-     $('.returndate').attr("disabled", "disabled");
-     
-   }
 });
+
+
+
+$('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+    }
+  );
+
+
 
 
 

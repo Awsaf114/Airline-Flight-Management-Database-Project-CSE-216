@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BUET Airlines</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendor/materialize/css/materialize.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/materialize-stepper/materialize-stepper.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
+
+   
+    
+
+
+  </head>
+
+  <body id="page-top" onload="handleonload();">
+
+    
+    <section class="invoice" style="padding: 50px;">
+      <!-- title row -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="page-header">
+            <i class="fa fa-plane" style="margin-right: 10px;"></i>BUET Airlines, Inc.
+            <!-- <small class="pull-right">Date: 2/10/2017</small> -->
+          </h4>
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- info row -->
+      <div class="row invoice-info">
+        <div class="col-sm-4 invoice-col">
+          <!-- From -->
+          <address>
+            <!-- <strong>BUET AIrlines Inc</strong><br> -->
+            West Palashi Campus<br>
+            ECE Building, Azimpur Road<br>
+            Dhaka - 1205<br>
+            Phone: (804) 123-5432<br>
+            Email: buetairlines@gmail.com
+
+          </address>
+        </div>
+        <!-- /.col -->
+        <!-- <div class="col-sm-4 invoice-col">
+          To
+          <address>
+            <strong>John Doe</strong><br>
+            795 Folsom Ave, Suite 600<br>
+            San Francisco, CA 94107<br>
+            Phone: (555) 539-1037<br>
+            Email: john.doe@example.com
+          </address>
+        </div>
+         --><!-- /.col -->
+        <div class="col-sm-4 invoice-col">
+          <!-- <b>Invoice #007612</b><br> -->
+          <br>
+          <!-- <b>Order ID:</b> 4F3S8J<br> -->
+          <!-- <b>Payment Due:</b> 11/01/2018<br> -->
+          <!-- <b>Account:</b> 968-34567 -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    <p id="booking_ref"></p>
+    <div class="row">
+          <strong class="purple-text darken-2">Departing</strong>
+        <div class="col-xs-12 table-responsive">
+          <table id="Departing_receipt"  class="table table-striped">
+            <thead>
+            <tr>
+              <th>Qty</th>
+              <th>Source</th>
+              <th></th>
+              <th>Destination</th>
+              <th>Subtotal</th>
+            </tr>
+            </thead>
+          <!-- <tbody>
+            <tr>
+              <td>1</td>
+              <td>Dhaka / Hazrat Shahjalal International Airport</td>
+              <td>To</td>
+              <td>Dubai International Airport</td>
+              <td>BDT 64000.00</td>
+            </tr>
+            </tr>
+            </tbody> -->
+          </table>
+        </div>
+      </div>
+      <div class="row" id="ret_row" style="display: none;">
+          <strong class="purple-text darken-2">Returning</strong>
+        <div class="col-xs-12 table-responsive">
+          <table id="Departing_receipt_ret"  class="table table-striped">
+            <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+            </thead>
+          <!-- <tbody>
+            <tr>
+              <td>1</td>
+              <td>Dubai International Airport</td>
+              <td>To</td>
+              <td>Dhaka / Hazrat Shahjalal International Airport</td>
+              <td>BDT 64000.00</td>
+            </tr>
+            </tr>
+            </tbody> -->
+          </table>
+        </div>
+      </div>
+        <!-- /.col -->
+        <div class="col-xs-6">
+          <!-- <p class="lead">Amount Due 11/01/2018</p> -->
+
+          <div class="table-responsive">
+            <table class="table" style="width: 40%;">
+              <tr>
+                <th >Sub Total:</th>
+                <td id="gtotal">BDT 65000</td>
+              </tr>
+              <tr>
+                <th >VAT (15%)</th>
+                <td id="VAT">BDT 7200</td>
+              </tr>
+              <tr>
+                <th>Travel Tax:</th>
+                <td id="tt">BDT 6500</td>
+              </tr>
+              <tr>
+                <th>Discount:</th>
+                <td id="disc">BDT 0</td>
+              </tr>
+              <tr>
+                <th>Total:</th>
+                <td id="grand">BDT 265.24</td>
+              </tr>
+            </table>
+          </div>
+      </div>
+      
+      </div>
+
+      <!-- Table row -->
+     <!-- /.row -->
+
+      <div class="row">
+        <!-- accepted payments column -->
+        <div class="col-xs-6">
+          <p class="lead">Payment Methods:</p>
+          <img src="img/credit/visa.png" alt="Visa">
+          <img src="img/credit/mastercard.png" alt="Mastercard">
+          <img src="img/credit/american-express.png" alt="American Express">
+          <img src="img/credit/paypal2.png" alt="Paypal">
+
+          <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+            Any of the following payment methods can be used. BUET Airlines reserve the right to change/ Alter the schedule of booking is necessary
+          </p>
+        </div>
+        
+      </div>
+      <!-- /.row -->
+
+      <!-- this row will not appear when printing -->
+      <div class="row no-print">
+        <div class="col-xs-12">
+          <a onclick="window.print();" target="_blank" class="btn btn-default"><i class="fa fa-print"></i> Print</a>
+          <!-- <button type="button" class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> Submit Payment
+          </button> -->
+         <!--  <button onclick="window.print();" type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+            <i class="fa fa-download"></i> Generate PDF
+          </button> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/materialize/js/materialize.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.js"></script>
+  <!-- <script src="js/custom.js"></script> -->
+
+<script>
+
+function handleonload() {
+  // body...
+  var url = document.location.href;
+    var data = url.split('?')[1].split('&');
+
+    var arr = [];
+
+    for(var i=0 ; i<data.length; i++){
+        arr.push(data[i].split('=')[1]);
+    }
+    console.log(arr);
+
+    // var FLight_dep = data[0].split('=')[1];
+    // var FLight_Ret = data[1].split('=')[1];
+    // var Passport = data[2].split('=')[1];
+    // var Quantity = data[3].split('=')[1];
+    // var Dep_Src = data[4].split('=')[1];
+    // var Dep_Dst = data[5].split('=')[1];
+    // var Dep_Price = data[6].split('=')[1];
+    // var Ret_Src = data[7].split('=')[1];
+    // var Ret_Dst = data[8].split('=')[1];
+    // var Ret_Price = data[9].split('=')[1];
+    // var Discount = data[10].split('=')[1];
+
+    
+    // console.log(FLight_dep+"  ----  "+FLight_Ret+Passport);
+
+    if(arr.length == 2 ){
+      var getFromDb="v1/paymentdetails.php?table=payment&Flight="+arr[0]+"&Passport="+arr[1];
+     var Obj;
+     xmlhttp = new XMLHttpRequest();
+     
+     var flightresponse;
+      xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        console.log(this.responseText);
+        flightresponse = JSON.parse(this.responseText);
+        // bookingCard(flightresponse , Return , "arr");
+     
+        // console.log(flightdata);
+          // document.getElementById("table").innerHTML = this.responseText;
+      }
+      };
+     xmlhttp.open("GET", getFromDb, true);
+
+     xmlhttp.send();
+     }
+     else{
+        var srcspl = arr[4].split("%20");
+        var strSRC = "";
+        for(var i = 0 ; i< srcspl.length ; i++){
+            strSRC += srcspl[i]+" ";
+        }
+        arr[4] = strSRC;
+
+        srcspl = arr[5].split("%20");
+        strSRC = "";
+        for(var i = 0 ; i< srcspl.length ; i++){
+            strSRC += srcspl[i]+" ";
+        }
+        arr[5] = strSRC;
+
+        if(arr[1] != 0 ){
+          srcspl = arr[7].split("%20");
+            var strSRC = "";
+            for(var i = 0 ; i< srcspl.length ; i++){
+                strSRC += srcspl[i]+" ";
+            }
+            arr[7] = strSRC;
+
+            srcspl = arr[8].split("%20");
+            strSRC = "";
+            for(var i = 0 ; i< srcspl.length ; i++){
+                strSRC += srcspl[i]+" ";
+            }
+            arr[8] = strSRC;
+
+        }
+
+     }
+
+     // var receipt = GetDiscountInfo(Lead_Pass);
+      var tab = document.getElementById('Departing_receipt');
+
+      var tb = document.createElement('tbody');
+      tab.append(tb);
+
+      var tr = document.createElement('tr');
+      tb.append(tr);
+
+    var td = document.createElement('td');
+      td.textContent = arr[3];
+      tr.append(td);
+
+      var td = document.createElement('td');
+      td.textContent = arr[4];
+      tr.append(td);
+
+      var td = document.createElement('td');
+      td.textContent = "To";
+      tr.append(td);
+      
+      var td = document.createElement('td');
+      td.textContent = arr[5];
+      tr.append(td);
+      
+      var td = document.createElement('td');
+      td.textContent = "BDT "+arr[6];
+      tr.append(td);
+      var tcost = parseInt(arr[6]);
+      // var calccost = parseInt(TOTAL_PRICE_LEAVE);
+      var newcost = tcost * 0.1;
+      var vat = tcost * 0.15;
+      var finalcost = newcost + tcost + vat;
+      var finalcost_ret = 0;
+      if (arr[1] != 0 ) {
+        document.getElementById('ret_row').style.display = 'block';
+
+        // var receipt = GetDiscountInfo(Lead_Pass);
+      var tab = document.getElementById('Departing_receipt_ret');
+
+      var tb = document.createElement('tbody');
+      tab.append(tb);
+
+      var tr = document.createElement('tr');
+      tb.append(tr);
+
+    var td = document.createElement('td');
+      td.textContent = arr[3];
+      tr.append(td);
+
+      var td = document.createElement('td');
+      td.textContent = arr[7];
+      tr.append(td);
+
+      var td = document.createElement('td');
+      td.textContent = "To";
+      tr.append(td);
+      
+      var td = document.createElement('td');
+      td.textContent = arr[8];
+      tr.append(td);
+      
+      var td = document.createElement('td');
+      td.textContent = "BDT "+arr[9];
+      tr.append(td);
+        tcost = tcost + parseInt(arr[9]);
+
+        var newcost = parseInt(arr[9]) * 0.1;
+        var vat = parseInt(arr[9]) * 0.15;
+        finalcost_ret = newcost + parseInt(arr[9]) + vat;
+
+      }
+      // tcost = tcost + parseInt(arr[6]);
+      var cost = finalcost + finalcost_ret;
+      document.getElementById('gtotal').textContent = "BDT "+tcost;
+      document.getElementById('VAT').textContent = "BDT "+vat.toFixed(2);;
+      document.getElementById('tt').textContent = "BDT "+newcost.toFixed(2);
+      document.getElementById('disc').textContent = "BDT "+arr[10];
+      document.getElementById('grand').textContent = "BDT "+cost.toFixed(2);
+
+
+   window.print();
+    
+}
+
+$(document).ready(function(){
+
+$('select').material_select();
+
+
+});
+
+</script>
+
+
+  </body>
+
+</html>

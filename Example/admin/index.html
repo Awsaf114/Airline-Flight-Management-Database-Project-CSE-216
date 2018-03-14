@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Admin</title>
+
+<!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css">
+	
+
+	.login-logo, .form-container {
+	  margin: 0 auto;
+	  max-width: 25em;
+	  -webkit-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+	}
+
+
+	.form-container {
+	  margin-top: 11%;
+	  background: white;
+	  padding: 1.5em;
+	  border-radius: 1em;
+	  box-shadow: 0px 0px 1em #ddd;
+	}
+	.form-container h2 {
+	  margin-top: 0;
+	  color: #008CBA;
+	}
+	.form-container .error {
+	  color: red;
+	  margin: .5em 0;
+	}
+	.form-container label span {
+	  color: #d9534f;
+	}
+	.form-container button {
+	  background: #008CBA;
+	}
+	.form-container button:hover {
+	  background: #0079a1;
+	}
+	html {
+	  box-sizing: border-box;
+	}
+
+	*, :before, :after {
+	  box-sizing: inherit;
+	}
+
+	body {
+	  background: #eee;
+	  margin: 1em;
+	  font-family: 'Open Sans', sans-serif;
+	}
+</style>
+
+
+</head>
+<body>
+<div class="container">
+	
+  
+  <div class="form-container off-canvas">
+
+    <form role="form" action="pages/index.php" method="post" class="form-signin" id="contact_form">
+      <h2>Please sign in...</h2>
+
+      <div class="form-group">
+        <label for="EmployeeID"><span>*</span> Employee ID</label>
+        <input type="text" class="form-control" name="EmployeeID" id="EmailAddress" aria-required="true" aria-invalid="true" autofocus required pattern="+">
+      </div>
+
+      <div class="form-group">
+        <label for="password"><span>*</span> Password</label>
+        <!-- <input type="password" class="form-control" name="password" id="password" aria-required="true" aria-invalid="true" required minlength="8" pattern="[A-Za-z]{1,7}\d{1,7}"> -->
+
+        <input type="password" class="form-control" name="password" id="password" aria-required="true" aria-invalid="true" required minlength="8" ">
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" id="submit" name="submit" type="submit">Sign in</button>
+
+    </form>
+  </div> <!-- /container -->
+  
+</div>
+
+<!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+	$("#submit").on("click" , function(){
+		console.log("Clicked....");
+		location.href = "pages/index.php";
+	});
+
+	var $loginForm = $(".form-signin"),
+	  $login_text_fields = $loginForm.find("input[type='text']");
+
+	// $(".login-logo,.form-container").removeClass("off-canvas");
+
+	
+	function _form_success_aria(label) {
+	  var target = label.parent().find("input");
+	  target.attr("aria-invalid", "false");
+	}
+
+	function _form_error_aria(validator) {
+	  console.log(validator.target.elements[0]);
+	}
+
+</script>
+
+</body>
+</html>

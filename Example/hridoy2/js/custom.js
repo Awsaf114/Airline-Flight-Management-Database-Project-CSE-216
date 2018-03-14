@@ -127,7 +127,6 @@ function loadallquestions(myObjs)
 for(var it = 0 ; it< myObj.length; it++){
   
   // Question div
-  
   var questionitem = document.createElement("div");
   
   questionitem.id = "q"+myObj[it].id;
