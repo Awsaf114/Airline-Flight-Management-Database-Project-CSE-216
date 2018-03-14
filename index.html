@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1152,3 +1153,182 @@ function NewOffers(flightresponse) {
   </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Admin</title>
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+
+<style type="text/css">
+	
+
+	.login-logo, .form-container {
+	  margin: 0 auto;
+	  max-width: 25em;
+	  -webkit-transition: all .5s ease-in-out;
+	  transition: all .5s ease-in-out;
+	}
+
+
+	.form-container {
+	  margin-top: 11%;
+	  background: white;
+	  padding: 1.5em;
+	  border-radius: 1em;
+	  box-shadow: 0px 0px 1em #ddd;
+	}
+	.form-container h2 {
+	  margin-top: 0;
+	  color: #008CBA;
+	}
+	.form-container .error {
+	  color: red;
+	  margin: .5em 0;
+	}
+	.form-container label span {
+	  color: #d9534f;
+	}
+	.form-container button {
+	  background: #008CBA;
+	}
+	.form-container button:hover {
+	  background: #0079a1;
+	}
+	html {
+	  box-sizing: border-box;
+	}
+
+	*, :before, :after {
+	  box-sizing: inherit;
+	}
+
+	body {
+	  background: #eee;
+	  margin: 1em;
+	  font-family: 'Open Sans', sans-serif;
+	}
+</style>
+
+
+</head>
+<body>
+<div class="container">
+	
+  
+  <div class="form-container off-canvas">
+
+    <form role="form" action="" method="post" class="form-signin" id="contact_form">
+      <h2>Please sign in...</h2>
+
+      <div class="form-group">
+        <label for="EmployeeID"><span>*</span> Employee ID</label>
+        <input type="text" class="form-control" name="EmployeeID" id="EmailAddress" aria-required="true" aria-invalid="true" autofocus required >
+      </div>
+
+      <div class="form-group">
+        <label for="password"><span>*</span> Password</label>
+        <!-- <input type="password" class="form-control" name="password" id="password" aria-required="true" aria-invalid="true" required minlength="8" pattern="[A-Za-z]{1,7}\d{1,7}"> -->
+
+        <input type="password" class="form-control" name="password" id="password" aria-required="true" aria-invalid="true" required >
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+
+      <a class="btn btn-lg btn-primary btn-block" id="submit" name="submit">Sign in</a>
+
+    </form>
+  </div> <!-- /container -->
+  
+</div>
+
+<!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+
+	$("#submit").on("click" , function(){
+		var email = document.getElementById('EmailAddress');
+		var password = document.getElementById('password');
+		
+		console.log("Clicked...."+ email.value + password.value);
+
+	 var getFromDb="v1/index.php?table=Validate";
+	   var Obj;
+	   xmlhttp = new XMLHttpRequest();
+
+	 
+	  var Validate;
+	  xmlhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	      // console.log(this.responseText);
+	      Validate = JSON.parse(this.responseText);
+	      var flag = false;
+		   for (var i = 0; i < Validate.length; i++) {
+		   	console.log("IN" + Validate[i].id + email.value);
+			if (Validate[i].id == email.value && Validate[i].pass == password.value) {
+				location.href = "index1.html";
+				flag = true;
+				break;
+			}
+			else{
+				document.getElementById('password').style.border = "2px solid red";
+				document.getElementById('EmailAddress').style.border = "2px solid red";
+				
+				document.getElementById('password').style.color = "red";
+				document.getElementById('EmailAddress').style.color = "red";
+				
+			}
+
+
+		   }
+	   	   
+	    }
+	  };
+	   xmlhttp.open("GET", getFromDb, true);
+
+	   xmlhttp.send();
+
+	   
+		
+	});
+
+	// var $loginForm = $(".form-signin"),
+	//   $login_text_fields = $loginForm.find("input[type='text']");
+
+	// $(".login-logo,.form-container").removeClass("off-canvas");
+
+	
+	// function _form_success_aria(label) {
+	//   var target = label.parent().find("input");
+	//   target.attr("aria-invalid", "false");
+	// }
+
+	// function _form_error_aria(validator) {
+	//   console.log(validator.target.elements[0]);
+	// }
+
+</script>
+
+</body>
+</html>
+>>>>>>> 992f8121048f4ac04de3f93b95cb0bdc07641fac
